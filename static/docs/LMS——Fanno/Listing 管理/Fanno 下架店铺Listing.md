@@ -1,0 +1,62 @@
+# Fanno 下架店铺Listing
+
+> 作者：yangruibo
+
+# 下架店铺Listing
+
+**接口地址**: `/listing/unShelve`
+
+**请求方式**: `POST`
+
+**请求数据类型**: `*`
+
+**响应数据类型**: `*/*`
+
+**接口描述**: 下架
+
+``` json
+
+重新上架功能, 出现在 Online在线、Out of stock无库存 列表中
+
+针对在线或者无库存的产品, 点击下架功能, 会将产品状态修改成 Canceling 状态
+
+定时任务会读取 Canceling 状态下的任务, 调用平台接口实现下架，并变更状态为Canceled
+
+```
+
+**请求参数**:
+
+**请求参数**:
+
+| 参数名称 | 参数说明 | in    | 是否必须 | 数据类型 | 
+| -------- | -------- | ----- | -------- | -------- |
+|ids|主键ID集合|body|true|array(long)|
+
+**响应状态**:
+
+| 状态码 | 说明 | schemal
+| -------- | -------- |
+|200|OK|R«string»|
+|401|Unauthorized||
+|403|Forbidden||
+|404|Not Found||
+
+**响应参数**:
+
+| 参数名称 | 参数说明 | 类型 |
+| -------- | -------- | ----- |
+|code|状态码|integer(int32)|
+|data|承载数据|string|
+|msg|返回消息|string|
+|success|是否成功|boolean||
+
+**响应示例**:
+
+``` javascript
+{
+  "code": 0,
+  "data": "",
+  "msg": "",
+  "success": true
+}
+```

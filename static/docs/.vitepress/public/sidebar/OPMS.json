@@ -1,0 +1,59 @@
+[
+  {
+    "text": "租户DB配置",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "租户DB变更",
+        "link": "/OPMS/租户DB配置/租户DB变更"
+      },
+      {
+        "text": "租户DB列表",
+        "link": "/OPMS/租户DB配置/租户DB列表"
+      },
+      {
+        "text": "DB批量初始化",
+        "link": "/OPMS/租户DB配置/DB批量初始化"
+      },
+      {
+        "text": "DB批量同步",
+        "link": "/OPMS/租户DB配置/DB批量同步"
+      }
+    ]
+  },
+  {
+    "text": "菜单管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "菜单导出",
+        "link": "/OPMS/菜单管理/菜单导出"
+      },
+      {
+        "text": "菜单资源增量导入",
+        "link": "/OPMS/菜单管理/菜单资源增量导入"
+      }
+    ]
+  },
+  {
+    "text": "授权API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取用户注册手机验证码",
+        "link": "/OPMS/授权API/获取用户注册手机验证码"
+      },
+      {
+        "text": "用户注册提交",
+        "link": "/OPMS/授权API/用户注册提交"
+      },
+      {
+        "text": "获取用户登录扩展信息",
+        "link": "/OPMS/授权API/获取用户登录扩展信息"
+      }
+    ]
+  }
+]

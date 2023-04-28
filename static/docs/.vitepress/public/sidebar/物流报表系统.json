@@ -1,0 +1,24 @@
+[
+  {
+    "text": "内部接口",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "轨迹平台",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "轨迹平台列表页",
+            "link": "/物流报表系统/内部接口/轨迹平台/轨迹平台列表页"
+          },
+          {
+            "text": "自定义导出-导出数据",
+            "link": "/物流报表系统/内部接口/轨迹平台/自定义导出-导出数据"
+          }
+        ]
+      }
+    ]
+  }
+]

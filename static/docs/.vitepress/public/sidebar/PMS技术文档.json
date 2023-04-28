@@ -1,0 +1,35 @@
+[
+  {
+    "text": "微软翻译API",
+    "items": [
+      {
+        "text": "微软翻译API",
+        "link": "/PMS技术文档/微软翻译API"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "原型上传工具",
+    "items": [
+      {
+        "text": "原型上传工具",
+        "link": "/PMS技术文档/原型上传工具"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "skywalking",
+    "items": [
+      {
+        "text": "skywalking",
+        "link": "/PMS技术文档/skywalking"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  }
+]

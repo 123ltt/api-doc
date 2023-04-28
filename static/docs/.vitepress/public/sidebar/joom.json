@@ -1,0 +1,81 @@
+[
+  {
+    "text": "listing",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "详情",
+        "link": "/joom/listing/详情"
+      },
+      {
+        "text": "更新",
+        "link": "/joom/listing/更新"
+      },
+      {
+        "text": "列表",
+        "link": "/joom/listing/列表"
+      },
+      {
+        "text": "获取子sku",
+        "link": "/joom/listing/获取子sku"
+      },
+      {
+        "text": "列表状态数量",
+        "link": "/joom/listing/列表状态数量"
+      },
+      {
+        "text": "listing下架",
+        "link": "/joom/listing/listing下架"
+      },
+      {
+        "text": "listing重新上架",
+        "link": "/joom/listing/listing重新上架"
+      },
+      {
+        "text": "从后台同步listing",
+        "link": "/joom/listing/从后台同步listing"
+      },
+      {
+        "text": "sku映射导入",
+        "link": "/joom/listing/sku映射导入"
+      },
+      {
+        "text": "sku映射模板下载",
+        "link": "/joom/listing/sku映射模板下载"
+      },
+      {
+        "text": "sku下架",
+        "link": "/joom/listing/sku下架"
+      },
+      {
+        "text": "sku重新上架",
+        "link": "/joom/listing/sku重新上架"
+      },
+      {
+        "text": "计算售价",
+        "link": "/joom/listing/计算售价"
+      },
+      {
+        "text": "计算利润率",
+        "link": "/joom/listing/计算利润率"
+      },
+      {
+        "text": "日志列表",
+        "link": "/joom/listing/日志列表"
+      },
+      {
+        "text": "上传excel到泽汇文件服务器",
+        "link": "/joom/listing/上传excel到泽汇文件服务器"
+      },
+      {
+        "text": "批量更新价格库存保存",
+        "link": "/joom/listing/批量更新价格库存保存"
+      },
+      {
+        "text": "批量更新价格库存模板下载",
+        "link": "/joom/listing/批量更新价格库存模板下载"
+      }
+    ]
+  }
+]

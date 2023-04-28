@@ -1,0 +1,250 @@
+[
+  {
+    "text": "全局错误码",
+    "items": [
+      {
+        "text": "全局错误码",
+        "link": "/AMS/全局错误码"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "TOKEN接口",
+    "items": [
+      {
+        "text": "TOKEN接口",
+        "link": "/AMS/TOKEN接口"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "获取功能数据权限范围",
+    "items": [
+      {
+        "text": "获取功能数据权限范围",
+        "link": "/AMS/获取功能数据权限范围"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "日志API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "业务日志查询",
+        "link": "/AMS/日志API/业务日志查询"
+      }
+    ]
+  },
+  {
+    "text": "用户API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "新增用户",
+        "link": "/AMS/用户API/新增用户"
+      },
+      {
+        "text": "用户详情",
+        "link": "/AMS/用户API/用户详情"
+      },
+      {
+        "text": "用户查询分页",
+        "link": "/AMS/用户API/用户查询分页"
+      },
+      {
+        "text": "删除用户",
+        "link": "/AMS/用户API/删除用户"
+      },
+      {
+        "text": "修改用户",
+        "link": "/AMS/用户API/修改用户"
+      },
+      {
+        "text": "修改密码",
+        "link": "/AMS/用户API/修改密码"
+      },
+      {
+        "text": "修改用户状态",
+        "link": "/AMS/用户API/修改用户状态"
+      },
+      {
+        "text": "初始化密码",
+        "link": "/AMS/用户API/初始化密码"
+      },
+      {
+        "text": "获取用户归属组织上级经理 - 主管",
+        "link": "/AMS/用户API/获取用户归属组织上级经理/主管"
+      }
+    ]
+  },
+  {
+    "text": "应用API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "应用实体类",
+        "link": "/AMS/应用API/应用实体类"
+      },
+      {
+        "text": "应用列表查询",
+        "link": "/AMS/应用API/应用列表查询"
+      },
+      {
+        "text": "应用列表自定义分页查询",
+        "link": "/AMS/应用API/应用列表自定义分页查询"
+      },
+      {
+        "text": "添加应用",
+        "link": "/AMS/应用API/添加应用"
+      },
+      {
+        "text": "获取应用详情",
+        "link": "/AMS/应用API/获取应用详情"
+      },
+      {
+        "text": "修改应用",
+        "link": "/AMS/应用API/修改应用"
+      },
+      {
+        "text": "删除应用",
+        "link": "/AMS/应用API/删除应用"
+      },
+      {
+        "text": "校验应用名称或者应用标识是否存在",
+        "link": "/AMS/应用API/校验应用名称或者应用标识是否存在"
+      }
+    ]
+  },
+  {
+    "text": "角色API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "角色实体类",
+        "link": "/AMS/角色API/角色实体类"
+      },
+      {
+        "text": "角色列表查询",
+        "link": "/AMS/角色API/角色列表查询"
+      },
+      {
+        "text": "角色自定义菜单组织",
+        "link": "/AMS/角色API/角色自定义菜单组织"
+      },
+      {
+        "text": "查询详情",
+        "link": "/AMS/角色API/查询详情"
+      },
+      {
+        "text": "重置角色授权",
+        "link": "/AMS/角色API/重置角色授权"
+      },
+      {
+        "text": "新增或者修改",
+        "link": "/AMS/角色API/新增或者修改"
+      },
+      {
+        "text": "角色授权-已授权菜单列表",
+        "link": "/AMS/角色API/角色授权-已授权菜单列表"
+      },
+      {
+        "text": "角色授权--菜单列表",
+        "link": "/AMS/角色API/角色授权--菜单列表"
+      },
+      {
+        "text": "角色导入模板下载",
+        "link": "/AMS/角色API/角色导入模板下载"
+      },
+      {
+        "text": "角色授权信息导入",
+        "link": "/AMS/角色API/角色授权信息导入"
+      },
+      {
+        "text": "角色列表",
+        "link": "/AMS/角色API/角色列表"
+      },
+      {
+        "text": "引用角色菜单列表",
+        "link": "/AMS/角色API/引用角色菜单列表"
+      },
+      {
+        "text": "角色授权信息和角色信息导出",
+        "link": "/AMS/角色API/角色授权信息和角色信息导出"
+      },
+      {
+        "text": "角色批量授权",
+        "link": "/AMS/角色API/角色批量授权"
+      }
+    ]
+  },
+  {
+    "text": "岗位API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "岗位列表",
+        "link": "/AMS/岗位API/岗位列表"
+      }
+    ]
+  },
+  {
+    "text": "职位API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "职位列表",
+        "link": "/AMS/职位API/职位列表"
+      }
+    ]
+  },
+  {
+    "text": "授权API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取用户授权Token信息",
+        "link": "/AMS/授权API/获取用户授权Token信息"
+      }
+    ]
+  },
+  {
+    "text": "(对外)新用户API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取用户信息列表",
+        "link": "/AMS/(对外)新用户API/获取用户信息列表"
+      }
+    ]
+  },
+  {
+    "text": "微信小程序",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "小程序登录凭证校验",
+        "link": "/AMS/微信小程序/小程序登录凭证校验"
+      },
+      {
+        "text": "登录、绑定小程序",
+        "link": "/AMS/微信小程序/登录、绑定小程序"
+      }
+    ]
+  }
+]

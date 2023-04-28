@@ -1,0 +1,562 @@
+[
+  {
+    "text": "常量API",
+    "items": [
+      {
+        "text": "常量API",
+        "link": "/LMS——Ebay/常量API"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "类目管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "分页获取类目列表",
+        "link": "/LMS——Ebay/类目管理/分页获取类目列表"
+      },
+      {
+        "text": "编辑销售利润率",
+        "link": "/LMS——Ebay/类目管理/编辑销售利润率"
+      },
+      {
+        "text": "获取类目详情",
+        "link": "/LMS——Ebay/类目管理/获取类目详情"
+      },
+      {
+        "text": "更新类目接口",
+        "link": "/LMS——Ebay/类目管理/更新类目接口"
+      },
+      {
+        "text": "类目对照保存接口",
+        "link": "/LMS——Ebay/类目管理/类目对照保存接口"
+      },
+      {
+        "text": "获取子类目列表接口",
+        "link": "/LMS——Ebay/类目管理/获取子类目列表接口"
+      },
+      {
+        "text": "类目对照接口",
+        "link": "/LMS——Ebay/类目管理/类目对照接口"
+      },
+      {
+        "text": "获取状态类型（conditionType）",
+        "link": "/LMS——Ebay/类目管理/获取状态类型（conditionType）"
+      },
+      {
+        "text": "获取销售利润率",
+        "link": "/LMS——Ebay/类目管理/获取销售利润率"
+      },
+      {
+        "text": "获取类目列表",
+        "link": "/LMS——Ebay/类目管理/获取类目列表"
+      },
+      {
+        "text": "类目属性",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "定时更新类目属性",
+            "link": "/LMS——Ebay/类目管理/类目属性/定时更新类目属性"
+          },
+          {
+            "text": "获取类目属性列表",
+            "link": "/LMS——Ebay/类目管理/类目属性/获取类目属性列表"
+          },
+          {
+            "text": "实时更新类目属性",
+            "link": "/LMS——Ebay/类目管理/类目属性/实时更新类目属性"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "标签管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "标签内容",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "详情",
+            "link": "/LMS——Ebay/标签管理/标签内容/详情"
+          },
+          {
+            "text": "列表",
+            "link": "/LMS——Ebay/标签管理/标签内容/列表"
+          },
+          {
+            "text": "分页",
+            "link": "/LMS——Ebay/标签管理/标签内容/分页"
+          },
+          {
+            "text": "新增",
+            "link": "/LMS——Ebay/标签管理/标签内容/新增"
+          },
+          {
+            "text": "修改",
+            "link": "/LMS——Ebay/标签管理/标签内容/修改"
+          },
+          {
+            "text": "删除",
+            "link": "/LMS——Ebay/标签管理/标签内容/删除"
+          },
+          {
+            "text": "修改状态",
+            "link": "/LMS——Ebay/标签管理/标签内容/修改状态"
+          }
+        ]
+      },
+      {
+        "text": "标签类型",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "详情",
+            "link": "/LMS——Ebay/标签管理/标签类型/详情"
+          },
+          {
+            "text": "分页",
+            "link": "/LMS——Ebay/标签管理/标签类型/分页"
+          },
+          {
+            "text": "新增",
+            "link": "/LMS——Ebay/标签管理/标签类型/新增"
+          },
+          {
+            "text": "修改",
+            "link": "/LMS——Ebay/标签管理/标签类型/修改"
+          },
+          {
+            "text": "删除",
+            "link": "/LMS——Ebay/标签管理/标签类型/删除"
+          },
+          {
+            "text": "修改状态",
+            "link": "/LMS——Ebay/标签管理/标签类型/修改状态"
+          },
+          {
+            "text": "列表",
+            "link": "/LMS——Ebay/标签管理/标签类型/列表"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "日志API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取Listing 类目日志列表（分页）",
+        "link": "/LMS——Ebay/日志API/获取Listing 类目日志列表（分页）"
+      },
+      {
+        "text": "获取Listing 类目属性日志列表（分页）",
+        "link": "/LMS——Ebay/日志API/获取Listing 类目属性日志列表（分页）"
+      },
+      {
+        "text": "获取Listing 业务日志列表（分页）",
+        "link": "/LMS——Ebay/日志API/获取Listing 业务日志列表（分页）"
+      }
+    ]
+  },
+  {
+    "text": "Listing 管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "listing详情",
+        "link": "/LMS——Ebay/Listing 管理/listing详情"
+      },
+      {
+        "text": "listing新增",
+        "link": "/LMS——Ebay/Listing 管理/listing新增"
+      },
+      {
+        "text": "listing修改",
+        "link": "/LMS——Ebay/Listing 管理/listing修改"
+      },
+      {
+        "text": "删除Listing",
+        "link": "/LMS——Ebay/Listing 管理/删除Listing"
+      },
+      {
+        "text": "审核 Listing",
+        "link": "/LMS——Ebay/Listing 管理/审核 Listing"
+      },
+      {
+        "text": "上传 Listing",
+        "link": "/LMS——Ebay/Listing 管理/上传 Listing"
+      },
+      {
+        "text": "获取Listing 列表（分页）",
+        "link": "/LMS——Ebay/Listing 管理/获取Listing 列表（分页）"
+      },
+      {
+        "text": "获取Listing 变体列表",
+        "link": "/LMS——Ebay/Listing 管理/获取Listing 变体列表"
+      },
+      {
+        "text": "批量更新价格库存（按条件）",
+        "link": "/LMS——Ebay/Listing 管理/批量更新价格库存（按条件）"
+      },
+      {
+        "text": "ebay listing批量修改价格库存模板下载",
+        "link": "/LMS——Ebay/Listing 管理/ebay listing批量修改价格库存模板下载"
+      },
+      {
+        "text": "sku映射下载接口",
+        "link": "/LMS——Ebay/Listing 管理/sku映射下载接口"
+      },
+      {
+        "text": "sku映射导入接口",
+        "link": "/LMS——Ebay/Listing 管理/sku映射导入接口"
+      },
+      {
+        "text": "统计各状态数量",
+        "link": "/LMS——Ebay/Listing 管理/统计各状态数量"
+      },
+      {
+        "text": "从后台同步 listing",
+        "link": "/LMS——Ebay/Listing 管理/从后台同步 listing"
+      },
+      {
+        "text": "获取店铺是否支持paypal",
+        "link": "/LMS——Ebay/Listing 管理/获取店铺是否支持paypal"
+      },
+      {
+        "text": "批量复制",
+        "link": "/LMS——Ebay/Listing 管理/批量复制"
+      },
+      {
+        "text": "获取sku库存参考值",
+        "link": "/LMS——Ebay/Listing 管理/获取sku库存参考值"
+      },
+      {
+        "text": "sku重复性校验",
+        "link": "/LMS——Ebay/Listing 管理/sku重复性校验"
+      },
+      {
+        "text": " 审核 - 上传校验sku的重复性",
+        "link": "/LMS——Ebay/Listing 管理/ 审核/上传校验sku的重复性"
+      },
+      {
+        "text": "批量获取Listing 变体列表",
+        "link": "/LMS——Ebay/Listing 管理/批量获取Listing 变体列表"
+      },
+      {
+        "text": "将listing 加入或移除图书馆",
+        "link": "/LMS——Ebay/Listing 管理/将listing 加入或移除图书馆"
+      }
+    ]
+  },
+  {
+    "text": "刊登模板",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "新增模板",
+        "link": "/LMS——Ebay/刊登模板/新增模板"
+      },
+      {
+        "text": "删除模板",
+        "link": "/LMS——Ebay/刊登模板/删除模板"
+      },
+      {
+        "text": "编辑模板",
+        "link": "/LMS——Ebay/刊登模板/编辑模板"
+      },
+      {
+        "text": "停用模板",
+        "link": "/LMS——Ebay/刊登模板/停用模板"
+      },
+      {
+        "text": "启用模板",
+        "link": "/LMS——Ebay/刊登模板/启用模板"
+      },
+      {
+        "text": "模板详情",
+        "link": "/LMS——Ebay/刊登模板/模板详情"
+      },
+      {
+        "text": "模板列表",
+        "link": "/LMS——Ebay/刊登模板/模板列表"
+      },
+      {
+        "text": "填充内容",
+        "link": "/LMS——Ebay/刊登模板/填充内容"
+      },
+      {
+        "text": "获取店铺授权模板",
+        "link": "/LMS——Ebay/刊登模板/获取店铺授权模板"
+      }
+    ]
+  },
+  {
+    "text": "刊登模板分配",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "新增",
+        "link": "/LMS——Ebay/刊登模板分配/新增"
+      },
+      {
+        "text": "删除",
+        "link": "/LMS——Ebay/刊登模板分配/删除"
+      },
+      {
+        "text": "修改",
+        "link": "/LMS——Ebay/刊登模板分配/修改"
+      },
+      {
+        "text": "查询",
+        "link": "/LMS——Ebay/刊登模板分配/查询"
+      }
+    ]
+  },
+  {
+    "text": "店铺类目",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "更新店铺类目接口",
+        "link": "/LMS——Ebay/店铺类目/更新店铺类目接口"
+      },
+      {
+        "text": "分级获取店铺类目列表",
+        "link": "/LMS——Ebay/店铺类目/分级获取店铺类目列表"
+      }
+    ]
+  },
+  {
+    "text": "售价及利润率计算",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "计算sku售价",
+        "link": "/LMS——Ebay/售价及利润率计算/计算sku售价"
+      },
+      {
+        "text": "计算sku利润率",
+        "link": "/LMS——Ebay/售价及利润率计算/计算sku利润率"
+      },
+      {
+        "text": "获取物流渠道",
+        "link": "/LMS——Ebay/售价及利润率计算/获取物流渠道"
+      }
+    ]
+  },
+  {
+    "text": "政策模板",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "详情",
+        "link": "/LMS——Ebay/政策模板/详情"
+      },
+      {
+        "text": "详情-新增listing使用",
+        "link": "/LMS——Ebay/政策模板/详情-新增listing使用"
+      },
+      {
+        "text": "新增",
+        "link": "/LMS——Ebay/政策模板/新增"
+      },
+      {
+        "text": "更新",
+        "link": "/LMS——Ebay/政策模板/更新"
+      },
+      {
+        "text": "分页",
+        "link": "/LMS——Ebay/政策模板/分页"
+      },
+      {
+        "text": "修改状态",
+        "link": "/LMS——Ebay/政策模板/修改状态"
+      },
+      {
+        "text": "列表",
+        "link": "/LMS——Ebay/政策模板/列表"
+      },
+      {
+        "text": "获取默认模板集合",
+        "link": "/LMS——Ebay/政策模板/获取默认模板集合"
+      },
+      {
+        "text": "日志",
+        "link": "/LMS——Ebay/政策模板/日志"
+      }
+    ]
+  },
+  {
+    "text": "平台基础管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取买家要求基础数据",
+        "link": "/LMS——Ebay/平台基础管理/获取买家要求基础数据"
+      },
+      {
+        "text": "获取 Listing 运输项列表",
+        "link": "/LMS——Ebay/平台基础管理/获取 Listing 运输项列表"
+      },
+      {
+        "text": "获取 Listing 运输项列表(聚合)",
+        "link": "/LMS——Ebay/平台基础管理/获取 Listing 运输项列表(聚合)"
+      }
+    ]
+  },
+  {
+    "text": "SKU车型库",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "分页",
+        "link": "/LMS——Ebay/SKU车型库/分页"
+      },
+      {
+        "text": "绑定",
+        "link": "/LMS——Ebay/SKU车型库/绑定"
+      },
+      {
+        "text": "删除",
+        "link": "/LMS——Ebay/SKU车型库/删除"
+      }
+    ]
+  },
+  {
+    "text": "车型库模板",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "模板详情",
+        "link": "/LMS——Ebay/车型库模板/模板详情"
+      },
+      {
+        "text": "模板列表",
+        "link": "/LMS——Ebay/车型库模板/模板列表"
+      },
+      {
+        "text": "模板新建",
+        "link": "/LMS——Ebay/车型库模板/模板新建"
+      },
+      {
+        "text": "模板修改",
+        "link": "/LMS——Ebay/车型库模板/模板修改"
+      },
+      {
+        "text": "模板删除",
+        "link": "/LMS——Ebay/车型库模板/模板删除"
+      },
+      {
+        "text": "模板导入",
+        "link": "/LMS——Ebay/车型库模板/模板导入"
+      },
+      {
+        "text": "模板导出",
+        "link": "/LMS——Ebay/车型库模板/模板导出"
+      },
+      {
+        "text": "下载导入模板",
+        "link": "/LMS——Ebay/车型库模板/下载导入模板"
+      },
+      {
+        "text": "listing获取可用车型库模板",
+        "link": "/LMS——Ebay/车型库模板/listing获取可用车型库模板"
+      }
+    ]
+  },
+  {
+    "text": "车型库属性名称",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "站点默认的车型库属性名称",
+        "link": "/LMS——Ebay/车型库属性名称/站点默认的车型库属性名称"
+      }
+    ]
+  },
+  {
+    "text": "车型库属性值",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取兼容属性可选值",
+        "link": "/LMS——Ebay/车型库属性值/获取兼容属性可选值"
+      },
+      {
+        "text": "生成车型库表格数据",
+        "link": "/LMS——Ebay/车型库属性值/生成车型库表格数据"
+      }
+    ]
+  },
+  {
+    "text": "ebay视频",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "列表查询",
+        "link": "/LMS——Ebay/ebay视频/列表查询"
+      },
+      {
+        "text": "新增",
+        "link": "/LMS——Ebay/ebay视频/新增"
+      },
+      {
+        "text": "修改",
+        "link": "/LMS——Ebay/ebay视频/修改"
+      },
+      {
+        "text": "详情",
+        "link": "/LMS——Ebay/ebay视频/详情"
+      },
+      {
+        "text": "删除",
+        "link": "/LMS——Ebay/ebay视频/删除"
+      },
+      {
+        "text": "上传到平台",
+        "link": "/LMS——Ebay/ebay视频/上传到平台"
+      },
+      {
+        "text": "视频下拉框",
+        "link": "/LMS——Ebay/ebay视频/视频下拉框"
+      }
+    ]
+  },
+  {
+    "text": "图书馆",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "查询当前用户图书馆下拉框",
+        "link": "/LMS——Ebay/图书馆/查询当前用户图书馆下拉框"
+      }
+    ]
+  }
+]

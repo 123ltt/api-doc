@@ -1,0 +1,33 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.57.1",
+    "unocss": "^0.48.0",
+    "vitepress": "1.0.0-alpha.35",
+    "vue": "^3.2.45"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "vite"
+      ]
+    }
+  },
+  "dependencies": {
+    "@icon-park/vue-next": "^1.4.2",
+    "shiki": "^0.12.1",
+    "sqlite3": "^5.1.4"
+  }
+}

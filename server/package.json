@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts --development",
+    "build": "tsc && node scripts/build.js",
+    "initData": "ts-node src/initData.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.1.0",
+    "@hapi/inert": "^7.0.0",
+    "fs-extra": "^11.1.0",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/hapi__inert": "^5.2.4",
+    "fast-glob": "^3.2.12",
+    "nodemon": "^2.0.20"
+  }
+}

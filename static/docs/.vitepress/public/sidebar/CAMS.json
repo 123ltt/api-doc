@@ -1,0 +1,341 @@
+[
+  {
+    "text": "全局错误码",
+    "items": [
+      {
+        "text": "全局错误码",
+        "link": "/CAMS/全局错误码"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "默认页面",
+    "items": [
+      {
+        "text": "默认页面",
+        "link": "/CAMS/默认页面"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "日志API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "业务日志查询",
+        "link": "/CAMS/日志API/业务日志查询"
+      }
+    ]
+  },
+  {
+    "text": "用户API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "用户详情",
+        "link": "/CAMS/用户API/用户详情"
+      },
+      {
+        "text": "新增用户",
+        "link": "/CAMS/用户API/新增用户"
+      },
+      {
+        "text": "修改用户",
+        "link": "/CAMS/用户API/修改用户"
+      },
+      {
+        "text": "删除用户",
+        "link": "/CAMS/用户API/删除用户"
+      },
+      {
+        "text": "用户查询分页",
+        "link": "/CAMS/用户API/用户查询分页"
+      },
+      {
+        "text": "简易用户信息分页(数据过滤)",
+        "link": "/CAMS/用户API/简易用户信息分页(数据过滤)"
+      },
+      {
+        "text": "简易用户信息分页(无数据过滤)",
+        "link": "/CAMS/用户API/简易用户信息分页(无数据过滤)"
+      },
+      {
+        "text": "初始化密码",
+        "link": "/CAMS/用户API/初始化密码"
+      },
+      {
+        "text": "修改密码",
+        "link": "/CAMS/用户API/修改密码"
+      },
+      {
+        "text": "解锁用户",
+        "link": "/CAMS/用户API/解锁用户"
+      },
+      {
+        "text": "修改用户状态",
+        "link": "/CAMS/用户API/修改用户状态"
+      },
+      {
+        "text": "财务获取用户信息接口",
+        "link": "/CAMS/用户API/财务获取用户信息接口"
+      },
+      {
+        "text": "查询用户所有上级",
+        "link": "/CAMS/用户API/查询用户所有上级"
+      }
+    ]
+  },
+  {
+    "text": "应用API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "应用实体类",
+        "link": "/CAMS/应用API/应用实体类"
+      },
+      {
+        "text": "获取应用列表",
+        "link": "/CAMS/应用API/获取应用列表"
+      },
+      {
+        "text": "获取应用列表(分页)",
+        "link": "/CAMS/应用API/获取应用列表(分页)"
+      },
+      {
+        "text": "添加应用",
+        "link": "/CAMS/应用API/添加应用"
+      },
+      {
+        "text": "获取应用详情(暂无)",
+        "link": "/CAMS/应用API/获取应用详情(暂无)"
+      },
+      {
+        "text": "修改应用",
+        "link": "/CAMS/应用API/修改应用"
+      },
+      {
+        "text": "删除应用",
+        "link": "/CAMS/应用API/删除应用"
+      },
+      {
+        "text": "(暂无)校验应用名称或者应用标识是否存在",
+        "link": "/CAMS/应用API/(暂无)校验应用名称或者应用标识是否存在"
+      }
+    ]
+  },
+  {
+    "text": "角色API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "角色实体类",
+        "link": "/CAMS/角色API/角色实体类"
+      },
+      {
+        "text": "角色列表查询",
+        "link": "/CAMS/角色API/角色列表查询"
+      },
+      {
+        "text": "角色自定义菜单组织",
+        "link": "/CAMS/角色API/角色自定义菜单组织"
+      },
+      {
+        "text": "查询详情",
+        "link": "/CAMS/角色API/查询详情"
+      },
+      {
+        "text": "重置角色授权",
+        "link": "/CAMS/角色API/重置角色授权"
+      },
+      {
+        "text": "新增或者修改",
+        "link": "/CAMS/角色API/新增或者修改"
+      },
+      {
+        "text": "角色授权-已授权菜单列表",
+        "link": "/CAMS/角色API/角色授权-已授权菜单列表"
+      },
+      {
+        "text": "角色授权--菜单列表",
+        "link": "/CAMS/角色API/角色授权--菜单列表"
+      }
+    ]
+  },
+  {
+    "text": "职位API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取职位列表(分页)",
+        "link": "/CAMS/职位API/获取职位列表(分页)"
+      },
+      {
+        "text": "新增职位",
+        "link": "/CAMS/职位API/新增职位"
+      },
+      {
+        "text": "修改职位",
+        "link": "/CAMS/职位API/修改职位"
+      },
+      {
+        "text": "删除职位",
+        "link": "/CAMS/职位API/删除职位"
+      }
+    ]
+  },
+  {
+    "text": "岗位API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取岗位列表(分页)",
+        "link": "/CAMS/岗位API/获取岗位列表(分页)"
+      },
+      {
+        "text": "新增岗位",
+        "link": "/CAMS/岗位API/新增岗位"
+      },
+      {
+        "text": "更新岗位",
+        "link": "/CAMS/岗位API/更新岗位"
+      },
+      {
+        "text": "删除岗位",
+        "link": "/CAMS/岗位API/删除岗位"
+      },
+      {
+        "text": "获取岗位详情",
+        "link": "/CAMS/岗位API/获取岗位详情"
+      }
+    ]
+  },
+  {
+    "text": "资源API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取列表",
+        "link": "/CAMS/资源API/获取列表"
+      },
+      {
+        "text": "新增资源",
+        "link": "/CAMS/资源API/新增资源"
+      },
+      {
+        "text": "编辑资源+启用禁用",
+        "link": "/CAMS/资源API/编辑资源+启用禁用"
+      },
+      {
+        "text": "删除资源",
+        "link": "/CAMS/资源API/删除资源"
+      }
+    ]
+  },
+  {
+    "text": "组织机构API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取列表",
+        "link": "/CAMS/组织机构API/获取列表"
+      },
+      {
+        "text": "新增&amp;编辑",
+        "link": "/CAMS/组织机构API/新增&amp;编辑"
+      },
+      {
+        "text": "详情",
+        "link": "/CAMS/组织机构API/详情"
+      },
+      {
+        "text": "删除",
+        "link": "/CAMS/组织机构API/删除"
+      },
+      {
+        "text": "获取子级机构",
+        "link": "/CAMS/组织机构API/获取子级机构"
+      },
+      {
+        "text": "获取当前用户所在部门的树形结构",
+        "link": "/CAMS/组织机构API/获取当前用户所在部门的树形结构"
+      },
+      {
+        "text": "获取部门树形结构",
+        "link": "/CAMS/组织机构API/获取部门树形结构"
+      },
+      {
+        "text": "懒加载列表",
+        "link": "/CAMS/组织机构API/懒加载列表"
+      }
+    ]
+  },
+  {
+    "text": "用户认证",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取token",
+        "link": "/CAMS/用户认证/获取token"
+      },
+      {
+        "text": "新版授权",
+        "link": "/CAMS/用户认证/新版授权"
+      },
+      {
+        "text": "刷新token",
+        "link": "/CAMS/用户认证/刷新token"
+      }
+    ]
+  },
+  {
+    "text": "菜单API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "删除",
+        "link": "/CAMS/菜单API/删除"
+      },
+      {
+        "text": "详情",
+        "link": "/CAMS/菜单API/详情"
+      },
+      {
+        "text": "新增或者更新",
+        "link": "/CAMS/菜单API/新增或者更新"
+      },
+      {
+        "text": "导出",
+        "link": "/CAMS/菜单API/导出"
+      },
+      {
+        "text": "导入",
+        "link": "/CAMS/菜单API/导入"
+      },
+      {
+        "text": "角色授权",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "角色授权菜单和按钮",
+            "link": "/CAMS/菜单API/角色授权/角色授权菜单和按钮"
+          }
+        ]
+      }
+    ]
+  }
+]

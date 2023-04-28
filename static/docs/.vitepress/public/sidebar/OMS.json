@@ -1,0 +1,1738 @@
+[
+  {
+    "text": "MergeRequest流程",
+    "items": [
+      {
+        "text": "MergeRequest流程",
+        "link": "/OMS/MergeRequest流程"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "对外接口",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "查询店铺所有已发货订单和订单总金额",
+        "link": "/OMS/对外接口/查询店铺所有已发货订单和订单总金额"
+      },
+      {
+        "text": "后台feign调用,不给前端直接调",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Demo",
+            "link": "/OMS/对外接口/后台feign调用,不给前端直接调/Demo"
+          }
+        ]
+      },
+      {
+        "text": "TMS-物流优选",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "面单提供-推送包裹到面单系统",
+            "link": "/OMS/对外接口/TMS-物流优选/面单提供-推送包裹到面单系统"
+          },
+          {
+            "text": "面单提供-更新包裹到面单系统",
+            "link": "/OMS/对外接口/TMS-物流优选/面单提供-更新包裹到面单系统"
+          },
+          {
+            "text": "面单提供-撤销包裹",
+            "link": "/OMS/对外接口/TMS-物流优选/面单提供-撤销包裹"
+          },
+          {
+            "text": "面单提供-获取包裹追踪码",
+            "link": "/OMS/对外接口/TMS-物流优选/面单提供-获取包裹追踪码"
+          },
+          {
+            "text": "OMS提供-回写追踪码",
+            "link": "/OMS/对外接口/TMS-物流优选/OMS提供-回写追踪码"
+          },
+          {
+            "text": "OMS提供-回写面单",
+            "link": "/OMS/对外接口/TMS-物流优选/OMS提供-回写面单"
+          },
+          {
+            "text": "OMS提供-回写预报失败",
+            "link": "/OMS/对外接口/TMS-物流优选/OMS提供-回写预报失败"
+          },
+          {
+            "text": "OMS提供-回写包裹撤销结果",
+            "link": "/OMS/对外接口/TMS-物流优选/OMS提供-回写包裹撤销结果"
+          },
+          {
+            "text": "优选提供-优选一个包裹的渠道",
+            "link": "/OMS/对外接口/TMS-物流优选/优选提供-优选一个包裹的渠道"
+          },
+          {
+            "text": "优选提供-渠道编码转名称",
+            "link": "/OMS/对外接口/TMS-物流优选/优选提供-渠道编码转名称"
+          },
+          {
+            "text": "优选提供-根据渠道编码+平台编码获取标记简称",
+            "link": "/OMS/对外接口/TMS-物流优选/优选提供-根据渠道编码+平台编码获取标记简称"
+          },
+          {
+            "text": "优选提供-获取所有物流属性",
+            "link": "/OMS/对外接口/TMS-物流优选/优选提供-获取所有物流属性"
+          },
+          {
+            "text": "返回运费和渠道优选所需参数",
+            "link": "/OMS/对外接口/TMS-物流优选/返回运费和渠道优选所需参数"
+          },
+          {
+            "text": "优选通知",
+            "link": "/OMS/对外接口/TMS-物流优选/优选通知"
+          },
+          {
+            "text": "物流推送物流备注接口",
+            "link": "/OMS/对外接口/TMS-物流优选/物流推送物流备注接口"
+          }
+        ]
+      },
+      {
+        "text": "IMS-库存",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "IMS提供-根据仓库编码获取仓库信息",
+            "link": "/OMS/对外接口/IMS-库存/IMS提供-根据仓库编码获取仓库信息"
+          },
+          {
+            "text": "IMS提供-查询库存",
+            "link": "/OMS/对外接口/IMS-库存/IMS提供-查询库存"
+          },
+          {
+            "text": "IMS提供-获取仓库树",
+            "link": "/OMS/对外接口/IMS-库存/IMS提供-获取仓库树"
+          }
+        ]
+      },
+      {
+        "text": "泽汇国内WMS",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "OMS提供-回写WMS包裹状态到OMS",
+            "link": "/OMS/对外接口/泽汇国内WMS/OMS提供-回写WMS包裹状态到OMS"
+          },
+          {
+            "text": "OMS提供-回写WMS退件单到OMS",
+            "link": "/OMS/对外接口/泽汇国内WMS/OMS提供-回写WMS退件单到OMS"
+          },
+          {
+            "text": "OMS提供-是否拦截此包裹",
+            "link": "/OMS/对外接口/泽汇国内WMS/OMS提供-是否拦截此包裹"
+          },
+          {
+            "text": "WMS提供-推送包裹到WMS",
+            "link": "/OMS/对外接口/泽汇国内WMS/WMS提供-推送包裹到WMS"
+          },
+          {
+            "text": "WMS提供-撤销WMS包裹",
+            "link": "/OMS/对外接口/泽汇国内WMS/WMS提供-撤销WMS包裹"
+          },
+          {
+            "text": "WMS提供-获取WMS包裹状态",
+            "link": "/OMS/对外接口/泽汇国内WMS/WMS提供-获取WMS包裹状态"
+          },
+          {
+            "text": "WMS提供-审核退件包裹",
+            "link": "/OMS/对外接口/泽汇国内WMS/WMS提供-审核退件包裹"
+          },
+          {
+            "text": "OMS提供-拆包接口",
+            "link": "/OMS/对外接口/泽汇国内WMS/OMS提供-拆包接口"
+          },
+          {
+            "text": "OMS提供-回写退件单到OMS",
+            "link": "/OMS/对外接口/泽汇国内WMS/OMS提供-回写退件单到OMS"
+          }
+        ]
+      },
+      {
+        "text": "泽汇自建海外仓",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "海外仓提供-推送包裹到WMS",
+            "link": "/OMS/对外接口/泽汇自建海外仓/海外仓提供-推送包裹到WMS"
+          },
+          {
+            "text": "海外仓提供-获取WMS包裹状态",
+            "link": "/OMS/对外接口/泽汇自建海外仓/海外仓提供-获取WMS包裹状态"
+          },
+          {
+            "text": "海外仓提供-撤销WMS包裹",
+            "link": "/OMS/对外接口/泽汇自建海外仓/海外仓提供-撤销WMS包裹"
+          }
+        ]
+      },
+      {
+        "text": "万邑通",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "URL",
+            "link": "/OMS/对外接口/万邑通/URL"
+          }
+        ]
+      },
+      {
+        "text": "财务",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "同步数据 - 出库单",
+            "link": "/OMS/对外接口/财务/同步数据 - 出库单"
+          },
+          {
+            "text": "数据同步 - 取消单",
+            "link": "/OMS/对外接口/财务/数据同步 - 取消单"
+          },
+          {
+            "text": "数据查询-根据平台和跟踪号获取订单号",
+            "link": "/OMS/对外接口/财务/数据查询-根据平台和跟踪号获取订单号"
+          },
+          {
+            "text": "同步数据-退款订单",
+            "link": "/OMS/对外接口/财务/同步数据-退款订单"
+          },
+          {
+            "text": "数据同步 - 未退款、撤销单",
+            "link": "/OMS/对外接口/财务/数据同步 - 未退款、撤销单"
+          }
+        ]
+      },
+      {
+        "text": "牛蛙",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "查询订单是否为营销单",
+            "link": "/OMS/对外接口/牛蛙/查询订单是否为营销单"
+          },
+          {
+            "text": "查询测评单信息接口",
+            "link": "/OMS/对外接口/牛蛙/查询测评单信息接口"
+          },
+          {
+            "text": "查询sku销售价和数量",
+            "link": "/OMS/对外接口/牛蛙/查询sku销售价和数量"
+          },
+          {
+            "text": "推送测评单信息接口",
+            "link": "/OMS/对外接口/牛蛙/推送测评单信息接口"
+          }
+        ]
+      },
+      {
+        "text": "OA",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取店铺的最大最小下单时间",
+            "link": "/OMS/对外接口/OA/获取店铺的最大最小下单时间"
+          }
+        ]
+      },
+      {
+        "text": "营销系统",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取销量与销量额",
+            "link": "/OMS/对外接口/营销系统/获取销量与销量额"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "平台订单",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "批量手工标记",
+        "link": "/OMS/平台订单/批量手工标记"
+      },
+      {
+        "text": "批量获取标记信息",
+        "link": "/OMS/平台订单/批量获取标记信息"
+      },
+      {
+        "text": "标记列表",
+        "link": "/OMS/平台订单/标记列表"
+      },
+      {
+        "text": "amazon平台订单",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "退款列表",
+            "link": "/OMS/平台订单/amazon平台订单/退款列表"
+          },
+          {
+            "text": "亚马逊退款列表导入",
+            "link": "/OMS/平台订单/amazon平台订单/亚马逊退款列表导入"
+          },
+          {
+            "text": "amazon订单列表",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "amazon订单列表",
+                "link": "/OMS/平台订单/amazon平台订单/amazon订单列表/amazon订单列表"
+              },
+              {
+                "text": "amazon列表状态",
+                "link": "/OMS/平台订单/amazon平台订单/amazon订单列表/amazon列表状态"
+              },
+              {
+                "text": "amazon手工同步",
+                "link": "/OMS/平台订单/amazon平台订单/amazon订单列表/amazon手工同步"
+              },
+              {
+                "text": "amazon批量手工同步",
+                "link": "/OMS/平台订单/amazon平台订单/amazon订单列表/amazon批量手工同步"
+              }
+            ]
+          },
+          {
+            "text": "amazon订单详情",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "amazon订单详情",
+                "link": "/OMS/平台订单/amazon平台订单/amazon订单详情/amazon订单详情"
+              },
+              {
+                "text": "amazon订单详情日志",
+                "link": "/OMS/平台订单/amazon平台订单/amazon订单详情/amazon订单详情日志"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "订单导入",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "亚马逊手工订单",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "添加手工订单",
+                "link": "/OMS/平台订单/订单导入/亚马逊手工订单/添加手工订单"
+              },
+              {
+                "text": "获取国家货币详情接口",
+                "link": "/OMS/平台订单/订单导入/亚马逊手工订单/获取国家货币详情接口"
+              },
+              {
+                "text": "保存手工导单excel",
+                "link": "/OMS/平台订单/订单导入/亚马逊手工订单/保存手工导单excel"
+              },
+              {
+                "text": "原订单详情接口",
+                "link": "/OMS/平台订单/订单导入/亚马逊手工订单/原订单详情接口"
+              },
+              {
+                "text": "查询产品信息接口",
+                "link": "/OMS/平台订单/订单导入/亚马逊手工订单/查询产品信息接口"
+              }
+            ]
+          },
+          {
+            "text": "下载中心",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "导出数据下载",
+                "link": "/OMS/平台订单/订单导入/下载中心/导出数据下载"
+              }
+            ]
+          },
+          {
+            "text": "平台模板",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "亚马逊模板",
+                "link": "/OMS/平台订单/订单导入/平台模板/亚马逊模板"
+              },
+              {
+                "text": "通用模板",
+                "link": "/OMS/平台订单/订单导入/平台模板/通用模板"
+              },
+              {
+                "text": "沃尔玛模板",
+                "link": "/OMS/平台订单/订单导入/平台模板/沃尔玛模板"
+              },
+              {
+                "text": "wish模板",
+                "link": "/OMS/平台订单/订单导入/平台模板/wish模板"
+              },
+              {
+                "text": "lazada模板",
+                "link": "/OMS/平台订单/订单导入/平台模板/lazada模板"
+              },
+              {
+                "text": "纵维立方订单导入模板",
+                "link": "/OMS/平台订单/订单导入/平台模板/纵维立方订单导入模板"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "ebay平台订单",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "ebay平台订单",
+            "link": "/OMS/平台订单/ebay平台订单/ebay平台订单"
+          },
+          {
+            "text": "eb批量手工同步",
+            "link": "/OMS/平台订单/ebay平台订单/eb批量手工同步"
+          },
+          {
+            "text": "ebay平台状态列表",
+            "link": "/OMS/平台订单/ebay平台订单/ebay平台状态列表"
+          },
+          {
+            "text": "ebay平台订单详情",
+            "link": "/OMS/平台订单/ebay平台订单/ebay平台订单详情"
+          },
+          {
+            "text": "ebay平台订单日志",
+            "link": "/OMS/平台订单/ebay平台订单/ebay平台订单日志"
+          },
+          {
+            "text": "ebay退款列表",
+            "link": "/OMS/平台订单/ebay平台订单/ebay退款列表"
+          }
+        ]
+      },
+      {
+        "text": "smt平台",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "smt平台订单列表",
+            "link": "/OMS/平台订单/smt平台/smt平台订单列表"
+          },
+          {
+            "text": "速卖通平台状态列表",
+            "link": "/OMS/平台订单/smt平台/速卖通平台状态列表"
+          },
+          {
+            "text": "smt订单详情",
+            "link": "/OMS/平台订单/smt平台/smt订单详情"
+          },
+          {
+            "text": "smt平台日志",
+            "link": "/OMS/平台订单/smt平台/smt平台日志"
+          },
+          {
+            "text": "平台订单批量手工同步",
+            "link": "/OMS/平台订单/smt平台/平台订单批量手工同步"
+          },
+          {
+            "text": "退款列表",
+            "link": "/OMS/平台订单/smt平台/退款列表"
+          }
+        ]
+      },
+      {
+        "text": "shopee平台订单",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "shopee平台订单",
+            "link": "/OMS/平台订单/shopee平台订单/shopee平台订单"
+          },
+          {
+            "text": "shopee平台详情",
+            "link": "/OMS/平台订单/shopee平台订单/shopee平台详情"
+          },
+          {
+            "text": "shopee平台日志",
+            "link": "/OMS/平台订单/shopee平台订单/shopee平台日志"
+          },
+          {
+            "text": "shopee状态列表",
+            "link": "/OMS/平台订单/shopee平台订单/shopee状态列表"
+          },
+          {
+            "text": "退款列表",
+            "link": "/OMS/平台订单/shopee平台订单/退款列表"
+          }
+        ]
+      },
+      {
+        "text": "wish平台订单",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "订单列表",
+            "link": "/OMS/平台订单/wish平台订单/订单列表"
+          },
+          {
+            "text": "订单状态统计",
+            "link": "/OMS/平台订单/wish平台订单/订单状态统计"
+          },
+          {
+            "text": "订单详情",
+            "link": "/OMS/平台订单/wish平台订单/订单详情"
+          },
+          {
+            "text": "日志列表",
+            "link": "/OMS/平台订单/wish平台订单/日志列表"
+          },
+          {
+            "text": "wh手工同步",
+            "link": "/OMS/平台订单/wish平台订单/wh手工同步"
+          },
+          {
+            "text": "wh批量手工同步",
+            "link": "/OMS/平台订单/wish平台订单/wh批量手工同步"
+          },
+          {
+            "text": "wh批量手工合单",
+            "link": "/OMS/平台订单/wish平台订单/wh批量手工合单"
+          },
+          {
+            "text": "退款订单列表",
+            "link": "/OMS/平台订单/wish平台订单/退款订单列表"
+          },
+          {
+            "text": "wh手动标记获取跟踪号",
+            "link": "/OMS/平台订单/wish平台订单/wh手动标记获取跟踪号"
+          }
+        ]
+      },
+      {
+        "text": "lazada平台订单",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "日志列表",
+            "link": "/OMS/平台订单/lazada平台订单/日志列表"
+          },
+          {
+            "text": "订单状态统计",
+            "link": "/OMS/平台订单/lazada平台订单/订单状态统计"
+          },
+          {
+            "text": "订单列表",
+            "link": "/OMS/平台订单/lazada平台订单/订单列表"
+          },
+          {
+            "text": "订单详情详情",
+            "link": "/OMS/平台订单/lazada平台订单/订单详情详情"
+          },
+          {
+            "text": "手工同步",
+            "link": "/OMS/平台订单/lazada平台订单/手工同步"
+          },
+          {
+            "text": "订单标记item信息",
+            "link": "/OMS/平台订单/lazada平台订单/订单标记item信息"
+          },
+          {
+            "text": "退款列表",
+            "link": "/OMS/平台订单/lazada平台订单/退款列表"
+          }
+        ]
+      },
+      {
+        "text": "沃尔玛平台订单",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "沃尔玛平台订单列表",
+            "link": "/OMS/平台订单/沃尔玛平台订单/沃尔玛平台订单列表"
+          },
+          {
+            "text": "wm平台订单详情",
+            "link": "/OMS/平台订单/沃尔玛平台订单/wm平台订单详情"
+          },
+          {
+            "text": "wm平台订单日志",
+            "link": "/OMS/平台订单/沃尔玛平台订单/wm平台订单日志"
+          },
+          {
+            "text": "wm状态数量统计",
+            "link": "/OMS/平台订单/沃尔玛平台订单/wm状态数量统计"
+          },
+          {
+            "text": "手工同步",
+            "link": "/OMS/平台订单/沃尔玛平台订单/手工同步"
+          },
+          {
+            "text": "订单标记item信息",
+            "link": "/OMS/平台订单/沃尔玛平台订单/订单标记item信息"
+          },
+          {
+            "text": "沃尔玛平台合并订单列表",
+            "link": "/OMS/平台订单/沃尔玛平台订单/沃尔玛平台合并订单列表"
+          },
+          {
+            "text": "合并订单操作",
+            "link": "/OMS/平台订单/沃尔玛平台订单/合并订单操作"
+          }
+        ]
+      },
+      {
+        "text": "target平台",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "订单列表",
+            "link": "/OMS/平台订单/target平台/订单列表"
+          },
+          {
+            "text": "订单状态统计",
+            "link": "/OMS/平台订单/target平台/订单状态统计"
+          },
+          {
+            "text": "订单确认",
+            "link": "/OMS/平台订单/target平台/订单确认"
+          },
+          {
+            "text": "库存更新",
+            "link": "/OMS/平台订单/target平台/库存更新"
+          },
+          {
+            "text": "平台详情",
+            "link": "/OMS/平台订单/target平台/平台详情"
+          },
+          {
+            "text": "日志列表",
+            "link": "/OMS/平台订单/target平台/日志列表"
+          },
+          {
+            "text": "仓库列表",
+            "link": "/OMS/平台订单/target平台/仓库列表"
+          }
+        ]
+      },
+      {
+        "text": "JOOM平台订单",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "JOOM平台订单详情页面",
+            "link": "/OMS/平台订单/JOOM平台订单/JOOM平台订单详情页面"
+          },
+          {
+            "text": "获取joom订单日志记录",
+            "link": "/OMS/平台订单/JOOM平台订单/获取joom订单日志记录"
+          },
+          {
+            "text": "joom列表",
+            "link": "/OMS/平台订单/JOOM平台订单/joom列表"
+          },
+          {
+            "text": "joom列表状态计数",
+            "link": "/OMS/平台订单/JOOM平台订单/joom列表状态计数"
+          },
+          {
+            "text": "退款列表",
+            "link": "/OMS/平台订单/JOOM平台订单/退款列表"
+          }
+        ]
+      },
+      {
+        "text": "京东国际",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "京东国际列表",
+            "link": "/OMS/平台订单/京东国际/京东国际列表"
+          },
+          {
+            "text": "手工同步",
+            "link": "/OMS/平台订单/京东国际/手工同步"
+          },
+          {
+            "text": "京东国际查询列表",
+            "link": "/OMS/平台订单/京东国际/京东国际查询列表"
+          },
+          {
+            "text": "京东国际列表状态计数",
+            "link": "/OMS/平台订单/京东国际/京东国际列表状态计数"
+          },
+          {
+            "text": "京东国际订单详情",
+            "link": "/OMS/平台订单/京东国际/京东国际订单详情"
+          },
+          {
+            "text": "京东国际详情日志",
+            "link": "/OMS/平台订单/京东国际/京东国际详情日志"
+          }
+        ]
+      },
+      {
+        "text": "wayfair",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表",
+            "link": "/OMS/平台订单/wayfair/列表"
+          },
+          {
+            "text": "详情",
+            "link": "/OMS/平台订单/wayfair/详情"
+          },
+          {
+            "text": "状态",
+            "link": "/OMS/平台订单/wayfair/状态"
+          },
+          {
+            "text": "详情日志",
+            "link": "/OMS/平台订单/wayfair/详情日志"
+          }
+        ]
+      },
+      {
+        "text": "cd",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "cd手工拉单",
+            "link": "/OMS/平台订单/cd/cd手工拉单"
+          },
+          {
+            "text": "cd平台订单详情",
+            "link": "/OMS/平台订单/cd/cd平台订单详情"
+          },
+          {
+            "text": "cd平台订单列表",
+            "link": "/OMS/平台订单/cd/cd平台订单列表"
+          },
+          {
+            "text": "cd修改自发货订单为 cdFBC订单(MKPFBC)平台发货",
+            "link": "/OMS/平台订单/cd/cd修改自发货订单为 cdFBC订单(MKPFBC)平台发货"
+          }
+        ]
+      },
+      {
+        "text": "xp",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表",
+            "link": "/OMS/平台订单/xp/列表"
+          },
+          {
+            "text": "详情",
+            "link": "/OMS/平台订单/xp/详情"
+          },
+          {
+            "text": "列表状态计数",
+            "link": "/OMS/平台订单/xp/列表状态计数"
+          },
+          {
+            "text": "详情日志",
+            "link": "/OMS/平台订单/xp/详情日志"
+          }
+        ]
+      },
+      {
+        "text": "fs",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "订单列表",
+            "link": "/OMS/平台订单/fs/订单列表"
+          },
+          {
+            "text": "详情",
+            "link": "/OMS/平台订单/fs/详情"
+          },
+          {
+            "text": "查询状态",
+            "link": "/OMS/平台订单/fs/查询状态"
+          },
+          {
+            "text": "查询日志",
+            "link": "/OMS/平台订单/fs/查询日志"
+          }
+        ]
+      },
+      {
+        "text": "NewEgg",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "ne手工拉单",
+            "link": "/OMS/平台订单/NewEgg/ne手工拉单"
+          },
+          {
+            "text": "列表",
+            "link": "/OMS/平台订单/NewEgg/列表"
+          },
+          {
+            "text": "详情",
+            "link": "/OMS/平台订单/NewEgg/详情"
+          },
+          {
+            "text": "统计数量",
+            "link": "/OMS/平台订单/NewEgg/统计数量"
+          },
+          {
+            "text": "订单历史信息接口",
+            "link": "/OMS/平台订单/NewEgg/订单历史信息接口"
+          }
+        ]
+      },
+      {
+        "text": "daraz",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表",
+            "link": "/OMS/平台订单/daraz/列表"
+          },
+          {
+            "text": "详情",
+            "link": "/OMS/平台订单/daraz/详情"
+          },
+          {
+            "text": "状态",
+            "link": "/OMS/平台订单/daraz/状态"
+          },
+          {
+            "text": " 详情日志",
+            "link": "/OMS/平台订单/daraz/ 详情日志"
+          },
+          {
+            "text": "订单标记item信息获取",
+            "link": "/OMS/平台订单/daraz/订单标记item信息获取"
+          }
+        ]
+      },
+      {
+        "text": "rauten",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "平台订单详情",
+            "link": "/OMS/平台订单/rauten/平台订单详情"
+          },
+          {
+            "text": "平台订单列表",
+            "link": "/OMS/平台订单/rauten/平台订单列表"
+          },
+          {
+            "text": "状态分页统计",
+            "link": "/OMS/平台订单/rauten/状态分页统计"
+          },
+          {
+            "text": "手动同步",
+            "link": "/OMS/平台订单/rauten/手动同步"
+          },
+          {
+            "text": "订单日志接口",
+            "link": "/OMS/平台订单/rauten/订单日志接口"
+          }
+        ]
+      },
+      {
+        "text": "TikTok",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "TT 列表",
+            "link": "/OMS/平台订单/TikTok/TT 列表"
+          },
+          {
+            "text": "TT订单详情",
+            "link": "/OMS/平台订单/TikTok/TT订单详情"
+          },
+          {
+            "text": "状态统计",
+            "link": "/OMS/平台订单/TikTok/状态统计"
+          },
+          {
+            "text": "订单日志",
+            "link": "/OMS/平台订单/TikTok/订单日志"
+          },
+          {
+            "text": "手动同步订单",
+            "link": "/OMS/平台订单/TikTok/手动同步订单"
+          }
+        ]
+      },
+      {
+        "text": "Shoplazza",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Shoplazza 列表",
+            "link": "/OMS/平台订单/Shoplazza/Shoplazza 列表"
+          },
+          {
+            "text": "shopLazza订单详情",
+            "link": "/OMS/平台订单/Shoplazza/shopLazza订单详情"
+          },
+          {
+            "text": "状态统计",
+            "link": "/OMS/平台订单/Shoplazza/状态统计"
+          },
+          {
+            "text": "订单日志",
+            "link": "/OMS/平台订单/Shoplazza/订单日志"
+          },
+          {
+            "text": "手动同步订单",
+            "link": "/OMS/平台订单/Shoplazza/手动同步订单"
+          }
+        ]
+      },
+      {
+        "text": "Shopify",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "shopify订单列表",
+            "link": "/OMS/平台订单/Shopify/shopify订单列表"
+          },
+          {
+            "text": "shopify订单详情",
+            "link": "/OMS/平台订单/Shopify/shopify订单详情"
+          },
+          {
+            "text": "状态统计",
+            "link": "/OMS/平台订单/Shopify/状态统计"
+          },
+          {
+            "text": "订单日志",
+            "link": "/OMS/平台订单/Shopify/订单日志"
+          },
+          {
+            "text": "手动同步订单",
+            "link": "/OMS/平台订单/Shopify/手动同步订单"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "订单管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "删除备注模板",
+        "link": "/OMS/订单管理/删除备注模板"
+      },
+      {
+        "text": "根据omOrderId批量获取orderGood信息",
+        "link": "/OMS/订单管理/根据omOrderId批量获取orderGood信息"
+      },
+      {
+        "text": "token失效提示",
+        "link": "/OMS/订单管理/token失效提示"
+      },
+      {
+        "text": "全部订单",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "异常数据及数据接口",
+            "link": "/OMS/订单管理/全部订单/异常数据及数据接口"
+          },
+          {
+            "text": "订单查询搜索类型选项",
+            "link": "/OMS/订单管理/全部订单/订单查询搜索类型选项"
+          },
+          {
+            "text": "批量备注",
+            "link": "/OMS/订单管理/全部订单/批量备注"
+          },
+          {
+            "text": "订单冻结",
+            "link": "/OMS/订单管理/全部订单/订单冻结"
+          },
+          {
+            "text": "订单解冻",
+            "link": "/OMS/订单管理/全部订单/订单解冻"
+          },
+          {
+            "text": "订单case",
+            "link": "/OMS/订单管理/全部订单/订单case"
+          },
+          {
+            "text": "订单case登记日志",
+            "link": "/OMS/订单管理/全部订单/订单case登记日志"
+          },
+          {
+            "text": "查询最新备注",
+            "link": "/OMS/订单管理/全部订单/查询最新备注"
+          },
+          {
+            "text": "更新订单为FBA多渠道发货",
+            "link": "/OMS/订单管理/全部订单/更新订单为FBA多渠道发货"
+          }
+        ]
+      },
+      {
+        "text": "异常订单",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "异常列表",
+            "link": "/OMS/订单管理/异常订单/异常列表"
+          },
+          {
+            "text": "全部订单状态数量",
+            "link": "/OMS/订单管理/异常订单/全部订单状态数量"
+          },
+          {
+            "text": "异常订单审核",
+            "link": "/OMS/订单管理/异常订单/异常订单审核"
+          },
+          {
+            "text": "获取Amazon批量修改地址信息模板",
+            "link": "/OMS/订单管理/异常订单/获取Amazon批量修改地址信息模板"
+          },
+          {
+            "text": "导入修改地址信息",
+            "link": "/OMS/订单管理/异常订单/导入修改地址信息"
+          },
+          {
+            "text": "查询包裹分仓失败,无渠道的具体原因",
+            "link": "/OMS/订单管理/异常订单/查询包裹分仓失败,无渠道的具体原因"
+          },
+          {
+            "text": "标记开锣分销订单",
+            "link": "/OMS/订单管理/异常订单/标记开锣分销订单"
+          }
+        ]
+      },
+      {
+        "text": "订单详情",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "修改地址",
+            "link": "/OMS/订单管理/订单详情/修改地址"
+          },
+          {
+            "text": "获取商品信息",
+            "link": "/OMS/订单管理/订单详情/获取商品信息"
+          },
+          {
+            "text": "添加商品",
+            "link": "/OMS/订单管理/订单详情/添加商品"
+          },
+          {
+            "text": "修改商品",
+            "link": "/OMS/订单管理/订单详情/修改商品"
+          },
+          {
+            "text": "删除商品",
+            "link": "/OMS/订单管理/订单详情/删除商品"
+          },
+          {
+            "text": "解析SKU",
+            "link": "/OMS/订单管理/订单详情/解析SKU"
+          },
+          {
+            "text": "关联订单item下拉列表",
+            "link": "/OMS/订单管理/订单详情/关联订单item下拉列表"
+          },
+          {
+            "text": "原因类型下拉列表",
+            "link": "/OMS/订单管理/订单详情/原因类型下拉列表"
+          },
+          {
+            "text": "产品列表",
+            "link": "/OMS/订单管理/订单详情/产品列表"
+          },
+          {
+            "text": "订单备注分页列表",
+            "link": "/OMS/订单管理/订单详情/订单备注分页列表"
+          },
+          {
+            "text": "日志列表",
+            "link": "/OMS/订单管理/订单详情/日志列表"
+          },
+          {
+            "text": "订单商品详细信息",
+            "link": "/OMS/订单管理/订单详情/订单商品详细信息"
+          },
+          {
+            "text": "订单详情包裹列表",
+            "link": "/OMS/订单管理/订单详情/订单详情包裹列表"
+          },
+          {
+            "text": "订单管理详情",
+            "link": "/OMS/订单管理/订单详情/订单管理详情"
+          },
+          {
+            "text": "恢复订单",
+            "link": "/OMS/订单管理/订单详情/恢复订单"
+          },
+          {
+            "text": "撤销订单",
+            "link": "/OMS/订单管理/订单详情/撤销订单"
+          },
+          {
+            "text": "根据sku和仓库获取库存",
+            "link": "/OMS/订单管理/订单详情/根据sku和仓库获取库存"
+          },
+          {
+            "text": "查询美东美西",
+            "link": "/OMS/订单管理/订单详情/查询美东美西"
+          },
+          {
+            "text": "订单发票下载",
+            "link": "/OMS/订单管理/订单详情/订单发票下载"
+          }
+        ]
+      },
+      {
+        "text": "手工分仓",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "保存手工分仓",
+            "link": "/OMS/订单管理/手工分仓/保存手工分仓"
+          },
+          {
+            "text": "订单商品详情（手工分仓页面）",
+            "link": "/OMS/订单管理/手工分仓/订单商品详情（手工分仓页面）"
+          },
+          {
+            "text": "获取优选渠道和试算运费列表",
+            "link": "/OMS/订单管理/手工分仓/获取优选渠道和试算运费列表"
+          },
+          {
+            "text": "订单商品库存详情（详情页）",
+            "link": "/OMS/订单管理/手工分仓/订单商品库存详情（详情页）"
+          },
+          {
+            "text": "批量手工分仓",
+            "link": "/OMS/订单管理/手工分仓/批量手工分仓"
+          }
+        ]
+      },
+      {
+        "text": "仓库国家等",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "仓库下拉列表",
+            "link": "/OMS/订单管理/仓库国家等/仓库下拉列表"
+          },
+          {
+            "text": "获取国家下拉列表",
+            "link": "/OMS/订单管理/仓库国家等/获取国家下拉列表"
+          },
+          {
+            "text": "订单列表查询时间类型下拉选",
+            "link": "/OMS/订单管理/仓库国家等/订单列表查询时间类型下拉选"
+          },
+          {
+            "text": "订单查询列表订单来源下拉选",
+            "link": "/OMS/订单管理/仓库国家等/订单查询列表订单来源下拉选"
+          },
+          {
+            "text": "获取仓库树",
+            "link": "/OMS/订单管理/仓库国家等/获取仓库树"
+          },
+          {
+            "text": "平台下拉列表",
+            "link": "/OMS/订单管理/仓库国家等/平台下拉列表"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "包裹订单",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取sku和库存",
+        "link": "/OMS/包裹订单/获取sku和库存"
+      },
+      {
+        "text": "获取sku和库存（详情页）",
+        "link": "/OMS/包裹订单/获取sku和库存（详情页）"
+      },
+      {
+        "text": "获取仓库列表",
+        "link": "/OMS/包裹订单/获取仓库列表"
+      },
+      {
+        "text": "查询最新备注",
+        "link": "/OMS/包裹订单/查询最新备注"
+      },
+      {
+        "text": "批量备注接口",
+        "link": "/OMS/包裹订单/批量备注接口"
+      },
+      {
+        "text": "更新包裹状态",
+        "link": "/OMS/包裹订单/更新包裹状态"
+      },
+      {
+        "text": "根据跟踪号获取物流轨迹",
+        "link": "/OMS/包裹订单/根据跟踪号获取物流轨迹"
+      },
+      {
+        "text": "批量更新包裹拆分标识",
+        "link": "/OMS/包裹订单/批量更新包裹拆分标识"
+      },
+      {
+        "text": "缺货列表SKU采购信息",
+        "link": "/OMS/包裹订单/缺货列表SKU采购信息"
+      },
+      {
+        "text": "更新大健云自提单状态",
+        "link": "/OMS/包裹订单/更新大健云自提单状态"
+      },
+      {
+        "text": "获取缺货SKU",
+        "link": "/OMS/包裹订单/获取缺货SKU"
+      },
+      {
+        "text": "包裹列表",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "全部（缺货、待审、渠道异常）包裹列表",
+            "link": "/OMS/包裹订单/包裹列表/全部（缺货、待审、渠道异常）包裹列表"
+          },
+          {
+            "text": "全部（缺货、待审、渠道异常）状态栏",
+            "link": "/OMS/包裹订单/包裹列表/全部（缺货、待审、渠道异常）状态栏"
+          },
+          {
+            "text": "查询包裹利润",
+            "link": "/OMS/包裹订单/包裹列表/查询包裹利润"
+          }
+        ]
+      },
+      {
+        "text": "包裹详情",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "包裹详情",
+            "link": "/OMS/包裹订单/包裹详情/包裹详情"
+          },
+          {
+            "text": "修改地址",
+            "link": "/OMS/包裹订单/包裹详情/修改地址"
+          },
+          {
+            "text": "产品列表",
+            "link": "/OMS/包裹订单/包裹详情/产品列表"
+          },
+          {
+            "text": "备注列表",
+            "link": "/OMS/包裹订单/包裹详情/备注列表"
+          },
+          {
+            "text": "日志列表",
+            "link": "/OMS/包裹订单/包裹详情/日志列表"
+          },
+          {
+            "text": "获取商品",
+            "link": "/OMS/包裹订单/包裹详情/获取商品"
+          },
+          {
+            "text": "添加商品",
+            "link": "/OMS/包裹订单/包裹详情/添加商品"
+          },
+          {
+            "text": "修改商品",
+            "link": "/OMS/包裹订单/包裹详情/修改商品"
+          },
+          {
+            "text": "删除商品",
+            "link": "/OMS/包裹订单/包裹详情/删除商品"
+          },
+          {
+            "text": "异常包裹审核",
+            "link": "/OMS/包裹订单/包裹详情/异常包裹审核"
+          },
+          {
+            "text": "包裹详情一并提交",
+            "link": "/OMS/包裹订单/包裹详情/包裹详情一并提交"
+          },
+          {
+            "text": "包裹发票下载",
+            "link": "/OMS/包裹订单/包裹详情/包裹发票下载"
+          }
+        ]
+      },
+      {
+        "text": "撤销+恢复",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "撤销包裹",
+            "link": "/OMS/包裹订单/撤销+恢复/撤销包裹"
+          },
+          {
+            "text": "恢复包裹",
+            "link": "/OMS/包裹订单/撤销+恢复/恢复包裹"
+          }
+        ]
+      },
+      {
+        "text": "添加包裹",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取订单的商品信息",
+            "link": "/OMS/包裹订单/添加包裹/获取订单的商品信息"
+          },
+          {
+            "text": "获取订单当前包裹信息",
+            "link": "/OMS/包裹订单/添加包裹/获取订单当前包裹信息"
+          },
+          {
+            "text": "关联订单item下拉列表",
+            "link": "/OMS/包裹订单/添加包裹/关联订单item下拉列表"
+          },
+          {
+            "text": "获取优选渠道和试算运费列表",
+            "link": "/OMS/包裹订单/添加包裹/获取优选渠道和试算运费列表"
+          },
+          {
+            "text": "保存要添加的包裹",
+            "link": "/OMS/包裹订单/添加包裹/保存要添加的包裹"
+          },
+          {
+            "text": "获取sku库存信息",
+            "link": "/OMS/包裹订单/添加包裹/获取sku库存信息"
+          },
+          {
+            "text": "是否需要同步平台订单地址",
+            "link": "/OMS/包裹订单/添加包裹/是否需要同步平台订单地址"
+          },
+          {
+            "text": "同步平台订单地址",
+            "link": "/OMS/包裹订单/添加包裹/同步平台订单地址"
+          }
+        ]
+      },
+      {
+        "text": "拆分包裹",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取订单当前包裹信息",
+            "link": "/OMS/包裹订单/拆分包裹/获取订单当前包裹信息"
+          },
+          {
+            "text": "获取优选渠道和试算运费列表",
+            "link": "/OMS/包裹订单/拆分包裹/获取优选渠道和试算运费列表"
+          },
+          {
+            "text": "提交包裹拆分",
+            "link": "/OMS/包裹订单/拆分包裹/提交包裹拆分"
+          },
+          {
+            "text": "包裹商品详情",
+            "link": "/OMS/包裹订单/拆分包裹/包裹商品详情"
+          },
+          {
+            "text": "smt 平台订单列表",
+            "link": "/OMS/包裹订单/拆分包裹/smt 平台订单列表"
+          }
+        ]
+      },
+      {
+        "text": "修改渠道",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取优选渠道和试算运费列表",
+            "link": "/OMS/包裹订单/修改渠道/获取优选渠道和试算运费列表"
+          },
+          {
+            "text": "提交修改渠道",
+            "link": "/OMS/包裹订单/修改渠道/提交修改渠道"
+          },
+          {
+            "text": "获取渠道和运费（根据包裹号和冲货）",
+            "link": "/OMS/包裹订单/修改渠道/获取渠道和运费（根据包裹号和冲货）"
+          },
+          {
+            "text": "获取渠道和运费（包裹详情页修改渠道接口专用）",
+            "link": "/OMS/包裹订单/修改渠道/获取渠道和运费（包裹详情页修改渠道接口专用）"
+          },
+          {
+            "text": "提交批量修改渠道",
+            "link": "/OMS/包裹订单/修改渠道/提交批量修改渠道"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "规则配置",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "黑名单库",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "黑名单",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "黑名单新增接口",
+                "link": "/OMS/规则配置/黑名单库/黑名单/黑名单新增接口"
+              },
+              {
+                "text": "黑名单修改接口",
+                "link": "/OMS/规则配置/黑名单库/黑名单/黑名单修改接口"
+              },
+              {
+                "text": "黑名单删除接口",
+                "link": "/OMS/规则配置/黑名单库/黑名单/黑名单删除接口"
+              },
+              {
+                "text": "黑名单条件查询接口",
+                "link": "/OMS/规则配置/黑名单库/黑名单/黑名单条件查询接口"
+              },
+              {
+                "text": "黑名单详情接口",
+                "link": "/OMS/规则配置/黑名单库/黑名单/黑名单详情接口"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "发货优先级配置",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "分页查询规则",
+            "link": "/OMS/规则配置/发货优先级配置/分页查询规则"
+          },
+          {
+            "text": "默认页面",
+            "link": "/OMS/规则配置/发货优先级配置/默认页面"
+          }
+        ]
+      },
+      {
+        "text": "SKU前后缀解析分仓",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "sku前后缀分仓查询",
+            "link": "/OMS/规则配置/SKU前后缀解析分仓/sku前后缀分仓查询"
+          },
+          {
+            "text": "新增",
+            "link": "/OMS/规则配置/SKU前后缀解析分仓/新增"
+          },
+          {
+            "text": "修改",
+            "link": "/OMS/规则配置/SKU前后缀解析分仓/修改"
+          },
+          {
+            "text": "详情",
+            "link": "/OMS/规则配置/SKU前后缀解析分仓/详情"
+          },
+          {
+            "text": "修改状态",
+            "link": "/OMS/规则配置/SKU前后缀解析分仓/修改状态"
+          }
+        ]
+      },
+      {
+        "text": "异常订单拦截规则",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "异常订单拦截规则详情接口",
+            "link": "/OMS/规则配置/异常订单拦截规则/异常订单拦截规则详情接口"
+          },
+          {
+            "text": "异常订单拦截规则修改接口",
+            "link": "/OMS/规则配置/异常订单拦截规则/异常订单拦截规则修改接口"
+          },
+          {
+            "text": "异常订单拦截规则添加接口",
+            "link": "/OMS/规则配置/异常订单拦截规则/异常订单拦截规则添加接口"
+          },
+          {
+            "text": "规则类型下拉接口",
+            "link": "/OMS/规则配置/异常订单拦截规则/规则类型下拉接口"
+          },
+          {
+            "text": "规则修改日志接口",
+            "link": "/OMS/规则配置/异常订单拦截规则/规则修改日志接口"
+          }
+        ]
+      },
+      {
+        "text": "自动撤单规则",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "自动撤单规则查询",
+            "link": "/OMS/规则配置/自动撤单规则/自动撤单规则查询"
+          },
+          {
+            "text": "自动撤单规则详情",
+            "link": "/OMS/规则配置/自动撤单规则/自动撤单规则详情"
+          },
+          {
+            "text": "自动撤单规则添加 - 修改",
+            "link": "/OMS/规则配置/自动撤单规则/自动撤单规则添加/修改"
+          },
+          {
+            "text": "自动撤单规则删除",
+            "link": "/OMS/规则配置/自动撤单规则/自动撤单规则删除"
+          },
+          {
+            "text": "日志查询",
+            "link": "/OMS/规则配置/自动撤单规则/日志查询"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "自定义导出",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取配置属性",
+        "link": "/OMS/自定义导出/获取配置属性"
+      },
+      {
+        "text": "查询个人的所有模板",
+        "link": "/OMS/自定义导出/查询个人的所有模板"
+      },
+      {
+        "text": "查询单个模板",
+        "link": "/OMS/自定义导出/查询单个模板"
+      },
+      {
+        "text": "新增个人模板",
+        "link": "/OMS/自定义导出/新增个人模板"
+      },
+      {
+        "text": "删除模板",
+        "link": "/OMS/自定义导出/删除模板"
+      },
+      {
+        "text": "修改个人模板",
+        "link": "/OMS/自定义导出/修改个人模板"
+      },
+      {
+        "text": "设置默认模板",
+        "link": "/OMS/自定义导出/设置默认模板"
+      },
+      {
+        "text": "添加任务到下中心",
+        "link": "/OMS/自定义导出/添加任务到下中心"
+      },
+      {
+        "text": "lazada平台订单导出",
+        "link": "/OMS/自定义导出/lazada平台订单导出"
+      },
+      {
+        "text": "wish平台导出",
+        "link": "/OMS/自定义导出/wish平台导出"
+      }
+    ]
+  },
+  {
+    "text": "业绩中心",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "订单分析",
+        "link": "/OMS/业绩中心/订单分析"
+      },
+      {
+        "text": "订单分析曲线图",
+        "link": "/OMS/业绩中心/订单分析曲线图"
+      },
+      {
+        "text": "销量分析曲线图",
+        "link": "/OMS/业绩中心/销量分析曲线图"
+      },
+      {
+        "text": "订单分析-订单状态下拉项",
+        "link": "/OMS/业绩中心/订单分析-订单状态下拉项"
+      },
+      {
+        "text": "亚马逊订单分析",
+        "link": "/OMS/业绩中心/亚马逊订单分析"
+      },
+      {
+        "text": "亚马逊站点信息",
+        "link": "/OMS/业绩中心/亚马逊站点信息"
+      },
+      {
+        "text": "店铺销量",
+        "link": "/OMS/业绩中心/店铺销量"
+      },
+      {
+        "text": "listing负责人订单包裹状态统计",
+        "link": "/OMS/业绩中心/listing负责人订单包裹状态统计"
+      },
+      {
+        "text": "cd修改自发货订单为 cdFBC订单(MKPFBC)平台发货",
+        "link": "/OMS/业绩中心/cd修改自发货订单为 cdFBC订单(MKPFBC)平台发货"
+      },
+      {
+        "text": "销量分析列表",
+        "link": "/OMS/业绩中心/销量分析列表"
+      }
+    ]
+  },
+  {
+    "text": "配置相关",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "oms_prop",
+        "link": "/OMS/配置相关/oms_prop"
+      }
+    ]
+  },
+  {
+    "text": "公共接口",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "自定义查询条件添加功能",
+        "link": "/OMS/公共接口/自定义查询条件添加功能"
+      },
+      {
+        "text": "自定义查询条件查询功能",
+        "link": "/OMS/公共接口/自定义查询条件查询功能"
+      },
+      {
+        "text": "备注模板下拉",
+        "link": "/OMS/公共接口/备注模板下拉"
+      },
+      {
+        "text": "自定义查询条件删除功能",
+        "link": "/OMS/公共接口/自定义查询条件删除功能"
+      },
+      {
+        "text": "备注类型下拉",
+        "link": "/OMS/公共接口/备注类型下拉"
+      },
+      {
+        "text": "平台订单状态下拉",
+        "link": "/OMS/公共接口/平台订单状态下拉"
+      },
+      {
+        "text": "京东站点下拉",
+        "link": "/OMS/公共接口/京东站点下拉"
+      },
+      {
+        "text": "lazada包邮类型下拉",
+        "link": "/OMS/公共接口/lazada包邮类型下拉"
+      },
+      {
+        "text": "获取文件流",
+        "link": "/OMS/公共接口/获取文件流"
+      }
+    ]
+  },
+  {
+    "text": "平台退款列表",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "亚马逊退款",
+        "link": "/OMS/平台退款列表/亚马逊退款"
+      },
+      {
+        "text": "沃尔玛退款",
+        "link": "/OMS/平台退款列表/沃尔玛退款"
+      }
+    ]
+  }
+]

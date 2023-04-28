@@ -1,0 +1,155 @@
+# 渠道运费计算（OMS）
+
+> 作者：luobinbin
+
+## 简要描述
+
+- 渠道运费计算接口
+## API引入
+```xml
+&lt;dependency>
+	&lt;artifactId>tms-optimize-api&lt;/artifactId>
+    &lt;groupId>com.zhkj.tms&lt;/groupId>
+    &lt;version>1.6.0-SNAPSHOT&lt;/version>
+&lt;/dependency>
+```
+## 请求URL
+- `http://test-tms-optimize.zehui.local/client/omsChannelFreight/optimize/list`
+
+## 调用方式
+- 类：IOmsChannelFreightClient
+- ```java
+	/**
+	 * 获取OMS渠道优选列表
+	 * @param channelOptimize 渠道优选请求参数
+	 * @return OMS渠道优选列表
+	 */
+	@PostMapping(API_PREFIX + "/optimize/list")
+	R&lt;List&lt;OmsChannelOptimizeVo>> getChannelOptimizeList(@RequestBody ChannelOptimizeDTO channelOptimize);
+```
+
+## 参数  (线上服务名：A+ ,平台简码 WH ,渠道类型：平邮或者挂号 (走指定的渠道))
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|收件人信息 |||
+|- countryCode |是|String | 国家简码|
+|- province |否|String |省英文名称 |
+|- city |否|String |城市英文名称 |
+|- postcode|否|String |邮编，除了LAZADA平台，其他平台必填|
+|包裹体积信息 |||
+|- weight |是|Double |包裹重量（KG）   |
+|- length |是|Double |包裹长 cm|
+|- width |是|Double |包裹宽 cm|
+|- height |是|Double |包裹高 cm|
+|- volume|是|Double |包裹体积 cm^3|
+|启运地相关信息  |||
+|- channelWarehouses |是| List|仓库集合 |
+|- channelWarehouses.virtualWarehouse |否| String|虚拟仓仓库标识 1.是 2.否 |
+|- channelWarehouses.warehouse |是|String |发货仓库编码|
+|- channelWarehouses.type |是|String |发货仓库类型 PLATFORM（平台仓） THIRD（第三方仓）SELF_BUILT（自建仓） |
+|电商平台订单信息  |||
+|- channelOptimizeOrder |是|ChannelOptimizeOrderDTO |平台限制DTO  |
+|- channelOptimizeOrder.account |是|String |店铺简码  |
+|- channelOptimizeOrder.platform |是|String |平台简码  |
+|- channelOptimizeOrder.orderFreight |否|BigDecimal |订单运费   |
+|- channelOptimizeOrder.totalPrice |是|BigDecimal |包裹总金额 |
+|- channelOptimizeOrder.onlineServiceName |否|String |线上服务名(客选物流) |
+|- channelOptimizeOrder.packageCode |否|String |包裹号|
+|- channelOptimizeOrder.orderCode |是|String |订单号|
+|包裹商品信息  |||
+|- products |是|List |SKU集合 |
+|- product.price |是|BigDecimal |商品单价金额 |
+|- product.sku |是|String |SKU编码 |
+|- product.num |是|BigDecimal |SKU数量 |
+|- product.freight |是|BigDecimal |SKU运费 |
+|- product.logisticsClassification |是|List |SKU属性 |
+|包裹物流属性信息|
+|- logisticsClassification |是|List|包裹物流属性分类（可以包含多个）|
+|指定渠道信息|
+|- channelCodes|否|List|指定渠道代码集合|
+|- owmsChannelId| 否|String|指定泽汇海外仓渠道ID|
+|- channelType |否|Integer |渠道类型 1.挂号以上(有轨迹) 2.平邮(无轨迹)|
+|- sortingCenter|否|String|分拣中心代码|
+|- sortType|是|Integer |排序策略 1.综合排序（综合运费、时效、订单分配等多个维度因素排序）2.运费最低 3.时效最快（暂不支持）|
+
+
+
+
+
+## 返回参数说明 
+
+|参数名|类型|说明|备注
+|:-----  |:-----|-----|
+|channelCode |String   |渠道编码(物流系统自己生成的编码)|无
+|externalChannelCode |String   |渠道代码 对接物流商/仓储时使用|无
+|cost |BigDecimal   |物流运费（RMB）|无
+|timeliness |String   |时效|无
+|onlineChannel  |Integer |是否线上渠道 1.是 2.否|无
+|dwgId|Long|牛蛙的发货方式组id|无
+|channelType|Integer |渠道类型 1.挂号 2.平邮|(新)
+|channelPriceVO|ChannelPriceVO|渠道 总费用明细|无
+|channelPriceVO.firstCost|BigDecimal|包裹 头程费用|无
+|channelPriceVO.tailCost|BigDecimal|包裹 尾程费用|无
+|channelPriceVO.fullCost|BigDecimal|包裹 全段费用|无
+|channelPriceVO.additionCost|BigDecimal|包裹 附加费总和|无
+|channelPriceVO.fuelCost|BigDecimal|燃油费总和|无
+|channelPriceVO.tax|BigDecimal|关税|无
+|channelPriceVO.remoteCost|BigDecimal|偏远附加费|无
+参考渠道10个以内
+
+
+## 请求示例
+```
+{
+    "sortType": 1,
+    "countryCode": "FR",
+    "province": null,
+    "city": null,
+    "weight": 10,
+    "postcode": "10001",
+    "length": 10,
+    "width": 10,
+    "height": 10,
+    "volume": 1000,
+    "logisticsClassifications":[9],
+   
+    "channelWarehouses": [
+        {
+            "type": "SELF_BUILT",
+            "warehouse": "Z20"
+        }
+    ],
+    "channelOptimizeOrder": {
+        "platform": "LZ",
+        "account": "lazada_MY_0071",
+        "orderFreight": "1.0000",
+        "totalPrice": "9.7400",
+        "onlineServiceName":"LBB测试LAZADA LGS VN",
+        "orderCode":"1"
+    },
+    "products": [
+        {
+            "price": "3.9700",
+            "sku": "RYA4ST501",
+            "num": 1,
+            "freight": "1.0000"
+        },
+         {
+            "price": "1.9700",
+            "sku": "RYA4ST501",
+            "num": 1,
+            "freight": "1.0000"
+        },
+         {
+            "price": "7.9700",
+            "sku": "RYA4ST501",
+            "num": 2,
+            "freight": "1.0000"
+        }
+    ]
+}
+```
+## 备注
+
+- 更多返回错误代码请看首页的错误代码描述

@@ -1,0 +1,46 @@
+[
+  {
+    "text": "默认页面",
+    "items": [
+      {
+        "text": "默认页面",
+        "link": "/CRA/默认页面"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "wipo品牌",
+    "items": [
+      {
+        "text": "wipo品牌",
+        "link": "/CRA/wipo品牌"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "接口鉴权",
+    "items": [
+      {
+        "text": "接口鉴权",
+        "link": "/CRA/接口鉴权"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "产品Url获取",
+    "items": [
+      {
+        "text": "产品Url获取",
+        "link": "/CRA/产品Url获取"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  }
+]

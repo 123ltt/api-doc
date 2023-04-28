@@ -1,0 +1,211 @@
+[
+  {
+    "text": "消息管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "ebay消息备注",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "单个添加备注",
+            "link": "/CMS/消息管理/ebay消息备注/单个添加备注"
+          },
+          {
+            "text": "批量保存消息备注",
+            "link": "/CMS/消息管理/ebay消息备注/批量保存消息备注"
+          },
+          {
+            "text": "分页",
+            "link": "/CMS/消息管理/ebay消息备注/分页"
+          }
+        ]
+      },
+      {
+        "text": "ebay客服",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "ebay发送站内信",
+            "link": "/CMS/消息管理/ebay客服/ebay发送站内信"
+          },
+          {
+            "text": "列表查询",
+            "link": "/CMS/消息管理/ebay客服/列表查询"
+          },
+          {
+            "text": "回复消息",
+            "link": "/CMS/消息管理/ebay客服/回复消息"
+          },
+          {
+            "text": "修改（标记已回复）",
+            "link": "/CMS/消息管理/ebay客服/修改（标记已回复）"
+          },
+          {
+            "text": "店铺消息统计",
+            "link": "/CMS/消息管理/ebay客服/店铺消息统计"
+          },
+          {
+            "text": "消息详情",
+            "link": "/CMS/消息管理/ebay客服/消息详情"
+          },
+          {
+            "text": "批量回复消息",
+            "link": "/CMS/消息管理/ebay客服/批量回复消息"
+          },
+          {
+            "text": "站内信列表",
+            "link": "/CMS/消息管理/ebay客服/站内信列表"
+          },
+          {
+            "text": "系统消息",
+            "link": "/CMS/消息管理/ebay客服/系统消息"
+          },
+          {
+            "text": "手动同步消息",
+            "link": "/CMS/消息管理/ebay客服/手动同步消息"
+          }
+        ]
+      },
+      {
+        "text": "walmart客服",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "邮件列表查询",
+            "link": "/CMS/消息管理/walmart客服/邮件列表查询"
+          },
+          {
+            "text": "单个回复消息",
+            "link": "/CMS/消息管理/walmart客服/单个回复消息"
+          },
+          {
+            "text": "手动同步消息",
+            "link": "/CMS/消息管理/walmart客服/手动同步消息"
+          },
+          {
+            "text": "批量回复消息",
+            "link": "/CMS/消息管理/walmart客服/批量回复消息"
+          },
+          {
+            "text": "标记已回复（支持批量）",
+            "link": "/CMS/消息管理/walmart客服/标记已回复（支持批量）"
+          },
+          {
+            "text": "按店铺统计未回复消息数量",
+            "link": "/CMS/消息管理/walmart客服/按店铺统计未回复消息数量"
+          },
+          {
+            "text": "按店铺统计已侵权数据量",
+            "link": "/CMS/消息管理/walmart客服/按店铺统计已侵权数据量"
+          },
+          {
+            "text": "侵权免提醒(支持批量）",
+            "link": "/CMS/消息管理/walmart客服/侵权免提醒(支持批量）"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "消息模板",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取消息模板(下拉框)",
+        "link": "/CMS/消息模板/获取消息模板(下拉框)"
+      },
+      {
+        "text": "邮件模板列表",
+        "link": "/CMS/消息模板/邮件模板列表"
+      },
+      {
+        "text": "删除",
+        "link": "/CMS/消息模板/删除"
+      },
+      {
+        "text": "新增",
+        "link": "/CMS/消息模板/新增"
+      },
+      {
+        "text": "修改",
+        "link": "/CMS/消息模板/修改"
+      },
+      {
+        "text": "详情",
+        "link": "/CMS/消息模板/详情"
+      }
+    ]
+  },
+  {
+    "text": "CASE管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "CASE列表",
+        "link": "/CMS/CASE管理/CASE列表"
+      },
+      {
+        "text": "case新增",
+        "link": "/CMS/CASE管理/case新增"
+      },
+      {
+        "text": "case修改",
+        "link": "/CMS/CASE管理/case修改"
+      },
+      {
+        "text": "case详情",
+        "link": "/CMS/CASE管理/case详情"
+      }
+    ]
+  },
+  {
+    "text": "店铺邮件配置",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "列表查询",
+        "link": "/CMS/店铺邮件配置/列表查询"
+      },
+      {
+        "text": "新增",
+        "link": "/CMS/店铺邮件配置/新增"
+      },
+      {
+        "text": "修改",
+        "link": "/CMS/店铺邮件配置/修改"
+      },
+      {
+        "text": "邮箱类型下拉框",
+        "link": "/CMS/店铺邮件配置/邮箱类型下拉框"
+      },
+      {
+        "text": "详情",
+        "link": "/CMS/店铺邮件配置/详情"
+      },
+      {
+        "text": "查询日志",
+        "link": "/CMS/店铺邮件配置/查询日志"
+      },
+      {
+        "text": "邮箱配置导入",
+        "link": "/CMS/店铺邮件配置/邮箱配置导入"
+      },
+      {
+        "text": "下载模板",
+        "link": "/CMS/店铺邮件配置/下载模板"
+      },
+      {
+        "text": "验证邮箱配置",
+        "link": "/CMS/店铺邮件配置/验证邮箱配置"
+      }
+    ]
+  }
+]

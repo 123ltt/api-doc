@@ -1,0 +1,73 @@
+[
+  {
+    "text": "全局错误码",
+    "items": [
+      {
+        "text": "全局错误码",
+        "link": "/ERS系统/全局错误码"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "外部接口",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "README",
+        "link": "/ERS系统/外部接口/README"
+      },
+      {
+        "text": "授权参数获取",
+        "link": "/ERS系统/外部接口/授权参数获取"
+      },
+      {
+        "text": "币种接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取全部币种",
+            "link": "/ERS系统/外部接口/币种接口/获取全部币种"
+          },
+          {
+            "text": "根据币种代码获取币种数据",
+            "link": "/ERS系统/外部接口/币种接口/根据币种代码获取币种数据"
+          }
+        ]
+      },
+      {
+        "text": "浮动汇率和平台系数",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "(废弃)浮动汇率和平台配置数据接口",
+            "link": "/ERS系统/外部接口/浮动汇率和平台系数/(废弃)浮动汇率和平台配置数据接口"
+          },
+          {
+            "text": "获取平台的浮动汇率（数据已计算）",
+            "link": "/ERS系统/外部接口/浮动汇率和平台系数/获取平台的浮动汇率（数据已计算）"
+          },
+          {
+            "text": "（新）浮动汇率和平台配置数据接口",
+            "link": "/ERS系统/外部接口/浮动汇率和平台系数/（新）浮动汇率和平台配置数据接口"
+          }
+        ]
+      },
+      {
+        "text": "加权平均汇率",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "加权平均汇率",
+            "link": "/ERS系统/外部接口/加权平均汇率/加权平均汇率"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "text": "自动调价记录",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "调价记录接口",
+        "link": "/lms-data/自动调价记录/调价记录接口"
+      },
+      {
+        "text": "调整是否参与调价",
+        "link": "/lms-data/自动调价记录/调整是否参与调价"
+      },
+      {
+        "text": "自动调价日志接口",
+        "link": "/lms-data/自动调价记录/自动调价日志接口"
+      },
+      {
+        "text": "数据导出",
+        "link": "/lms-data/自动调价记录/数据导出"
+      }
+    ]
+  },
+  {
+    "text": "标题库功能",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "校验标题是否重复",
+        "link": "/lms-data/标题库功能/校验标题是否重复"
+      }
+    ]
+  }
+]

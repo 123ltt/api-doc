@@ -1,0 +1,178 @@
+[
+  {
+    "text": "物流相关",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "物流知识",
+        "link": "/OMS技术文档/物流相关/物流知识"
+      }
+    ]
+  },
+  {
+    "text": "framework代码介绍",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "简要描述",
+        "link": "/OMS技术文档/framework代码介绍/简要描述"
+      },
+      {
+        "text": "多线程",
+        "link": "/OMS技术文档/framework代码介绍/多线程"
+      },
+      {
+        "text": "多租户",
+        "link": "/OMS技术文档/framework代码介绍/多租户"
+      },
+      {
+        "text": "feign请求添加公共header",
+        "link": "/OMS技术文档/framework代码介绍/feign请求添加公共header"
+      }
+    ]
+  },
+  {
+    "text": "WMS对接",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "WMS对接方案",
+        "link": "/OMS技术文档/WMS对接/WMS对接方案"
+      },
+      {
+        "text": "仓库树",
+        "link": "/OMS技术文档/WMS对接/仓库树"
+      },
+      {
+        "text": "异步撤销wms",
+        "link": "/OMS技术文档/WMS对接/异步撤销wms"
+      },
+      {
+        "text": "万邑通",
+        "link": "/OMS技术文档/WMS对接/万邑通"
+      },
+      {
+        "text": "国内WMS",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "国内WMS",
+            "link": "/OMS技术文档/WMS对接/国内WMS/国内WMS"
+          },
+          {
+            "text": "WMS状态",
+            "link": "/OMS技术文档/WMS对接/国内WMS/WMS状态"
+          }
+        ]
+      },
+      {
+        "text": "谷仓",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "谷仓",
+            "link": "/OMS技术文档/WMS对接/谷仓/谷仓"
+          },
+          {
+            "text": "推单到谷仓流程梳理",
+            "link": "/OMS技术文档/WMS对接/谷仓/推单到谷仓流程梳理"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Amazon",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "订单详情接口字段说明",
+        "link": "/OMS技术文档/Amazon/订单详情接口字段说明"
+      }
+    ]
+  },
+  {
+    "text": "SMT",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "SMT接口相关",
+        "link": "/OMS技术文档/SMT/SMT接口相关"
+      },
+      {
+        "text": "标记接口",
+        "link": "/OMS技术文档/SMT/标记接口"
+      },
+      {
+        "text": "订单详情字段说明",
+        "link": "/OMS技术文档/SMT/订单详情字段说明"
+      }
+    ]
+  },
+  {
+    "text": "Ebay",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Ebay接口相关",
+        "link": "/OMS技术文档/Ebay/Ebay接口相关"
+      },
+      {
+        "text": "订单详情字段说明",
+        "link": "/OMS技术文档/Ebay/订单详情字段说明"
+      }
+    ]
+  },
+  {
+    "text": "Shopee",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "订单详情接口字段说明",
+        "link": "/OMS技术文档/Shopee/订单详情接口字段说明"
+      }
+    ]
+  },
+  {
+    "text": "Wish",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "订单详情接口字段说明",
+        "link": "/OMS技术文档/Wish/订单详情接口字段说明"
+      }
+    ]
+  },
+  {
+    "text": "会议记录",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "2020-02-01",
+        "link": "/OMS技术文档/会议记录/2020-02-01"
+      }
+    ]
+  },
+  {
+    "text": "TODO",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "现有定时任务",
+        "link": "/OMS技术文档/TODO/现有定时任务"
+      }
+    ]
+  }
+]

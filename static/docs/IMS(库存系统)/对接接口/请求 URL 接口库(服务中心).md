@@ -1,0 +1,19 @@
+# 请求 URL 接口库(服务中心)
+
+> 作者：8814750909@qq.com
+
+Headers:
+{
+“Tenant-Id”: “000000”,
+“Authorization”: “Basic c2FiZXI6c2FiZXJfc2VjcmV0”,
+“Blade-Auth”: “bearer {access_token}”
+}
+
+打开在线 API 文档库，只提供参考
+dev 环境： http://dev-cams-gateway.zehui.local/doc.html#/home
+test 环境： http://test-cams-gateway.zehui.local/doc.html#/home
+
+
+Postman请求资源案例：
+
+![](http://showdoc.zehui.local/server/index.php?s=/api/attachment/visitFile/sign/243d514ed9d668c44b5586c996fd55ef&showdoc=.jpg)

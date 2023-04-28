@@ -1,0 +1,1930 @@
+[
+  {
+    "text": "Amazon",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "日志-whq",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Listing日志列表",
+            "link": "/LMS/Amazon/日志-whq/Listing日志列表"
+          },
+          {
+            "text": "类目日志",
+            "link": "/LMS/Amazon/日志-whq/类目日志"
+          },
+          {
+            "text": "Listing日志下拉框数据",
+            "link": "/LMS/Amazon/日志-whq/Listing日志下拉框数据"
+          }
+        ]
+      },
+      {
+        "text": "类目管理-徐小飞",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "分页获取类目列表",
+            "link": "/LMS/Amazon/类目管理-徐小飞/分页获取类目列表"
+          },
+          {
+            "text": "获取单个类目详情",
+            "link": "/LMS/Amazon/类目管理-徐小飞/获取单个类目详情"
+          },
+          {
+            "text": "更新类目",
+            "link": "/LMS/Amazon/类目管理-徐小飞/更新类目"
+          },
+          {
+            "text": "修改类目",
+            "link": "/LMS/Amazon/类目管理-徐小飞/修改类目"
+          },
+          {
+            "text": "获取子类目接口",
+            "link": "/LMS/Amazon/类目管理-徐小飞/获取子类目接口"
+          },
+          {
+            "text": "类目对照保存接口",
+            "link": "/LMS/Amazon/类目管理-徐小飞/类目对照保存接口"
+          },
+          {
+            "text": "类目对照接口",
+            "link": "/LMS/Amazon/类目管理-徐小飞/类目对照接口"
+          },
+          {
+            "text": "获取销售利润率",
+            "link": "/LMS/Amazon/类目管理-徐小飞/获取销售利润率"
+          },
+          {
+            "text": "根据站点、类目树名称获取类目",
+            "link": "/LMS/Amazon/类目管理-徐小飞/根据站点、类目树名称获取类目"
+          },
+          {
+            "text": "获取类目列表",
+            "link": "/LMS/Amazon/类目管理-徐小飞/获取类目列表"
+          }
+        ]
+      },
+      {
+        "text": "模板与属性-mjf",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "模板列表分页查询",
+            "link": "/LMS/Amazon/模板与属性-mjf/模板列表分页查询"
+          },
+          {
+            "text": "启用或者禁用模板",
+            "link": "/LMS/Amazon/模板与属性-mjf/启用或者禁用模板"
+          },
+          {
+            "text": "模板名称下拉框",
+            "link": "/LMS/Amazon/模板与属性-mjf/模板名称下拉框"
+          },
+          {
+            "text": "模板列表之状态下拉框",
+            "link": "/LMS/Amazon/模板与属性-mjf/模板列表之状态下拉框"
+          },
+          {
+            "text": "分配类目",
+            "link": "/LMS/Amazon/模板与属性-mjf/分配类目"
+          },
+          {
+            "text": "获取模板下的属性",
+            "link": "/LMS/Amazon/模板与属性-mjf/获取模板下的属性"
+          },
+          {
+            "text": "设置模板属性",
+            "link": "/LMS/Amazon/模板与属性-mjf/设置模板属性"
+          },
+          {
+            "text": "获取变体主题",
+            "link": "/LMS/Amazon/模板与属性-mjf/获取变体主题"
+          },
+          {
+            "text": "获取变体属性",
+            "link": "/LMS/Amazon/模板与属性-mjf/获取变体属性"
+          },
+          {
+            "text": "模板类目列表",
+            "link": "/LMS/Amazon/模板与属性-mjf/模板类目列表"
+          },
+          {
+            "text": "删除关联类目接口",
+            "link": "/LMS/Amazon/模板与属性-mjf/删除关联类目接口"
+          },
+          {
+            "text": "获取类目关联的模板",
+            "link": "/LMS/Amazon/模板与属性-mjf/获取类目关联的模板"
+          },
+          {
+            "text": "获取直接下级属性",
+            "link": "/LMS/Amazon/模板与属性-mjf/获取直接下级属性"
+          },
+          {
+            "text": "获取模板的第一级属性",
+            "link": "/LMS/Amazon/模板与属性-mjf/获取模板的第一级属性"
+          },
+          {
+            "text": "刊登页面获取属性",
+            "link": "/LMS/Amazon/模板与属性-mjf/刊登页面获取属性"
+          },
+          {
+            "text": "在线lisitng:通过变体属性名称获取变体属性详情",
+            "link": "/LMS/Amazon/模板与属性-mjf/在线lisitng:通过变体属性名称获取变体属性详情"
+          }
+        ]
+      },
+      {
+        "text": "List增删改查",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Listing新增-邢振",
+            "link": "/LMS/Amazon/List增删改查/Listing新增-邢振"
+          },
+          {
+            "text": "Listing修改-邢振",
+            "link": "/LMS/Amazon/List增删改查/Listing修改-邢振"
+          },
+          {
+            "text": "Listing删除-邢振",
+            "link": "/LMS/Amazon/List增删改查/Listing删除-邢振"
+          },
+          {
+            "text": "Listing详情-邢振",
+            "link": "/LMS/Amazon/List增删改查/Listing详情-邢振"
+          },
+          {
+            "text": "Listing校验-邢振",
+            "link": "/LMS/Amazon/List增删改查/Listing校验-邢振"
+          }
+        ]
+      },
+      {
+        "text": "资源接口-whq",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "condition下拉框",
+            "link": "/LMS/Amazon/资源接口-whq/condition下拉框"
+          },
+          {
+            "text": "物流渠道接口",
+            "link": "/LMS/Amazon/资源接口-whq/物流渠道接口"
+          },
+          {
+            "text": "查询总成本价-废弃",
+            "link": "/LMS/Amazon/资源接口-whq/查询总成本价-废弃"
+          },
+          {
+            "text": "一键翻译",
+            "link": "/LMS/Amazon/资源接口-whq/一键翻译"
+          },
+          {
+            "text": "批量获取物流列表",
+            "link": "/LMS/Amazon/资源接口-whq/批量获取物流列表"
+          }
+        ]
+      },
+      {
+        "text": "listing列表",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Listing列表",
+            "link": "/LMS/Amazon/listing列表/Listing列表"
+          },
+          {
+            "text": "Listing列表-变体(线上数据)",
+            "link": "/LMS/Amazon/listing列表/Listing列表-变体(线上数据)"
+          },
+          {
+            "text": "提交审核",
+            "link": "/LMS/Amazon/listing列表/提交审核"
+          },
+          {
+            "text": "上传",
+            "link": "/LMS/Amazon/listing列表/上传"
+          },
+          {
+            "text": "Listing详情-在售",
+            "link": "/LMS/Amazon/listing列表/Listing详情-在售"
+          },
+          {
+            "text": "Listing编辑-在售",
+            "link": "/LMS/Amazon/listing列表/Listing编辑-在售"
+          },
+          {
+            "text": "Listing列表-变体(本地数据)",
+            "link": "/LMS/Amazon/listing列表/Listing列表-变体(本地数据)"
+          },
+          {
+            "text": "获取子sku数量",
+            "link": "/LMS/Amazon/listing列表/获取子sku数量"
+          },
+          {
+            "text": "获取子sku数量",
+            "link": "/LMS/Amazon/listing列表/获取子sku数量"
+          },
+          {
+            "text": "Listing-批量打开详情页-线上",
+            "link": "/LMS/Amazon/listing列表/Listing-批量打开详情页-线上"
+          },
+          {
+            "text": "Listing-批量打开详情页-草稿",
+            "link": "/LMS/Amazon/listing列表/Listing-批量打开详情页-草稿"
+          },
+          {
+            "text": "批量更新价格",
+            "link": "/LMS/Amazon/listing列表/批量更新价格"
+          },
+          {
+            "text": "批量更新库存",
+            "link": "/LMS/Amazon/listing列表/批量更新库存"
+          },
+          {
+            "text": "导入更新指定价 - 指定库存-上传   弃用",
+            "link": "/LMS/Amazon/listing列表/导入更新指定价/指定库存-上传   弃用"
+          },
+          {
+            "text": "批量修改价格库存-模板下载",
+            "link": "/LMS/Amazon/listing列表/批量修改价格库存-模板下载"
+          },
+          {
+            "text": "统计状态数量-whq",
+            "link": "/LMS/Amazon/listing列表/统计状态数量-whq"
+          },
+          {
+            "text": "SKU映射模板下载",
+            "link": "/LMS/Amazon/listing列表/SKU映射模板下载"
+          },
+          {
+            "text": "SKU映射模板导入",
+            "link": "/LMS/Amazon/listing列表/SKU映射模板导入"
+          }
+        ]
+      },
+      {
+        "text": "计算售价与利润率",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "计算售价",
+            "link": "/LMS/Amazon/计算售价与利润率/计算售价"
+          },
+          {
+            "text": "计算利润率",
+            "link": "/LMS/Amazon/计算售价与利润率/计算利润率"
+          }
+        ]
+      },
+      {
+        "text": "外部接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取图片与标题",
+            "link": "/LMS/Amazon/外部接口/获取图片与标题"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Wish",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Listing列表",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Listing列表",
+            "link": "/LMS/Wish/Listing列表/Listing列表"
+          },
+          {
+            "text": "Listing列表-变体",
+            "link": "/LMS/Wish/Listing列表/Listing列表-变体"
+          },
+          {
+            "text": "新增草稿-mjf",
+            "link": "/LMS/Wish/Listing列表/新增草稿-mjf"
+          },
+          {
+            "text": "编辑Listing",
+            "link": "/LMS/Wish/Listing列表/编辑Listing"
+          },
+          {
+            "text": "提交审核",
+            "link": "/LMS/Wish/Listing列表/提交审核"
+          },
+          {
+            "text": "上传",
+            "link": "/LMS/Wish/Listing列表/上传"
+          },
+          {
+            "text": "SKU映射模板下载",
+            "link": "/LMS/Wish/Listing列表/SKU映射模板下载"
+          },
+          {
+            "text": "SKU映射模板导入",
+            "link": "/LMS/Wish/Listing列表/SKU映射模板导入"
+          },
+          {
+            "text": "详情-mjf",
+            "link": "/LMS/Wish/Listing列表/详情-mjf"
+          },
+          {
+            "text": "批量更新下载模板",
+            "link": "/LMS/Wish/Listing列表/批量更新下载模板"
+          },
+          {
+            "text": "同步-mjf",
+            "link": "/LMS/Wish/Listing列表/同步-mjf"
+          },
+          {
+            "text": "下架listing-mjf",
+            "link": "/LMS/Wish/Listing列表/下架listing-mjf"
+          },
+          {
+            "text": "上架listing-mjf",
+            "link": "/LMS/Wish/Listing列表/上架listing-mjf"
+          },
+          {
+            "text": "下架sku-mjf",
+            "link": "/LMS/Wish/Listing列表/下架sku-mjf"
+          },
+          {
+            "text": "上架sku-mjf",
+            "link": "/LMS/Wish/Listing列表/上架sku-mjf"
+          },
+          {
+            "text": "删除-mjf",
+            "link": "/LMS/Wish/Listing列表/删除-mjf"
+          },
+          {
+            "text": "编辑草稿",
+            "link": "/LMS/Wish/Listing列表/编辑草稿"
+          },
+          {
+            "text": "统计状态数量-whq",
+            "link": "/LMS/Wish/Listing列表/统计状态数量-whq"
+          },
+          {
+            "text": "校验标题是否重复",
+            "link": "/LMS/Wish/Listing列表/校验标题是否重复"
+          },
+          {
+            "text": "批量更新国家运费",
+            "link": "/LMS/Wish/Listing列表/批量更新国家运费"
+          },
+          {
+            "text": "获取店铺仓库",
+            "link": "/LMS/Wish/Listing列表/获取店铺仓库"
+          }
+        ]
+      },
+      {
+        "text": "计算售价和利润率",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "计算售价",
+            "link": "/LMS/Wish/计算售价和利润率/计算售价"
+          },
+          {
+            "text": "计算利润率",
+            "link": "/LMS/Wish/计算售价和利润率/计算利润率"
+          }
+        ]
+      },
+      {
+        "text": "upc接口-mjf",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "upc下载模板",
+            "link": "/LMS/Wish/upc接口-mjf/upc下载模板"
+          },
+          {
+            "text": "批量上传UPC",
+            "link": "/LMS/Wish/upc接口-mjf/批量上传UPC"
+          }
+        ]
+      },
+      {
+        "text": "日志-whq",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Listing日志列表",
+            "link": "/LMS/Wish/日志-whq/Listing日志列表"
+          }
+        ]
+      },
+      {
+        "text": "国家运费",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "国家运费-初始化",
+            "link": "/LMS/Wish/国家运费/国家运费-初始化"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Aliexpress",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Listing列表",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Listing列表",
+            "link": "/LMS/Aliexpress/Listing列表/Listing列表"
+          },
+          {
+            "text": "Listing列表-变体",
+            "link": "/LMS/Aliexpress/Listing列表/Listing列表-变体"
+          },
+          {
+            "text": "创建Listing",
+            "link": "/LMS/Aliexpress/Listing列表/创建Listing"
+          },
+          {
+            "text": "Listing详情",
+            "link": "/LMS/Aliexpress/Listing列表/Listing详情"
+          },
+          {
+            "text": "Listing-修改",
+            "link": "/LMS/Aliexpress/Listing列表/Listing-修改"
+          },
+          {
+            "text": "Listing-批量上架&amp;amp;amp;amp;amp;下架",
+            "link": "/LMS/Aliexpress/Listing列表/Listing-批量上架&amp;amp;amp;amp;amp;下架"
+          },
+          {
+            "text": "Listing-修改价格",
+            "link": "/LMS/Aliexpress/Listing列表/Listing-修改价格"
+          },
+          {
+            "text": "Listing-修改库存",
+            "link": "/LMS/Aliexpress/Listing列表/Listing-修改库存"
+          },
+          {
+            "text": "Listing-获取产品单位",
+            "link": "/LMS/Aliexpress/Listing列表/Listing-获取产品单位"
+          },
+          {
+            "text": "获取价格接口",
+            "link": "/LMS/Aliexpress/Listing列表/获取价格接口"
+          },
+          {
+            "text": "更改不可调价",
+            "link": "/LMS/Aliexpress/Listing列表/更改不可调价"
+          },
+          {
+            "text": "批量更新下载模板",
+            "link": "/LMS/Aliexpress/Listing列表/批量更新下载模板"
+          },
+          {
+            "text": "同步单个Listing",
+            "link": "/LMS/Aliexpress/Listing列表/同步单个Listing"
+          },
+          {
+            "text": "提交审核",
+            "link": "/LMS/Aliexpress/Listing列表/提交审核"
+          },
+          {
+            "text": "上传",
+            "link": "/LMS/Aliexpress/Listing列表/上传"
+          },
+          {
+            "text": "统计状态数量-whq",
+            "link": "/LMS/Aliexpress/Listing列表/统计状态数量-whq"
+          },
+          {
+            "text": "删除listing",
+            "link": "/LMS/Aliexpress/Listing列表/删除listing"
+          },
+          {
+            "text": "新增、编辑-产品信息模板初始化",
+            "link": "/LMS/Aliexpress/Listing列表/新增、编辑-产品信息模板初始化"
+          },
+          {
+            "text": "获取自定义模板详情信息",
+            "link": "/LMS/Aliexpress/Listing列表/获取自定义模板详情信息"
+          },
+          {
+            "text": "自动刊登导入",
+            "link": "/LMS/Aliexpress/Listing列表/自动刊登导入"
+          },
+          {
+            "text": "获取区域调价详情",
+            "link": "/LMS/Aliexpress/Listing列表/获取区域调价详情"
+          },
+          {
+            "text": "更新区域调价信息",
+            "link": "/LMS/Aliexpress/Listing列表/更新区域调价信息"
+          },
+          {
+            "text": "获取成本价、店铺折扣率、抵扣项接口",
+            "link": "/LMS/Aliexpress/Listing列表/获取成本价、店铺折扣率、抵扣项接口"
+          },
+          {
+            "text": "获取区域调价费用",
+            "link": "/LMS/Aliexpress/Listing列表/获取区域调价费用"
+          },
+          {
+            "text": "导出Listing",
+            "link": "/LMS/Aliexpress/Listing列表/导出Listing"
+          },
+          {
+            "text": "解析SKU",
+            "link": "/LMS/Aliexpress/Listing列表/解析SKU"
+          },
+          {
+            "text": "全量同步Listing",
+            "link": "/LMS/Aliexpress/Listing列表/全量同步Listing"
+          },
+          {
+            "text": "批量更新获取listing详情",
+            "link": "/LMS/Aliexpress/Listing列表/批量更新获取listing详情"
+          },
+          {
+            "text": "批量修改标题",
+            "link": "/LMS/Aliexpress/Listing列表/批量修改标题"
+          },
+          {
+            "text": "更新区域调价",
+            "link": "/LMS/Aliexpress/Listing列表/更新区域调价"
+          },
+          {
+            "text": "Listing copy到草稿",
+            "link": "/LMS/Aliexpress/Listing列表/Listing copy到草稿"
+          },
+          {
+            "text": "批量修改发货期",
+            "link": "/LMS/Aliexpress/Listing列表/批量修改发货期"
+          }
+        ]
+      },
+      {
+        "text": "产品分组-徐小飞",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "同步产品分组",
+            "link": "/LMS/Aliexpress/产品分组-徐小飞/同步产品分组"
+          },
+          {
+            "text": "获取产品分组",
+            "link": "/LMS/Aliexpress/产品分组-徐小飞/获取产品分组"
+          },
+          {
+            "text": "批量获取产品分组",
+            "link": "/LMS/Aliexpress/产品分组-徐小飞/批量获取产品分组"
+          }
+        ]
+      },
+      {
+        "text": "类目管理-徐小飞",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取分级类目",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/获取分级类目"
+          },
+          {
+            "text": "获取类目属性",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/获取类目属性"
+          },
+          {
+            "text": "模糊查询类目列表",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/模糊查询类目列表"
+          },
+          {
+            "text": "类目列表",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/类目列表"
+          },
+          {
+            "text": "类目关联",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/类目关联"
+          },
+          {
+            "text": "类目毛利编辑",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/类目毛利编辑"
+          },
+          {
+            "text": "产品类目ID获取类目接口",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/产品类目ID获取类目接口"
+          },
+          {
+            "text": "类目对照-根据产品类目获取平台类目",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/类目对照-根据产品类目获取平台类目"
+          },
+          {
+            "text": "获取类目最新属性",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/获取类目最新属性"
+          },
+          {
+            "text": "获取多属性",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/获取多属性"
+          },
+          {
+            "text": "校验类目是否配置",
+            "link": "/LMS/Aliexpress/类目管理-徐小飞/校验类目是否配置"
+          }
+        ]
+      },
+      {
+        "text": "区域调价模板-mjf",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "新增接口",
+            "link": "/LMS/Aliexpress/区域调价模板-mjf/新增接口"
+          },
+          {
+            "text": "删除接口",
+            "link": "/LMS/Aliexpress/区域调价模板-mjf/删除接口"
+          },
+          {
+            "text": "修改接口",
+            "link": "/LMS/Aliexpress/区域调价模板-mjf/修改接口"
+          },
+          {
+            "text": "分页",
+            "link": "/LMS/Aliexpress/区域调价模板-mjf/分页"
+          },
+          {
+            "text": "详情",
+            "link": "/LMS/Aliexpress/区域调价模板-mjf/详情"
+          },
+          {
+            "text": "根据店铺获取调价模板",
+            "link": "/LMS/Aliexpress/区域调价模板-mjf/根据店铺获取调价模板"
+          }
+        ]
+      },
+      {
+        "text": "日志-whq",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "listing日志-mjf",
+            "link": "/LMS/Aliexpress/日志-whq/listing日志-mjf"
+          },
+          {
+            "text": "类目日志",
+            "link": "/LMS/Aliexpress/日志-whq/类目日志"
+          },
+          {
+            "text": "区域定价日志",
+            "link": "/LMS/Aliexpress/日志-whq/区域定价日志"
+          },
+          {
+            "text": "产品信息自定义模板日志",
+            "link": "/LMS/Aliexpress/日志-whq/产品信息自定义模板日志"
+          }
+        ]
+      },
+      {
+        "text": "产品信息模板",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "批量修改产品信息模板",
+            "link": "/LMS/Aliexpress/产品信息模板/批量修改产品信息模板"
+          },
+          {
+            "text": "后台模板",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "获取产品信息模板列表",
+                "link": "/LMS/Aliexpress/产品信息模板/后台模板/获取产品信息模板列表"
+              },
+              {
+                "text": "查询详情",
+                "link": "/LMS/Aliexpress/产品信息模板/后台模板/查询详情"
+              }
+            ]
+          },
+          {
+            "text": "自定义模板",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "获取产品信息自定义模板列表",
+                "link": "/LMS/Aliexpress/产品信息模板/自定义模板/获取产品信息自定义模板列表"
+              },
+              {
+                "text": "新增产品信息自定义模板",
+                "link": "/LMS/Aliexpress/产品信息模板/自定义模板/新增产品信息自定义模板"
+              },
+              {
+                "text": "编辑产品信息自定义模板",
+                "link": "/LMS/Aliexpress/产品信息模板/自定义模板/编辑产品信息自定义模板"
+              },
+              {
+                "text": "产品信息编辑-初始化",
+                "link": "/LMS/Aliexpress/产品信息模板/自定义模板/产品信息编辑-初始化"
+              },
+              {
+                "text": "删除自定义信息模板",
+                "link": "/LMS/Aliexpress/产品信息模板/自定义模板/删除自定义信息模板"
+              },
+              {
+                "text": "获取主图",
+                "link": "/LMS/Aliexpress/产品信息模板/自定义模板/获取主图"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "车型库模板-徐小飞",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "分页获取车型库模板列表",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/分页获取车型库模板列表"
+          },
+          {
+            "text": "新建车型库模板",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/新建车型库模板"
+          },
+          {
+            "text": "编辑车型库模板",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/编辑车型库模板"
+          },
+          {
+            "text": "获取单个车型库模板",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/获取单个车型库模板"
+          },
+          {
+            "text": " 分级获取车型库",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/ 分级获取车型库"
+          },
+          {
+            "text": "导入接口",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/导入接口"
+          },
+          {
+            "text": "导出接口",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/导出接口"
+          },
+          {
+            "text": "根据sku获取车型库模板列表",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/根据sku获取车型库模板列表"
+          },
+          {
+            "text": "下载模板接口",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/下载模板接口"
+          },
+          {
+            "text": "单个删除接口",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/单个删除接口"
+          },
+          {
+            "text": "批量删除接口",
+            "link": "/LMS/Aliexpress/车型库模板-徐小飞/批量删除接口"
+          }
+        ]
+      },
+      {
+        "text": "sku绑定车型库模板-徐小飞",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "分页获取sku绑定车型库模板列表",
+            "link": "/LMS/Aliexpress/sku绑定车型库模板-徐小飞/分页获取sku绑定车型库模板列表"
+          },
+          {
+            "text": "绑定接口",
+            "link": "/LMS/Aliexpress/sku绑定车型库模板-徐小飞/绑定接口"
+          },
+          {
+            "text": "批量 - 单个删除接口",
+            "link": "/LMS/Aliexpress/sku绑定车型库模板-徐小飞/批量/单个删除接口"
+          },
+          {
+            "text": "查看详情接口",
+            "link": "/LMS/Aliexpress/sku绑定车型库模板-徐小飞/查看详情接口"
+          }
+        ]
+      },
+      {
+        "text": "运费模板-whq",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "运费模板下拉框",
+            "link": "/LMS/Aliexpress/运费模板-whq/运费模板下拉框"
+          },
+          {
+            "text": "同步运费模板",
+            "link": "/LMS/Aliexpress/运费模板-whq/同步运费模板"
+          },
+          {
+            "text": "批量获取运费模板",
+            "link": "/LMS/Aliexpress/运费模板-whq/批量获取运费模板"
+          },
+          {
+            "text": "批量修改运费模板",
+            "link": "/LMS/Aliexpress/运费模板-whq/批量修改运费模板"
+          }
+        ]
+      },
+      {
+        "text": "类目配置-徐小飞",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "新增",
+            "link": "/LMS/Aliexpress/类目配置-徐小飞/新增"
+          },
+          {
+            "text": "列表",
+            "link": "/LMS/Aliexpress/类目配置-徐小飞/列表"
+          },
+          {
+            "text": "详情",
+            "link": "/LMS/Aliexpress/类目配置-徐小飞/详情"
+          },
+          {
+            "text": "编辑",
+            "link": "/LMS/Aliexpress/类目配置-徐小飞/编辑"
+          }
+        ]
+      },
+      {
+        "text": "Feign接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "根据ItemId获取类目Id",
+            "link": "/LMS/Aliexpress/Feign接口/根据ItemId获取类目Id"
+          }
+        ]
+      },
+      {
+        "text": "区域定价物流配置",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "创建",
+            "link": "/LMS/Aliexpress/区域定价物流配置/创建"
+          },
+          {
+            "text": "更新",
+            "link": "/LMS/Aliexpress/区域定价物流配置/更新"
+          },
+          {
+            "text": "详情",
+            "link": "/LMS/Aliexpress/区域定价物流配置/详情"
+          },
+          {
+            "text": "列表",
+            "link": "/LMS/Aliexpress/区域定价物流配置/列表"
+          },
+          {
+            "text": "更新是否可用",
+            "link": "/LMS/Aliexpress/区域定价物流配置/更新是否可用"
+          }
+        ]
+      },
+      {
+        "text": "新区域物流配置",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "创建",
+            "link": "/LMS/Aliexpress/新区域物流配置/创建"
+          },
+          {
+            "text": "更新",
+            "link": "/LMS/Aliexpress/新区域物流配置/更新"
+          },
+          {
+            "text": "详情",
+            "link": "/LMS/Aliexpress/新区域物流配置/详情"
+          },
+          {
+            "text": "列表",
+            "link": "/LMS/Aliexpress/新区域物流配置/列表"
+          },
+          {
+            "text": "更新是否可用",
+            "link": "/LMS/Aliexpress/新区域物流配置/更新是否可用"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Shopee",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "全球商品列表",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "批量更新下载模板",
+            "link": "/LMS/Shopee/全球商品列表/批量更新下载模板"
+          },
+          {
+            "text": "导出listing结果列表",
+            "link": "/LMS/Shopee/全球商品列表/导出listing结果列表"
+          },
+          {
+            "text": "统计状态数量",
+            "link": "/LMS/Shopee/全球商品列表/统计状态数量"
+          },
+          {
+            "text": "修改预购发货天数",
+            "link": "/LMS/Shopee/全球商品列表/修改预购发货天数"
+          },
+          {
+            "text": "列表变体查询",
+            "link": "/LMS/Shopee/全球商品列表/列表变体查询"
+          },
+          {
+            "text": "发布店铺商品",
+            "link": "/LMS/Shopee/全球商品列表/发布店铺商品"
+          },
+          {
+            "text": "上传",
+            "link": "/LMS/Shopee/全球商品列表/上传"
+          },
+          {
+            "text": "删除listing",
+            "link": "/LMS/Shopee/全球商品列表/删除listing"
+          },
+          {
+            "text": "同步listing",
+            "link": "/LMS/Shopee/全球商品列表/同步listing"
+          },
+          {
+            "text": "发布店铺商品拿可发布账号",
+            "link": "/LMS/Shopee/全球商品列表/发布店铺商品拿可发布账号"
+          },
+          {
+            "text": "全球批量更新库存",
+            "link": "/LMS/Shopee/全球商品列表/全球批量更新库存"
+          },
+          {
+            "text": "全球列表导出",
+            "link": "/LMS/Shopee/全球商品列表/全球列表导出"
+          }
+        ]
+      },
+      {
+        "text": "Listing列表",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Listing列表",
+            "link": "/LMS/Shopee/Listing列表/Listing列表"
+          },
+          {
+            "text": "Listing列表-变体",
+            "link": "/LMS/Shopee/Listing列表/Listing列表-变体"
+          },
+          {
+            "text": "根据类目获取产品属性",
+            "link": "/LMS/Shopee/Listing列表/根据类目获取产品属性"
+          },
+          {
+            "text": "同步listing",
+            "link": "/LMS/Shopee/Listing列表/同步listing"
+          },
+          {
+            "text": "批量更新下载模板",
+            "link": "/LMS/Shopee/Listing列表/批量更新下载模板"
+          },
+          {
+            "text": "取消活动价",
+            "link": "/LMS/Shopee/Listing列表/取消活动价"
+          },
+          {
+            "text": "统计预购产品数量",
+            "link": "/LMS/Shopee/Listing列表/统计预购产品数量"
+          },
+          {
+            "text": "修改预购发货天数",
+            "link": "/LMS/Shopee/Listing列表/修改预购发货天数"
+          },
+          {
+            "text": "手动同步平台属性",
+            "link": "/LMS/Shopee/Listing列表/手动同步平台属性"
+          },
+          {
+            "text": "上传",
+            "link": "/LMS/Shopee/Listing列表/上传"
+          },
+          {
+            "text": "统计状态数量-whq",
+            "link": "/LMS/Shopee/Listing列表/统计状态数量-whq"
+          },
+          {
+            "text": "下架",
+            "link": "/LMS/Shopee/Listing列表/下架"
+          },
+          {
+            "text": "上架",
+            "link": "/LMS/Shopee/Listing列表/上架"
+          },
+          {
+            "text": "SKU映射模板下载",
+            "link": "/LMS/Shopee/Listing列表/SKU映射模板下载"
+          },
+          {
+            "text": "SKU映射模板导入",
+            "link": "/LMS/Shopee/Listing列表/SKU映射模板导入"
+          },
+          {
+            "text": "draft上传",
+            "link": "/LMS/Shopee/Listing列表/draft上传"
+          },
+          {
+            "text": "Listing列表导出",
+            "link": "/LMS/Shopee/Listing列表/Listing列表导出"
+          }
+        ]
+      },
+      {
+        "text": "Listing增删改查",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Listing新增",
+            "link": "/LMS/Shopee/Listing增删改查/Listing新增"
+          },
+          {
+            "text": "Listing修改-mjf",
+            "link": "/LMS/Shopee/Listing增删改查/Listing修改-mjf"
+          },
+          {
+            "text": "Listing详情",
+            "link": "/LMS/Shopee/Listing增删改查/Listing详情"
+          },
+          {
+            "text": "Listing删除",
+            "link": "/LMS/Shopee/Listing增删改查/Listing删除"
+          },
+          {
+            "text": "批量更新价格",
+            "link": "/LMS/Shopee/Listing增删改查/批量更新价格"
+          },
+          {
+            "text": "批量更新库存",
+            "link": "/LMS/Shopee/Listing增删改查/批量更新库存"
+          },
+          {
+            "text": "水印图code",
+            "link": "/LMS/Shopee/Listing增删改查/水印图code"
+          }
+        ]
+      },
+      {
+        "text": "日志-whq",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Listing日志",
+            "link": "/LMS/Shopee/日志-whq/Listing日志"
+          },
+          {
+            "text": "类目日志",
+            "link": "/LMS/Shopee/日志-whq/类目日志"
+          }
+        ]
+      },
+      {
+        "text": "类目管理",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取类目列表",
+            "link": "/LMS/Shopee/类目管理/获取类目列表"
+          },
+          {
+            "text": "类目对照",
+            "link": "/LMS/Shopee/类目管理/类目对照"
+          },
+          {
+            "text": "类目毛利编辑",
+            "link": "/LMS/Shopee/类目管理/类目毛利编辑"
+          },
+          {
+            "text": "类目更新",
+            "link": "/LMS/Shopee/类目管理/类目更新"
+          },
+          {
+            "text": "类目对照-根据产品类目获取平台类目",
+            "link": "/LMS/Shopee/类目管理/类目对照-根据产品类目获取平台类目"
+          },
+          {
+            "text": "获取分级类目",
+            "link": "/LMS/Shopee/类目管理/获取分级类目"
+          },
+          {
+            "text": "模糊查询类目列表",
+            "link": "/LMS/Shopee/类目管理/模糊查询类目列表"
+          },
+          {
+            "text": "创建类目属性获取",
+            "link": "/LMS/Shopee/类目管理/创建类目属性获取"
+          },
+          {
+            "text": "创建类目品牌获取",
+            "link": "/LMS/Shopee/类目管理/创建类目品牌获取"
+          },
+          {
+            "text": "类目属性实时获取",
+            "link": "/LMS/Shopee/类目管理/类目属性实时获取"
+          },
+          {
+            "text": "校验类目",
+            "link": "/LMS/Shopee/类目管理/校验类目"
+          }
+        ]
+      },
+      {
+        "text": "物流",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "实时同步物流",
+            "link": "/LMS/Shopee/物流/实时同步物流"
+          },
+          {
+            "text": "获取list分页",
+            "link": "/LMS/Shopee/物流/获取list分页"
+          }
+        ]
+      },
+      {
+        "text": "价格计算",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "计算价格",
+            "link": "/LMS/Shopee/价格计算/计算价格"
+          },
+          {
+            "text": "计算利润率",
+            "link": "/LMS/Shopee/价格计算/计算利润率"
+          }
+        ]
+      },
+      {
+        "text": "全修商品listing增删改查",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "全球Listing新增",
+            "link": "/LMS/Shopee/全修商品listing增删改查/全球Listing新增"
+          },
+          {
+            "text": "全球Listing修改",
+            "link": "/LMS/Shopee/全修商品listing增删改查/全球Listing修改"
+          },
+          {
+            "text": "全球Listing详情",
+            "link": "/LMS/Shopee/全修商品listing增删改查/全球Listing详情"
+          },
+          {
+            "text": "违禁词检测（发布店铺商品）",
+            "link": "/LMS/Shopee/全修商品listing增删改查/违禁词检测（发布店铺商品）"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Data",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "批量更新",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "新增",
+            "link": "/LMS/Data/批量更新/新增"
+          },
+          {
+            "text": "列表",
+            "link": "/LMS/Data/批量更新/列表"
+          },
+          {
+            "text": "明细",
+            "link": "/LMS/Data/批量更新/明细"
+          },
+          {
+            "text": "下载结果",
+            "link": "/LMS/Data/批量更新/下载结果"
+          },
+          {
+            "text": "获取批量处理类型",
+            "link": "/LMS/Data/批量更新/获取批量处理类型"
+          }
+        ]
+      },
+      {
+        "text": "汇率转换",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "汇率转换",
+            "link": "/LMS/Data/汇率转换/汇率转换"
+          },
+          {
+            "text": "汇率详情",
+            "link": "/LMS/Data/汇率转换/汇率详情"
+          }
+        ]
+      },
+      {
+        "text": "图片域名管理",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表查询",
+            "link": "/LMS/Data/图片域名管理/列表查询"
+          },
+          {
+            "text": "新增域名",
+            "link": "/LMS/Data/图片域名管理/新增域名"
+          },
+          {
+            "text": "编辑域名",
+            "link": "/LMS/Data/图片域名管理/编辑域名"
+          },
+          {
+            "text": "日志查询",
+            "link": "/LMS/Data/图片域名管理/日志查询"
+          },
+          {
+            "text": "导入",
+            "link": "/LMS/Data/图片域名管理/导入"
+          }
+        ]
+      },
+      {
+        "text": "公共接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "各平台类目查询(模糊搜索)",
+            "link": "/LMS/Data/公共接口/各平台类目查询(模糊搜索)"
+          },
+          {
+            "text": "获取各平台类目列表",
+            "link": "/LMS/Data/公共接口/获取各平台类目列表"
+          },
+          {
+            "text": "获取字典",
+            "link": "/LMS/Data/公共接口/获取字典"
+          }
+        ]
+      },
+      {
+        "text": "自动刊登",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "自动刊登列表",
+            "link": "/LMS/Data/自动刊登/自动刊登列表"
+          },
+          {
+            "text": "新增",
+            "link": "/LMS/Data/自动刊登/新增"
+          },
+          {
+            "text": "导出",
+            "link": "/LMS/Data/自动刊登/导出"
+          },
+          {
+            "text": "搬店模式自动刊登列表",
+            "link": "/LMS/Data/自动刊登/搬店模式自动刊登列表"
+          },
+          {
+            "text": "搬店模式新增",
+            "link": "/LMS/Data/自动刊登/搬店模式新增"
+          },
+          {
+            "text": "指定SKU - SPU刊登",
+            "link": "/LMS/Data/自动刊登/指定SKU/SPU刊登"
+          }
+        ]
+      },
+      {
+        "text": "重新分配listing负责人",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表",
+            "link": "/LMS/Data/重新分配listing负责人/列表"
+          },
+          {
+            "text": "添加",
+            "link": "/LMS/Data/重新分配listing负责人/添加"
+          },
+          {
+            "text": "修改",
+            "link": "/LMS/Data/重新分配listing负责人/修改"
+          },
+          {
+            "text": "日志",
+            "link": "/LMS/Data/重新分配listing负责人/日志"
+          }
+        ]
+      },
+      {
+        "text": "生成标题",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "标题组合",
+            "link": "/LMS/Data/生成标题/标题组合"
+          }
+        ]
+      },
+      {
+        "text": "自动刊登配置-mjf",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "自动刊登分页",
+            "link": "/LMS/Data/自动刊登配置-mjf/自动刊登分页"
+          },
+          {
+            "text": "自动刊登配置保存",
+            "link": "/LMS/Data/自动刊登配置-mjf/自动刊登配置保存"
+          },
+          {
+            "text": "自动刊登编辑",
+            "link": "/LMS/Data/自动刊登配置-mjf/自动刊登编辑"
+          },
+          {
+            "text": "自动刊登启用禁用",
+            "link": "/LMS/Data/自动刊登配置-mjf/自动刊登启用禁用"
+          },
+          {
+            "text": "自动刊登配置详情",
+            "link": "/LMS/Data/自动刊登配置-mjf/自动刊登配置详情"
+          }
+        ]
+      },
+      {
+        "text": "自动调价配置",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表查询",
+            "link": "/LMS/Data/自动调价配置/列表查询"
+          },
+          {
+            "text": "新增",
+            "link": "/LMS/Data/自动调价配置/新增"
+          },
+          {
+            "text": " 修改",
+            "link": "/LMS/Data/自动调价配置/ 修改"
+          },
+          {
+            "text": "启动或关闭配置",
+            "link": "/LMS/Data/自动调价配置/启动或关闭配置"
+          },
+          {
+            "text": "详情",
+            "link": "/LMS/Data/自动调价配置/详情"
+          },
+          {
+            "text": "日志",
+            "link": "/LMS/Data/自动调价配置/日志"
+          }
+        ]
+      },
+      {
+        "text": "自动调库存配置",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表查询",
+            "link": "/LMS/Data/自动调库存配置/列表查询"
+          },
+          {
+            "text": "新增",
+            "link": "/LMS/Data/自动调库存配置/新增"
+          },
+          {
+            "text": "修改",
+            "link": "/LMS/Data/自动调库存配置/修改"
+          },
+          {
+            "text": "启动或关闭配置",
+            "link": "/LMS/Data/自动调库存配置/启动或关闭配置"
+          },
+          {
+            "text": "详情",
+            "link": "/LMS/Data/自动调库存配置/详情"
+          },
+          {
+            "text": "日志",
+            "link": "/LMS/Data/自动调库存配置/日志"
+          },
+          {
+            "text": "牛蛙sku状态获取",
+            "link": "/LMS/Data/自动调库存配置/牛蛙sku状态获取"
+          }
+        ]
+      },
+      {
+        "text": "自动调库存记录",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "启用和关闭调库存",
+            "link": "/LMS/Data/自动调库存记录/启用和关闭调库存"
+          },
+          {
+            "text": "列表查询",
+            "link": "/LMS/Data/自动调库存记录/列表查询"
+          }
+        ]
+      },
+      {
+        "text": "锁定sku配置",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "新增",
+            "link": "/LMS/Data/锁定sku配置/新增"
+          },
+          {
+            "text": "列表",
+            "link": "/LMS/Data/锁定sku配置/列表"
+          },
+          {
+            "text": "删除",
+            "link": "/LMS/Data/锁定sku配置/删除"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Walmart",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "日志-whq",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Listing日志列表",
+            "link": "/LMS/Walmart/日志-whq/Listing日志列表"
+          },
+          {
+            "text": "类目日志",
+            "link": "/LMS/Walmart/日志-whq/类目日志"
+          }
+        ]
+      },
+      {
+        "text": "listing列表",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "listing列表",
+            "link": "/LMS/Walmart/listing列表/listing列表"
+          },
+          {
+            "text": "listing列表-变体",
+            "link": "/LMS/Walmart/listing列表/listing列表-变体"
+          },
+          {
+            "text": "获取Listing详情",
+            "link": "/LMS/Walmart/listing列表/获取Listing详情"
+          },
+          {
+            "text": "新增",
+            "link": "/LMS/Walmart/listing列表/新增"
+          },
+          {
+            "text": "编辑",
+            "link": "/LMS/Walmart/listing列表/编辑"
+          },
+          {
+            "text": "根据类目获取属性",
+            "link": "/LMS/Walmart/listing列表/根据类目获取属性"
+          },
+          {
+            "text": "统计状态数量-whq",
+            "link": "/LMS/Walmart/listing列表/统计状态数量-whq"
+          },
+          {
+            "text": "获取Variant详情-在线",
+            "link": "/LMS/Walmart/listing列表/获取Variant详情-在线"
+          },
+          {
+            "text": "删除",
+            "link": "/LMS/Walmart/listing列表/删除"
+          },
+          {
+            "text": "Listing-批量打开详情页",
+            "link": "/LMS/Walmart/listing列表/Listing-批量打开详情页"
+          },
+          {
+            "text": "提交审核",
+            "link": "/LMS/Walmart/listing列表/提交审核"
+          },
+          {
+            "text": "上传",
+            "link": "/LMS/Walmart/listing列表/上传"
+          },
+          {
+            "text": "SKU映射模板下载",
+            "link": "/LMS/Walmart/listing列表/SKU映射模板下载"
+          },
+          {
+            "text": "SKU映射模板导入",
+            "link": "/LMS/Walmart/listing列表/SKU映射模板导入"
+          },
+          {
+            "text": "批量更新下载模板",
+            "link": "/LMS/Walmart/listing列表/批量更新下载模板"
+          },
+          {
+            "text": "批量更新确认接口",
+            "link": "/LMS/Walmart/listing列表/批量更新确认接口"
+          },
+          {
+            "text": "获取当前用户前缀",
+            "link": "/LMS/Walmart/listing列表/获取当前用户前缀"
+          },
+          {
+            "text": "批量更新标题",
+            "link": "/LMS/Walmart/listing列表/批量更新标题"
+          },
+          {
+            "text": "批量更新描述",
+            "link": "/LMS/Walmart/listing列表/批量更新描述"
+          },
+          {
+            "text": "sku重复性校验",
+            "link": "/LMS/Walmart/listing列表/sku重复性校验"
+          },
+          {
+            "text": "审核 - 上传校验sku的重复性",
+            "link": "/LMS/Walmart/listing列表/审核/上传校验sku的重复性"
+          },
+          {
+            "text": "从后台同步",
+            "link": "/LMS/Walmart/listing列表/从后台同步"
+          }
+        ]
+      },
+      {
+        "text": "类目管理",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取类目列表",
+            "link": "/LMS/Walmart/类目管理/获取类目列表"
+          },
+          {
+            "text": "类目对照",
+            "link": "/LMS/Walmart/类目管理/类目对照"
+          },
+          {
+            "text": "类目毛利编辑",
+            "link": "/LMS/Walmart/类目管理/类目毛利编辑"
+          },
+          {
+            "text": "类目对照-根据产品类目获取平台类目",
+            "link": "/LMS/Walmart/类目管理/类目对照-根据产品类目获取平台类目"
+          },
+          {
+            "text": "模糊查询类目列表",
+            "link": "/LMS/Walmart/类目管理/模糊查询类目列表"
+          },
+          {
+            "text": "新增",
+            "link": "/LMS/Walmart/类目管理/新增"
+          },
+          {
+            "text": "平台费率编辑",
+            "link": "/LMS/Walmart/类目管理/平台费率编辑"
+          }
+        ]
+      },
+      {
+        "text": "属性配置",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "属性值配置列表",
+            "link": "/LMS/Walmart/属性配置/属性值配置列表"
+          },
+          {
+            "text": "属性值配置修改",
+            "link": "/LMS/Walmart/属性配置/属性值配置修改"
+          },
+          {
+            "text": "属性配置详情",
+            "link": "/LMS/Walmart/属性配置/属性配置详情"
+          },
+          {
+            "text": "属性配置日志",
+            "link": "/LMS/Walmart/属性配置/属性配置日志"
+          },
+          {
+            "text": "子属性配置列表",
+            "link": "/LMS/Walmart/属性配置/子属性配置列表"
+          },
+          {
+            "text": "子属性配置修改",
+            "link": "/LMS/Walmart/属性配置/子属性配置修改"
+          },
+          {
+            "text": "子属性配置详情",
+            "link": "/LMS/Walmart/属性配置/子属性配置详情"
+          },
+          {
+            "text": "子属性配置日志",
+            "link": "/LMS/Walmart/属性配置/子属性配置日志"
+          },
+          {
+            "text": "获取可供绑定的属性",
+            "link": "/LMS/Walmart/属性配置/获取可供绑定的属性"
+          }
+        ]
+      },
+      {
+        "text": "计算售价与利润率",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "计算售价",
+            "link": "/LMS/Walmart/计算售价与利润率/计算售价"
+          },
+          {
+            "text": "计算利润率",
+            "link": "/LMS/Walmart/计算售价与利润率/计算利润率"
+          }
+        ]
+      },
+      {
+        "text": "跟卖监控",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表",
+            "link": "/LMS/Walmart/跟卖监控/列表"
+          },
+          {
+            "text": "创建",
+            "link": "/LMS/Walmart/跟卖监控/创建"
+          },
+          {
+            "text": "详情",
+            "link": "/LMS/Walmart/跟卖监控/详情"
+          },
+          {
+            "text": "编辑",
+            "link": "/LMS/Walmart/跟卖监控/编辑"
+          },
+          {
+            "text": "状态 - 批量状态修改",
+            "link": "/LMS/Walmart/跟卖监控/状态/批量状态修改"
+          },
+          {
+            "text": "删除 - 批量删除",
+            "link": "/LMS/Walmart/跟卖监控/删除/批量删除"
+          },
+          {
+            "text": "监控明细",
+            "link": "/LMS/Walmart/跟卖监控/监控明细"
+          },
+          {
+            "text": "跟卖调价配置列表",
+            "link": "/LMS/Walmart/跟卖监控/跟卖调价配置列表"
+          },
+          {
+            "text": "删除跟卖调价配置",
+            "link": "/LMS/Walmart/跟卖监控/删除跟卖调价配置"
+          },
+          {
+            "text": "跟卖配置下载导入模板",
+            "link": "/LMS/Walmart/跟卖监控/跟卖配置下载导入模板"
+          },
+          {
+            "text": "跟卖竞争者",
+            "link": "/LMS/Walmart/跟卖监控/跟卖竞争者"
+          },
+          {
+            "text": "导入 walmart跟卖调价配置",
+            "link": "/LMS/Walmart/跟卖监控/导入 walmart跟卖调价配置"
+          }
+        ]
+      },
+      {
+        "text": "第三方访问",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "验证itemId 是否存在",
+            "link": "/LMS/Walmart/第三方访问/验证itemId 是否存在"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Common",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "根据平台简码获取物流列表",
+        "link": "/LMS/Common/根据平台简码获取物流列表"
+      },
+      {
+        "text": "获取物流属性列表",
+        "link": "/LMS/Common/获取物流属性列表"
+      }
+    ]
+  },
+  {
+    "text": "Wayfair",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "统计状态数量",
+        "link": "/LMS/Wayfair/统计状态数量"
+      },
+      {
+        "text": "Listing日志",
+        "link": "/LMS/Wayfair/Listing日志"
+      },
+      {
+        "text": "Listing列表",
+        "link": "/LMS/Wayfair/Listing列表"
+      },
+      {
+        "text": "Listing停产",
+        "link": "/LMS/Wayfair/Listing停产"
+      },
+      {
+        "text": "listing导入",
+        "link": "/LMS/Wayfair/listing导入"
+      },
+      {
+        "text": "批量更新下载模板",
+        "link": "/LMS/Wayfair/批量更新下载模板"
+      }
+    ]
+  },
+  {
+    "text": "京东沃尔玛",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "列表查询",
+        "link": "/LMS/京东沃尔玛/列表查询"
+      },
+      {
+        "text": "统计状态数量",
+        "link": "/LMS/京东沃尔玛/统计状态数量"
+      },
+      {
+        "text": "导入Item Report",
+        "link": "/LMS/京东沃尔玛/导入Item Report"
+      },
+      {
+        "text": "导入下架listing",
+        "link": "/LMS/京东沃尔玛/导入下架listing"
+      },
+      {
+        "text": "导出listing",
+        "link": "/LMS/京东沃尔玛/导出listing"
+      },
+      {
+        "text": "SKU映射模板下载",
+        "link": "/LMS/京东沃尔玛/SKU映射模板下载"
+      },
+      {
+        "text": "SKU映射模板导入",
+        "link": "/LMS/京东沃尔玛/SKU映射模板导入"
+      },
+      {
+        "text": "单个下架 - 批量下架",
+        "link": "/LMS/京东沃尔玛/单个下架/批量下架"
+      },
+      {
+        "text": "listing日志列表",
+        "link": "/LMS/京东沃尔玛/listing日志列表"
+      },
+      {
+        "text": "listingStatus 枚举",
+        "link": "/LMS/京东沃尔玛/listingStatus 枚举"
+      },
+      {
+        "text": "lifecycleStatus 枚举",
+        "link": "/LMS/京东沃尔玛/lifecycleStatus 枚举"
+      },
+      {
+        "text": "publishStatus 枚举",
+        "link": "/LMS/京东沃尔玛/publishStatus 枚举"
+      },
+      {
+        "text": "侵权类型 枚举",
+        "link": "/LMS/京东沃尔玛/侵权类型 枚举"
+      },
+      {
+        "text": "违禁词类型",
+        "link": "/LMS/京东沃尔玛/违禁词类型"
+      },
+      {
+        "text": "京东沃尔玛下载中心任务列表",
+        "link": "/LMS/京东沃尔玛/京东沃尔玛下载中心任务列表"
+      }
+    ]
+  }
+]

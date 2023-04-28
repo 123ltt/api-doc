@@ -1,0 +1,1147 @@
+[
+  {
+    "text": "feign接口-后台调用,不给前端直接调",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "根据类目ID获取类目信息（支持批量查询）",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据类目ID获取类目信息（支持批量查询）"
+      },
+      {
+        "text": "根据产品线id批量查询",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据产品线id批量查询"
+      },
+      {
+        "text": "SKU-搜索SKU TOP N",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/SKU-搜索SKU TOP N"
+      },
+      {
+        "text": "SKU-牛蛙SKU转PMS-SKU",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/SKU-牛蛙SKU转PMS-SKU"
+      },
+      {
+        "text": "SKU-获取sku详情",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/SKU-获取sku详情"
+      },
+      {
+        "text": "SKU-获取sku物流相关属性",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/SKU-获取sku物流相关属性"
+      },
+      {
+        "text": "SKU-获取sku一级类目",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/SKU-获取sku一级类目"
+      },
+      {
+        "text": "获取sku平台限价",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/获取sku平台限价"
+      },
+      {
+        "text": "根据产品编码获取产品类型",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据产品编码获取产品类型"
+      },
+      {
+        "text": "刊登请求可根据分销平台和sku去同步此分销sku的信息",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/刊登请求可根据分销平台和sku去同步此分销sku的信息"
+      },
+      {
+        "text": "对刊登已经调接口使用过的标题进行标记",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/对刊登已经调接口使用过的标题进行标记"
+      },
+      {
+        "text": "对刊登已经标题的标题取消",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/对刊登已经标题的标题取消"
+      },
+      {
+        "text": "查看对刊登已经标题的标题",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/查看对刊登已经标题的标题"
+      },
+      {
+        "text": "类目映射关系接口",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/类目映射关系接口"
+      },
+      {
+        "text": "查看SKU成本价和折扣比例",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/查看SKU成本价和折扣比例"
+      },
+      {
+        "text": "根据SKU给财务系统提供产品数据",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据SKU给财务系统提供产品数据"
+      },
+      {
+        "text": "后端-获取SKU产品属性",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/后端-获取SKU产品属性"
+      },
+      {
+        "text": "根据PMS_SKU获取平台、FN、第三方仓SKU信息",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据PMS_SKU获取平台、FN、第三方仓SKU信息"
+      },
+      {
+        "text": "标记推送海外仓API",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/标记推送海外仓API"
+      },
+      {
+        "text": "根据类目id获取SKU编码",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据类目id获取SKU编码"
+      },
+      {
+        "text": "根据平台SKU 返回本地产品编码的接口。",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据平台SKU 返回本地产品编码的接口。"
+      },
+      {
+        "text": "根据第三方仓SKU返回本地产品编码的接口",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据第三方仓SKU返回本地产品编码的接口"
+      },
+      {
+        "text": "获取平台类目属性",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/获取平台类目属性"
+      },
+      {
+        "text": "根据平台SKU查看本地PMS-SKU",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据平台SKU查看本地PMS-SKU"
+      },
+      {
+        "text": "根据SKU获取SKU信息（冠通根据国家获取成本）",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据SKU获取SKU信息（冠通根据国家获取成本）"
+      },
+      {
+        "text": "根据SKU获取SKU信息info（冠通根据国家获取成本）",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据SKU获取SKU信息info（冠通根据国家获取成本）"
+      },
+      {
+        "text": "根据SKU查询三级类目(牛蛙类目)",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据SKU查询三级类目(牛蛙类目)"
+      },
+      {
+        "text": "根据code得到SPU信息（牛蛙SKU - SPU - PMSSPU - PMSSKU）",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据code得到SPU信息（牛蛙SKU\\SPU\\PMSSPU\\PMSSKU）"
+      },
+      {
+        "text": "根据牛蛙SKU+仓库id查看本地PMS-SKU。",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据牛蛙SKU+仓库id查看本地PMS-SKU。"
+      },
+      {
+        "text": "根据店铺获取自提SKU标识",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据店铺获取自提SKU标识"
+      },
+      {
+        "text": "获取指定用户有权限的SKU编码",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/获取指定用户有权限的SKU编码"
+      },
+      {
+        "text": "获取SKU风险等级",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/获取SKU风险等级"
+      },
+      {
+        "text": "查询属性表接口",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/查询属性表接口"
+      },
+      {
+        "text": "根据SKU获取季节属性等基础信息",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/根据SKU获取季节属性等基础信息"
+      },
+      {
+        "text": "IMS根据SKU获取Sku基本基础信息",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/IMS根据SKU获取Sku基本基础信息"
+      },
+      {
+        "text": "公共获取SKU类目信息",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/公共获取SKU类目信息"
+      },
+      {
+        "text": "给oms-ifBlockPkg提供SKU信息",
+        "link": "/PMS/feign接口-后台调用,不给前端直接调/给oms-ifBlockPkg提供SKU信息"
+      },
+      {
+        "text": "ips系统",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "ips系统获取SKU信息",
+            "link": "/PMS/feign接口-后台调用,不给前端直接调/ips系统/ips系统获取SKU信息"
+          }
+        ]
+      },
+      {
+        "text": "IMS",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取物流与品牌信息",
+            "link": "/PMS/feign接口-后台调用,不给前端直接调/IMS/获取物流与品牌信息"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "给其它模块前端调用",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "刊登-搜索可刊登的产品",
+        "link": "/PMS/给其它模块前端调用/刊登-搜索可刊登的产品"
+      },
+      {
+        "text": "刊登-获取SKU信息",
+        "link": "/PMS/给其它模块前端调用/刊登-获取SKU信息"
+      },
+      {
+        "text": "刊登-获取SPU信息",
+        "link": "/PMS/给其它模块前端调用/刊登-获取SPU信息"
+      },
+      {
+        "text": "刊登-获取SKU产品属性",
+        "link": "/PMS/给其它模块前端调用/刊登-获取SKU产品属性"
+      },
+      {
+        "text": "根据sku和尺寸列表获取图片",
+        "link": "/PMS/给其它模块前端调用/根据sku和尺寸列表获取图片"
+      },
+      {
+        "text": "查看的SKU 成本价和折扣比例",
+        "link": "/PMS/给其它模块前端调用/查看的SKU 成本价和折扣比例"
+      },
+      {
+        "text": "获取所有类目的完整的类目树",
+        "link": "/PMS/给其它模块前端调用/获取所有类目的完整的类目树"
+      }
+    ]
+  },
+  {
+    "text": "SPU/SKU查询",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "列表-SPU - SKU查询列表",
+        "link": "/PMS/SPU/SKU查询/列表-SPU/SKU查询列表"
+      },
+      {
+        "text": "精品人员下拉列表",
+        "link": "/PMS/SPU/SKU查询/精品人员下拉列表"
+      },
+      {
+        "text": "同步牛蛙数据",
+        "link": "/PMS/SPU/SKU查询/同步牛蛙数据"
+      },
+      {
+        "text": "精铺人员下拉列表",
+        "link": "/PMS/SPU/SKU查询/精铺人员下拉列表"
+      },
+      {
+        "text": "PMS SKU转牛蛙SKU",
+        "link": "/PMS/SPU/SKU查询/PMS SKU转牛蛙SKU"
+      },
+      {
+        "text": "sku导出",
+        "link": "/PMS/SPU/SKU查询/sku导出"
+      },
+      {
+        "text": "关联组装SKU导入excel模板",
+        "link": "/PMS/SPU/SKU查询/关联组装SKU导入excel模板"
+      },
+      {
+        "text": "关联组装SKU导入excel",
+        "link": "/PMS/SPU/SKU查询/关联组装SKU导入excel"
+      }
+    ]
+  },
+  {
+    "text": "我的审核",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "产品开发审核-zlh",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "查询新品列表",
+            "link": "/PMS/我的审核/产品开发审核-zlh/查询新品列表"
+          },
+          {
+            "text": "根据新品ID查询新品详情及图片列表",
+            "link": "/PMS/我的审核/产品开发审核-zlh/根据新品ID查询新品详情及图片列表"
+          },
+          {
+            "text": "修改新品详情",
+            "link": "/PMS/我的审核/产品开发审核-zlh/修改新品详情"
+          },
+          {
+            "text": "批量备注",
+            "link": "/PMS/我的审核/产品开发审核-zlh/批量备注"
+          },
+          {
+            "text": "安全审核信息保存",
+            "link": "/PMS/我的审核/产品开发审核-zlh/安全审核信息保存"
+          },
+          {
+            "text": "重新提交审核",
+            "link": "/PMS/我的审核/产品开发审核-zlh/重新提交审核"
+          },
+          {
+            "text": "修改新品图片列表信息",
+            "link": "/PMS/我的审核/产品开发审核-zlh/修改新品图片列表信息"
+          }
+        ]
+      },
+      {
+        "text": "SPU审核-panyun",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表-查询审核列表",
+            "link": "/PMS/我的审核/SPU审核-panyun/列表-查询审核列表"
+          },
+          {
+            "text": "列表-根据FlowNo获取流程的环节 - 业务状态层级数据",
+            "link": "/PMS/我的审核/SPU审核-panyun/列表-根据FlowNo获取流程的环节/业务状态层级数据"
+          },
+          {
+            "text": "详情-根据flowId获取流程事件编号",
+            "link": "/PMS/我的审核/SPU审核-panyun/详情-根据flowId获取流程事件编号"
+          },
+          {
+            "text": "详情-提交流程",
+            "link": "/PMS/我的审核/SPU审核-panyun/详情-提交流程"
+          },
+          {
+            "text": "详情-根据bizNo获取业务日志",
+            "link": "/PMS/我的审核/SPU审核-panyun/详情-根据bizNo获取业务日志"
+          },
+          {
+            "text": "列表-批量备注",
+            "link": "/PMS/我的审核/SPU审核-panyun/列表-批量备注"
+          },
+          {
+            "text": "列表-根据flowId获取流程的时间线",
+            "link": "/PMS/我的审核/SPU审核-panyun/列表-根据flowId获取流程的时间线"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "产品管理-panyun",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "列表-SPU - SKU管理列表",
+        "link": "/PMS/产品管理-panyun/列表-SPU/SKU管理列表"
+      },
+      {
+        "text": "详情-修改物流属性",
+        "link": "/PMS/产品管理-panyun/详情-修改物流属性"
+      },
+      {
+        "text": "详情-新增或修改基础属性",
+        "link": "/PMS/产品管理-panyun/详情-新增或修改基础属性"
+      },
+      {
+        "text": "列表-生成子SKU(DTO)",
+        "link": "/PMS/产品管理-panyun/列表-生成子SKU(DTO)"
+      },
+      {
+        "text": "列表-复制为新的SKU",
+        "link": "/PMS/产品管理-panyun/列表-复制为新的SKU"
+      },
+      {
+        "text": "详情-获取SPU - SKU详情",
+        "link": "/PMS/产品管理-panyun/详情-获取SPU/SKU详情"
+      },
+      {
+        "text": "详情-获取美工任务列表",
+        "link": "/PMS/产品管理-panyun/详情-获取美工任务列表"
+      },
+      {
+        "text": "详情-修改安全审核信息",
+        "link": "/PMS/产品管理-panyun/详情-修改安全审核信息"
+      },
+      {
+        "text": "详情-获取平台站点树",
+        "link": "/PMS/产品管理-panyun/详情-获取平台站点树"
+      },
+      {
+        "text": "详情-获取多语言列表",
+        "link": "/PMS/产品管理-panyun/详情-获取多语言列表"
+      },
+      {
+        "text": "详情-新增或修改图片",
+        "link": "/PMS/产品管理-panyun/详情-新增或修改图片"
+      },
+      {
+        "text": "获取物流属性配置",
+        "link": "/PMS/产品管理-panyun/获取物流属性配置"
+      },
+      {
+        "text": "启用 - 禁用 同步功能",
+        "link": "/PMS/产品管理-panyun/启用/禁用 同步功能"
+      },
+      {
+        "text": "详情-修改销售属性",
+        "link": "/PMS/产品管理-panyun/详情-修改销售属性"
+      },
+      {
+        "text": "仓库库存信息",
+        "link": "/PMS/产品管理-panyun/仓库库存信息"
+      },
+      {
+        "text": "查看平台仓对照信息",
+        "link": "/PMS/产品管理-panyun/查看平台仓对照信息"
+      },
+      {
+        "text": "查看第三方仓对照信息",
+        "link": "/PMS/产品管理-panyun/查看第三方仓对照信息"
+      },
+      {
+        "text": "获取指定归属的仓库",
+        "link": "/PMS/产品管理-panyun/获取指定归属的仓库"
+      },
+      {
+        "text": "第三仓仓获取需要的类型",
+        "link": "/PMS/产品管理-panyun/第三仓仓获取需要的类型"
+      },
+      {
+        "text": "SPU管理",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表-复制为新的SPU",
+            "link": "/PMS/产品管理-panyun/SPU管理/列表-复制为新的SPU"
+          },
+          {
+            "text": "列表-获取可生成SKU的字段",
+            "link": "/PMS/产品管理-panyun/SPU管理/列表-获取可生成SKU的字段"
+          },
+          {
+            "text": "查询SPU下可复制的SKU",
+            "link": "/PMS/产品管理-panyun/SPU管理/查询SPU下可复制的SKU"
+          },
+          {
+            "text": "一键生成单品SKU",
+            "link": "/PMS/产品管理-panyun/SPU管理/一键生成单品SKU"
+          }
+        ]
+      },
+      {
+        "text": "批量修改功能",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "SPU - SKU列表",
+            "link": "/PMS/产品管理-panyun/批量修改功能/SPU/SKU列表"
+          },
+          {
+            "text": "可选属性列表",
+            "link": "/PMS/产品管理-panyun/批量修改功能/可选属性列表"
+          },
+          {
+            "text": "修改基础信息",
+            "link": "/PMS/产品管理-panyun/批量修改功能/修改基础信息"
+          },
+          {
+            "text": "保存属性",
+            "link": "/PMS/产品管理-panyun/批量修改功能/保存属性"
+          },
+          {
+            "text": "获取属性值",
+            "link": "/PMS/产品管理-panyun/批量修改功能/获取属性值"
+          }
+        ]
+      },
+      {
+        "text": "平台限价",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "新增",
+            "link": "/PMS/产品管理-panyun/平台限价/新增"
+          },
+          {
+            "text": "修改",
+            "link": "/PMS/产品管理-panyun/平台限价/修改"
+          },
+          {
+            "text": "删除 - 批量删除",
+            "link": "/PMS/产品管理-panyun/平台限价/删除/批量删除"
+          },
+          {
+            "text": "列表",
+            "link": "/PMS/产品管理-panyun/平台限价/列表"
+          },
+          {
+            "text": "批量导入",
+            "link": "/PMS/产品管理-panyun/平台限价/批量导入"
+          },
+          {
+            "text": "下载模板",
+            "link": "/PMS/产品管理-panyun/平台限价/下载模板"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "其他",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "图片上传",
+        "link": "/PMS/其他/图片上传"
+      }
+    ]
+  },
+  {
+    "text": "类目管理-lxz",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "查询所有一级类目",
+        "link": "/PMS/类目管理-lxz/查询所有一级类目"
+      },
+      {
+        "text": "根据类目id查询子类目",
+        "link": "/PMS/类目管理-lxz/根据类目id查询子类目"
+      },
+      {
+        "text": "根据类目名称模糊查询",
+        "link": "/PMS/类目管理-lxz/根据类目名称模糊查询"
+      },
+      {
+        "text": "新增类目",
+        "link": "/PMS/类目管理-lxz/新增类目"
+      },
+      {
+        "text": "删除类目",
+        "link": "/PMS/类目管理-lxz/删除类目"
+      },
+      {
+        "text": "保存类目配置的属性",
+        "link": "/PMS/类目管理-lxz/保存类目配置的属性"
+      },
+      {
+        "text": "根据类目id查询属性",
+        "link": "/PMS/类目管理-lxz/根据类目id查询属性"
+      },
+      {
+        "text": "查询所有类目（返回树形结构）",
+        "link": "/PMS/类目管理-lxz/查询所有类目（返回树形结构）"
+      },
+      {
+        "text": "修改类目",
+        "link": "/PMS/类目管理-lxz/修改类目"
+      },
+      {
+        "text": "指定条件查询类目及其上级",
+        "link": "/PMS/类目管理-lxz/指定条件查询类目及其上级"
+      },
+      {
+        "text": "指定类型同步并返回信息",
+        "link": "/PMS/类目管理-lxz/指定类型同步并返回信息"
+      },
+      {
+        "text": "LMS添加平台SKU映射",
+        "link": "/PMS/类目管理-lxz/LMS添加平台SKU映射"
+      }
+    ]
+  },
+  {
+    "text": "品牌管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "品牌信息查询",
+        "link": "/PMS/品牌管理/品牌信息查询"
+      },
+      {
+        "text": "新增品牌信息",
+        "link": "/PMS/品牌管理/新增品牌信息"
+      },
+      {
+        "text": "修改品牌信息",
+        "link": "/PMS/品牌管理/修改品牌信息"
+      },
+      {
+        "text": "删除品牌信息",
+        "link": "/PMS/品牌管理/删除品牌信息"
+      }
+    ]
+  },
+  {
+    "text": "属性管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "查询属性表和取值表关联信息",
+        "link": "/PMS/属性管理/查询属性表和取值表关联信息"
+      },
+      {
+        "text": "根据属性ID查询关联信息",
+        "link": "/PMS/属性管理/根据属性ID查询关联信息"
+      },
+      {
+        "text": "新增属性和取值",
+        "link": "/PMS/属性管理/新增属性和取值"
+      },
+      {
+        "text": "删除属性",
+        "link": "/PMS/属性管理/删除属性"
+      },
+      {
+        "text": "修改属性和取值",
+        "link": "/PMS/属性管理/修改属性和取值"
+      },
+      {
+        "text": "根据关联ID查询属性和属性值",
+        "link": "/PMS/属性管理/根据关联ID查询属性和属性值"
+      },
+      {
+        "text": "根据id修改属性状态",
+        "link": "/PMS/属性管理/根据id修改属性状态"
+      },
+      {
+        "text": "添加取值",
+        "link": "/PMS/属性管理/添加取值"
+      },
+      {
+        "text": "保存规格和类目属性",
+        "link": "/PMS/属性管理/保存规格和类目属性"
+      },
+      {
+        "text": "判断属性取值是否已经跟sku挂钩",
+        "link": "/PMS/属性管理/判断属性取值是否已经跟sku挂钩"
+      },
+      {
+        "text": "解析取值json给前端",
+        "link": "/PMS/属性管理/解析取值json给前端"
+      },
+      {
+        "text": "根据关联id、关联类型、属性类型查询属性和属性值",
+        "link": "/PMS/属性管理/根据关联id、关联类型、属性类型查询属性和属性值"
+      }
+    ]
+  },
+  {
+    "text": "新品录入-zlh",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "新品录入提交",
+        "link": "/PMS/新品录入-zlh/新品录入提交"
+      },
+      {
+        "text": "供应商产品列表导入接口",
+        "link": "/PMS/新品录入-zlh/供应商产品列表导入接口"
+      },
+      {
+        "text": "下载新品导入Excel模板",
+        "link": "/PMS/新品录入-zlh/下载新品导入Excel模板"
+      },
+      {
+        "text": "通过Excel批量提交保存新品录入",
+        "link": "/PMS/新品录入-zlh/通过Excel批量提交保存新品录入"
+      }
+    ]
+  },
+  {
+    "text": "产品线配置",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "新增或修改产品线属性",
+        "link": "/PMS/产品线配置/新增或修改产品线属性"
+      },
+      {
+        "text": "类目列表三级分类树状图测试",
+        "link": "/PMS/产品线配置/类目列表三级分类树状图测试"
+      },
+      {
+        "text": "产品线查询",
+        "link": "/PMS/产品线配置/产品线查询"
+      },
+      {
+        "text": "根据id查询信息",
+        "link": "/PMS/产品线配置/根据id查询信息"
+      }
+    ]
+  },
+  {
+    "text": "组合SKU管理-lxz",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "新增或修改组合SKU",
+        "link": "/PMS/组合SKU管理-lxz/新增或修改组合SKU"
+      },
+      {
+        "text": "组合sku列表",
+        "link": "/PMS/组合SKU管理-lxz/组合sku列表"
+      },
+      {
+        "text": "组合sku详情",
+        "link": "/PMS/组合SKU管理-lxz/组合sku详情"
+      },
+      {
+        "text": "删除组合sku",
+        "link": "/PMS/组合SKU管理-lxz/删除组合sku"
+      },
+      {
+        "text": "组合sku属性详情",
+        "link": "/PMS/组合SKU管理-lxz/组合sku属性详情"
+      },
+      {
+        "text": "配置组合sku属性",
+        "link": "/PMS/组合SKU管理-lxz/配置组合sku属性"
+      },
+      {
+        "text": "组合sku信息维护",
+        "link": "/PMS/组合SKU管理-lxz/组合sku信息维护"
+      }
+    ]
+  },
+  {
+    "text": "安全审核分配规则配置",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "安全审核分配查询",
+        "link": "/PMS/安全审核分配规则配置/安全审核分配查询"
+      },
+      {
+        "text": "新增或修改安全审核",
+        "link": "/PMS/安全审核分配规则配置/新增或修改安全审核"
+      },
+      {
+        "text": "根据id查询安全审核信息",
+        "link": "/PMS/安全审核分配规则配置/根据id查询安全审核信息"
+      },
+      {
+        "text": "删除安全审核信息",
+        "link": "/PMS/安全审核分配规则配置/删除安全审核信息"
+      }
+    ]
+  },
+  {
+    "text": "美工任务管理-lxz",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "创建美工任务（支持批量）",
+        "link": "/PMS/美工任务管理-lxz/创建美工任务（支持批量）"
+      },
+      {
+        "text": "列表接口",
+        "link": "/PMS/美工任务管理-lxz/列表接口"
+      },
+      {
+        "text": "详情接口",
+        "link": "/PMS/美工任务管理-lxz/详情接口"
+      },
+      {
+        "text": "修改接口",
+        "link": "/PMS/美工任务管理-lxz/修改接口"
+      },
+      {
+        "text": "下拉列表",
+        "link": "/PMS/美工任务管理-lxz/下拉列表"
+      },
+      {
+        "text": "查询所有美工排班计划",
+        "link": "/PMS/美工任务管理-lxz/查询所有美工排班计划"
+      },
+      {
+        "text": "查询美工排班计划详情",
+        "link": "/PMS/美工任务管理-lxz/查询美工排班计划详情"
+      },
+      {
+        "text": "创建任务时处理人下拉列表",
+        "link": "/PMS/美工任务管理-lxz/创建任务时处理人下拉列表"
+      },
+      {
+        "text": "指派任务时处理人下拉列表",
+        "link": "/PMS/美工任务管理-lxz/指派任务时处理人下拉列表"
+      }
+    ]
+  },
+  {
+    "text": "多语言信息",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "根据spu,sku编码获取多语言信息",
+        "link": "/PMS/多语言信息/根据spu,sku编码获取多语言信息"
+      }
+    ]
+  },
+  {
+    "text": "采购问题列表",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "列表接口",
+        "link": "/PMS/采购问题列表/列表接口"
+      },
+      {
+        "text": "创建采购问题",
+        "link": "/PMS/采购问题列表/创建采购问题"
+      },
+      {
+        "text": "回复采购问题",
+        "link": "/PMS/采购问题列表/回复采购问题"
+      },
+      {
+        "text": "查看采购问题",
+        "link": "/PMS/采购问题列表/查看采购问题"
+      },
+      {
+        "text": "问题状态下拉列表接口",
+        "link": "/PMS/采购问题列表/问题状态下拉列表接口"
+      }
+    ]
+  },
+  {
+    "text": "下载中心",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "下载中心",
+        "link": "/PMS/下载中心/下载中心"
+      }
+    ]
+  },
+  {
+    "text": "牛蛙类目映射关系管理-zlh",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "牛蛙与PMS类目映射-zlh",
+        "link": "/PMS/牛蛙类目映射关系管理-zlh/牛蛙与PMS类目映射-zlh"
+      },
+      {
+        "text": "创建牛蛙类目映射关系",
+        "link": "/PMS/牛蛙类目映射关系管理-zlh/创建牛蛙类目映射关系"
+      }
+    ]
+  },
+  {
+    "text": "刊登约束",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "创建接口",
+        "link": "/PMS/刊登约束/创建接口"
+      },
+      {
+        "text": "详情接口",
+        "link": "/PMS/刊登约束/详情接口"
+      },
+      {
+        "text": "修改接口",
+        "link": "/PMS/刊登约束/修改接口"
+      },
+      {
+        "text": "列表接口",
+        "link": "/PMS/刊登约束/列表接口"
+      }
+    ]
+  },
+  {
+    "text": "同步牛蛙数据",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "手动更新同步海外仓费用接口",
+        "link": "/PMS/同步牛蛙数据/手动更新同步海外仓费用接口"
+      },
+      {
+        "text": "同步sku",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "PMS数据同步调整及产品权限处理",
+            "link": "/PMS/同步牛蛙数据/同步sku/PMS数据同步调整及产品权限处理"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "sku归属配置",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "配置sku归属",
+        "link": "/PMS/sku归属配置/配置sku归属"
+      },
+      {
+        "text": "获取租户组织架构",
+        "link": "/PMS/sku归属配置/获取租户组织架构"
+      }
+    ]
+  },
+  {
+    "text": "平台类目管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "平台类目映射",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取各平台类目列表",
+            "link": "/PMS/平台类目管理/平台类目映射/获取各平台类目列表"
+          },
+          {
+            "text": "各平台类目查询(模糊搜索)",
+            "link": "/PMS/平台类目管理/平台类目映射/各平台类目查询(模糊搜索)"
+          },
+          {
+            "text": "创建映射关系",
+            "link": "/PMS/平台类目管理/平台类目映射/创建映射关系"
+          },
+          {
+            "text": "根据PMS类目查询平台映射类目",
+            "link": "/PMS/平台类目管理/平台类目映射/根据PMS类目查询平台映射类目"
+          }
+        ]
+      },
+      {
+        "text": "平台类目属性映射",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "默认页面",
+            "link": "/PMS/平台类目管理/平台类目属性映射/默认页面"
+          },
+          {
+            "text": "查询平台类目属性和属性值",
+            "link": "/PMS/平台类目管理/平台类目属性映射/查询平台类目属性和属性值"
+          },
+          {
+            "text": "PMS属性关联刊登属性表接口",
+            "link": "/PMS/平台类目管理/平台类目属性映射/PMS属性关联刊登属性表接口"
+          },
+          {
+            "text": "查询类目属性映射",
+            "link": "/PMS/平台类目管理/平台类目属性映射/查询类目属性映射"
+          }
+        ]
+      },
+      {
+        "text": "平台SPU属性映射",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "新增",
+            "link": "/PMS/平台类目管理/平台SPU属性映射/新增"
+          },
+          {
+            "text": "查询",
+            "link": "/PMS/平台类目管理/平台SPU属性映射/查询"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "其他系统",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "根据时间或指定sku批量获取sku信息",
+        "link": "/PMS/其他系统/根据时间或指定sku批量获取sku信息"
+      },
+      {
+        "text": "分页查询PMS类目 并携带映射的牛蛙类目",
+        "link": "/PMS/其他系统/分页查询PMS类目 并携带映射的牛蛙类目"
+      }
+    ]
+  },
+  {
+    "text": "MQ",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "模拟推送获取折扣率有改变的sku的折扣成本",
+        "link": "/PMS/MQ/模拟推送获取折扣率有改变的sku的折扣成本"
+      },
+      {
+        "text": "模拟推送侵权sku信息",
+        "link": "/PMS/MQ/模拟推送侵权sku信息"
+      },
+      {
+        "text": "推送获取牛蛙状态有改变的sku的牛蛙状态",
+        "link": "/PMS/MQ/推送获取牛蛙状态有改变的sku的牛蛙状态"
+      }
+    ]
+  },
+  {
+    "text": "中转仓SKU成本",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "列表查询",
+        "link": "/PMS/中转仓SKU成本/列表查询"
+      },
+      {
+        "text": "导入模板下载",
+        "link": "/PMS/中转仓SKU成本/导入模板下载"
+      },
+      {
+        "text": "导入",
+        "link": "/PMS/中转仓SKU成本/导入"
+      },
+      {
+        "text": "提供给OMS接口查询中转SKU价格",
+        "link": "/PMS/中转仓SKU成本/提供给OMS接口查询中转SKU价格"
+      },
+      {
+        "text": "提供给头程系统,更新中转仓SKU成本接口",
+        "link": "/PMS/中转仓SKU成本/提供给头程系统,更新中转仓SKU成本接口"
+      },
+      {
+        "text": "仓库列表",
+        "link": "/PMS/中转仓SKU成本/仓库列表"
+      },
+      {
+        "text": "提供给OMS - 牛蛙系统查询数据接口",
+        "link": "/PMS/中转仓SKU成本/提供给OMS/牛蛙系统查询数据接口"
+      },
+      {
+        "text": "导出",
+        "link": "/PMS/中转仓SKU成本/导出"
+      },
+      {
+        "text": "SKU海外仓折扣批量修改",
+        "link": "/PMS/中转仓SKU成本/SKU海外仓折扣批量修改"
+      }
+    ]
+  },
+  {
+    "text": "采购",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "提供给采购更新SKU成本接口",
+        "link": "/PMS/采购/提供给采购更新SKU成本接口"
+      }
+    ]
+  },
+  {
+    "text": "FBA/平台仓对照表",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "导入",
+        "link": "/PMS/FBA/平台仓对照表/导入"
+      },
+      {
+        "text": "模板导出",
+        "link": "/PMS/FBA/平台仓对照表/模板导出"
+      },
+      {
+        "text": "导出",
+        "link": "/PMS/FBA/平台仓对照表/导出"
+      }
+    ]
+  },
+  {
+    "text": "CPMS系统店铺",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "店铺列表",
+        "link": "/PMS/CPMS系统店铺/店铺列表"
+      }
+    ]
+  },
+  {
+    "text": "生成标题",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "生成标题",
+        "link": "/PMS/生成标题/生成标题"
+      }
+    ]
+  },
+  {
+    "text": "公共",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "公共获取SKU基本信息",
+        "link": "/PMS/公共/公共获取SKU基本信息"
+      }
+    ]
+  },
+  {
+    "text": "ims系统",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "接收ims推送的批次货主",
+        "link": "/PMS/ims系统/接收ims推送的批次货主"
+      },
+      {
+        "text": "提供给IMS系统, 根据原批次SKU仓库新增货主",
+        "link": "/PMS/ims系统/提供给IMS系统, 根据原批次SKU仓库新增货主"
+      },
+      {
+        "text": "根据牛蛙或者PMS SPU查对应所有PMS SKU",
+        "link": "/PMS/ims系统/根据牛蛙或者PMS SPU查对应所有PMS SKU"
+      }
+    ]
+  },
+  {
+    "text": "wms",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取产品信息",
+        "link": "/PMS/wms/获取产品信息"
+      }
+    ]
+  }
+]

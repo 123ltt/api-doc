@@ -1,0 +1,204 @@
+[
+  {
+    "text": "常量API",
+    "items": [
+      {
+        "text": "常量API",
+        "link": "/LMS——Fanno/常量API"
+      }
+    ],
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "text": "日志API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取Listing 业务日志列表（分页）",
+        "link": "/LMS——Fanno/日志API/获取Listing 业务日志列表（分页）"
+      },
+      {
+        "text": "获取global Listing 业务日志列表（分页）",
+        "link": "/LMS——Fanno/日志API/获取global Listing 业务日志列表（分页）"
+      }
+    ]
+  },
+  {
+    "text": "Listing 管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "Fanno 获取店铺Listing详情",
+        "link": "/LMS——Fanno/Listing 管理/Fanno 获取店铺Listing详情"
+      },
+      {
+        "text": "删除Listing",
+        "link": "/LMS——Fanno/Listing 管理/删除Listing"
+      },
+      {
+        "text": "审核 Listing",
+        "link": "/LMS——Fanno/Listing 管理/审核 Listing"
+      },
+      {
+        "text": "上传 Listing",
+        "link": "/LMS——Fanno/Listing 管理/上传 Listing"
+      },
+      {
+        "text": "Fanno 获取店铺Listing 列表（分页）",
+        "link": "/LMS——Fanno/Listing 管理/Fanno 获取店铺Listing 列表（分页）"
+      },
+      {
+        "text": "Fanno 获取店铺Listing 变体列表",
+        "link": "/LMS——Fanno/Listing 管理/Fanno 获取店铺Listing 变体列表"
+      },
+      {
+        "text": "listing批量修改价格库存模板下载",
+        "link": "/LMS——Fanno/Listing 管理/listing批量修改价格库存模板下载"
+      },
+      {
+        "text": "Fanno重新上架店铺Listing",
+        "link": "/LMS——Fanno/Listing 管理/Fanno重新上架店铺Listing"
+      },
+      {
+        "text": "Fanno 下架店铺Listing",
+        "link": "/LMS——Fanno/Listing 管理/Fanno 下架店铺Listing"
+      },
+      {
+        "text": "Fanno Listing状态数量统计",
+        "link": "/LMS——Fanno/Listing 管理/Fanno Listing状态数量统计"
+      },
+      {
+        "text": "Fanno 获取全球Listing 列表（分页）",
+        "link": "/LMS——Fanno/Listing 管理/Fanno 获取全球Listing 列表（分页）"
+      },
+      {
+        "text": "Fanno 获取全球Listing 变体列表",
+        "link": "/LMS——Fanno/Listing 管理/Fanno 获取全球Listing 变体列表"
+      },
+      {
+        "text": "Fanno 店铺Listing修改",
+        "link": "/LMS——Fanno/Listing 管理/Fanno 店铺Listing修改"
+      },
+      {
+        "text": "Fanno从平台同步勾选的全球Listing",
+        "link": "/LMS——Fanno/Listing 管理/Fanno从平台同步勾选的全球Listing"
+      },
+      {
+        "text": "Fanno从平台同步勾选的店铺Listing",
+        "link": "/LMS——Fanno/Listing 管理/Fanno从平台同步勾选的店铺Listing"
+      },
+      {
+        "text": "全球商品创建",
+        "link": "/LMS——Fanno/Listing 管理/全球商品创建"
+      },
+      {
+        "text": "全球商品详情",
+        "link": "/LMS——Fanno/Listing 管理/全球商品详情"
+      },
+      {
+        "text": "全球商品编辑",
+        "link": "/LMS——Fanno/Listing 管理/全球商品编辑"
+      },
+      {
+        "text": "SKU对照表模板下载",
+        "link": "/LMS——Fanno/Listing 管理/SKU对照表模板下载"
+      },
+      {
+        "text": "SKU对照表导入",
+        "link": "/LMS——Fanno/Listing 管理/SKU对照表导入"
+      }
+    ]
+  },
+  {
+    "text": "计算价格与利润率",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "计算售价",
+        "link": "/LMS——Fanno/计算价格与利润率/计算售价"
+      },
+      {
+        "text": "计算系数",
+        "link": "/LMS——Fanno/计算价格与利润率/计算系数"
+      }
+    ]
+  },
+  {
+    "text": "废弃接口",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "listing新增",
+        "link": "/LMS——Fanno/废弃接口/listing新增"
+      },
+      {
+        "text": "批量更新价格库存（按条件）",
+        "link": "/LMS——Fanno/废弃接口/批量更新价格库存（按条件）"
+      },
+      {
+        "text": "SKU下架",
+        "link": "/LMS——Fanno/废弃接口/SKU下架"
+      },
+      {
+        "text": "sku对照表导入",
+        "link": "/LMS——Fanno/废弃接口/sku对照表导入"
+      },
+      {
+        "text": "sku对照表模板下载",
+        "link": "/LMS——Fanno/废弃接口/sku对照表模板下载"
+      },
+      {
+        "text": "从后台同步",
+        "link": "/LMS——Fanno/废弃接口/从后台同步"
+      },
+      {
+        "text": "sku重复性校验",
+        "link": "/LMS——Fanno/废弃接口/sku重复性校验"
+      }
+    ]
+  },
+  {
+    "text": "类目API",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "获取全球类目（分页）",
+        "link": "/LMS——Fanno/类目API/获取全球类目（分页）"
+      },
+      {
+        "text": "获取全球类目（叶子）列表",
+        "link": "/LMS——Fanno/类目API/获取全球类目（叶子）列表"
+      },
+      {
+        "text": "获取全球叶子类目属性列表",
+        "link": "/LMS——Fanno/类目API/获取全球叶子类目属性列表"
+      },
+      {
+        "text": "实时同步并获取全球类目属性",
+        "link": "/LMS——Fanno/类目API/实时同步并获取全球类目属性"
+      },
+      {
+        "text": "获取全球类目或毛利率详细",
+        "link": "/LMS——Fanno/类目API/获取全球类目或毛利率详细"
+      },
+      {
+        "text": "从平台同步所有的全球类目",
+        "link": "/LMS——Fanno/类目API/从平台同步所有的全球类目"
+      },
+      {
+        "text": "修改全球类目或毛利率",
+        "link": "/LMS——Fanno/类目API/修改全球类目或毛利率"
+      },
+      {
+        "text": "获取类目日志（分页）",
+        "link": "/LMS——Fanno/类目API/获取类目日志（分页）"
+      }
+    ]
+  }
+]

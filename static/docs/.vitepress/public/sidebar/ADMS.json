@@ -1,0 +1,120 @@
+[
+  {
+    "text": "营销系统",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "亚马逊广告分析",
+        "link": "/ADMS/营销系统/亚马逊广告分析"
+      },
+      {
+        "text": "商品广告汇总查询",
+        "link": "/ADMS/营销系统/商品广告汇总查询"
+      },
+      {
+        "text": "商品广告站点下拉",
+        "link": "/ADMS/营销系统/商品广告站点下拉"
+      }
+    ]
+  },
+  {
+    "text": "SP",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "广告活动",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "广告活动列表",
+            "link": "/ADMS/SP/广告活动/广告活动列表"
+          }
+        ]
+      },
+      {
+        "text": "广告组",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "广告组列表",
+            "link": "/ADMS/SP/广告组/广告组列表"
+          }
+        ]
+      },
+      {
+        "text": "广告",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "广告列表",
+            "link": "/ADMS/SP/广告/广告列表"
+          }
+        ]
+      },
+      {
+        "text": "关键词",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "关键字列表",
+            "link": "/ADMS/SP/关键词/关键字列表"
+          }
+        ]
+      },
+      {
+        "text": "商品投放",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "商品投放列表",
+            "link": "/ADMS/SP/商品投放/商品投放列表"
+          }
+        ]
+      },
+      {
+        "text": "用户搜索词",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "用户搜索词列表",
+            "link": "/ADMS/SP/用户搜索词/用户搜索词列表"
+          }
+        ]
+      },
+      {
+        "text": "公共",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "汇总数查询",
+            "link": "/ADMS/SP/公共/汇总数查询"
+          },
+          {
+            "text": "查询名字和ID",
+            "link": "/ADMS/SP/公共/查询名字和ID"
+          }
+        ]
+      },
+      {
+        "text": "广告组合",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "广告组合列表",
+            "link": "/ADMS/SP/广告组合/广告组合列表"
+          }
+        ]
+      }
+    ]
+  }
+]

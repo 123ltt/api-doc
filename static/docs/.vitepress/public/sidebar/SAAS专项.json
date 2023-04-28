@@ -1,0 +1,498 @@
+[
+  {
+    "text": "产品管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "sku对照表",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "sku对照列表",
+            "link": "/SAAS专项/产品管理/sku对照表/sku对照列表"
+          },
+          {
+            "text": "删除sku对照信息",
+            "link": "/SAAS专项/产品管理/sku对照表/删除sku对照信息"
+          },
+          {
+            "text": "导入sku对照信息",
+            "link": "/SAAS专项/产品管理/sku对照表/导入sku对照信息"
+          },
+          {
+            "text": "下载SKU对照导入模板-废弃",
+            "link": "/SAAS专项/产品管理/sku对照表/下载SKU对照导入模板-废弃"
+          },
+          {
+            "text": "添加SKU对照信息",
+            "link": "/SAAS专项/产品管理/sku对照表/添加SKU对照信息"
+          },
+          {
+            "text": "编辑sku对照表信息",
+            "link": "/SAAS专项/产品管理/sku对照表/编辑sku对照表信息"
+          }
+        ]
+      },
+      {
+        "text": "品牌",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "品牌管理列表",
+            "link": "/SAAS专项/产品管理/品牌/品牌管理列表"
+          },
+          {
+            "text": "添加品牌信息",
+            "link": "/SAAS专项/产品管理/品牌/添加品牌信息"
+          },
+          {
+            "text": "修改品牌信息",
+            "link": "/SAAS专项/产品管理/品牌/修改品牌信息"
+          },
+          {
+            "text": "删除品牌信息",
+            "link": "/SAAS专项/产品管理/品牌/删除品牌信息"
+          },
+          {
+            "text": "获取详情",
+            "link": "/SAAS专项/产品管理/品牌/获取详情"
+          },
+          {
+            "text": "获取品牌下拉",
+            "link": "/SAAS专项/产品管理/品牌/获取品牌下拉"
+          },
+          {
+            "text": "修改品牌状态",
+            "link": "/SAAS专项/产品管理/品牌/修改品牌状态"
+          }
+        ]
+      },
+      {
+        "text": "类目",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取类目子节点",
+            "link": "/SAAS专项/产品管理/类目/获取类目子节点"
+          },
+          {
+            "text": "添加子类目",
+            "link": "/SAAS专项/产品管理/类目/添加子类目"
+          },
+          {
+            "text": "修改子类目",
+            "link": "/SAAS专项/产品管理/类目/修改子类目"
+          },
+          {
+            "text": "类目查询(模糊查询)",
+            "link": "/SAAS专项/产品管理/类目/类目查询(模糊查询)"
+          },
+          {
+            "text": "删除类目",
+            "link": "/SAAS专项/产品管理/类目/删除类目"
+          },
+          {
+            "text": "总类目树",
+            "link": "/SAAS专项/产品管理/类目/总类目树"
+          }
+        ]
+      },
+      {
+        "text": "产品列表",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "产品列表查询",
+            "link": "/SAAS专项/产品管理/产品列表/产品列表查询"
+          },
+          {
+            "text": "获取关联SKU",
+            "link": "/SAAS专项/产品管理/产品列表/获取关联SKU"
+          },
+          {
+            "text": "根据id获取子sku信息",
+            "link": "/SAAS专项/产品管理/产品列表/根据id获取子sku信息"
+          },
+          {
+            "text": "规则属性下拉",
+            "link": "/SAAS专项/产品管理/产品列表/规则属性下拉"
+          },
+          {
+            "text": "批量修改sku状态",
+            "link": "/SAAS专项/产品管理/产品列表/批量修改sku状态"
+          },
+          {
+            "text": "sku",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "添加sku",
+                "link": "/SAAS专项/产品管理/产品列表/sku/添加sku"
+              },
+              {
+                "text": "修改sku",
+                "link": "/SAAS专项/产品管理/产品列表/sku/修改sku"
+              },
+              {
+                "text": "删除sku",
+                "link": "/SAAS专项/产品管理/产品列表/sku/删除sku"
+              },
+              {
+                "text": "导入sku",
+                "link": "/SAAS专项/产品管理/产品列表/sku/导入sku"
+              },
+              {
+                "text": "下载导入sku模板",
+                "link": "/SAAS专项/产品管理/产品列表/sku/下载导入sku模板"
+              }
+            ]
+          },
+          {
+            "text": "spu",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "添加spu",
+                "link": "/SAAS专项/产品管理/产品列表/spu/添加spu"
+              },
+              {
+                "text": "编辑spu",
+                "link": "/SAAS专项/产品管理/产品列表/spu/编辑spu"
+              },
+              {
+                "text": "下载导入spu模板",
+                "link": "/SAAS专项/产品管理/产品列表/spu/下载导入spu模板"
+              },
+              {
+                "text": "下载导入组合sku模板",
+                "link": "/SAAS专项/产品管理/产品列表/spu/下载导入组合sku模板"
+              }
+            ]
+          },
+          {
+            "text": "组合sku",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "添加",
+                "link": "/SAAS专项/产品管理/产品列表/组合sku/添加"
+              },
+              {
+                "text": "编辑",
+                "link": "/SAAS专项/产品管理/产品列表/组合sku/编辑"
+              },
+              {
+                "text": "导入组合sku",
+                "link": "/SAAS专项/产品管理/产品列表/组合sku/导入组合sku"
+              },
+              {
+                "text": "导入spu",
+                "link": "/SAAS专项/产品管理/产品列表/组合sku/导入spu"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "日志",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表",
+            "link": "/SAAS专项/产品管理/日志/列表"
+          },
+          {
+            "text": "SKU解析",
+            "link": "/SAAS专项/产品管理/日志/SKU解析"
+          }
+        ]
+      },
+      {
+        "text": "属性",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "规则属性下拉",
+            "link": "/SAAS专项/产品管理/属性/规则属性下拉"
+          }
+        ]
+      },
+      {
+        "text": "枚举类",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "平台下拉",
+            "link": "/SAAS专项/产品管理/枚举类/平台下拉"
+          }
+        ]
+      },
+      {
+        "text": "外部接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Feign",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "OMS",
+                "collapsible": true,
+                "collapsed": false,
+                "items": [
+                  {
+                    "text": "获取sku信息",
+                    "link": "/SAAS专项/产品管理/外部接口/Feign/OMS/获取sku信息"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "订单管理",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "订单列表",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "列表查询",
+            "link": "/SAAS专项/订单管理/订单列表/列表查询"
+          },
+          {
+            "text": "获取地址",
+            "link": "/SAAS专项/订单管理/订单列表/获取地址"
+          },
+          {
+            "text": "订单列表记录数",
+            "link": "/SAAS专项/订单管理/订单列表/订单列表记录数"
+          },
+          {
+            "text": "批量备注",
+            "link": "/SAAS专项/订单管理/订单列表/批量备注"
+          },
+          {
+            "text": "标记推广",
+            "link": "/SAAS专项/订单管理/订单列表/标记推广"
+          },
+          {
+            "text": "批量导出",
+            "link": "/SAAS专项/订单管理/订单列表/批量导出"
+          },
+          {
+            "text": "修改渠道",
+            "link": "/SAAS专项/订单管理/订单列表/修改渠道"
+          },
+          {
+            "text": "转状态【废弃】",
+            "link": "/SAAS专项/订单管理/订单列表/转状态【废弃】"
+          },
+          {
+            "text": "撤单",
+            "link": "/SAAS专项/订单管理/订单列表/撤单"
+          },
+          {
+            "text": "修改订单",
+            "link": "/SAAS专项/订单管理/订单列表/修改订单"
+          },
+          {
+            "text": "拆单",
+            "link": "/SAAS专项/订单管理/订单列表/拆单"
+          },
+          {
+            "text": "补单",
+            "link": "/SAAS专项/订单管理/订单列表/补单"
+          },
+          {
+            "text": "添加备注",
+            "link": "/SAAS专项/订单管理/订单列表/添加备注"
+          },
+          {
+            "text": "标记推广",
+            "link": "/SAAS专项/订单管理/订单列表/标记推广"
+          },
+          {
+            "text": "撤单恢复",
+            "link": "/SAAS专项/订单管理/订单列表/撤单恢复"
+          },
+          {
+            "text": "订单详情",
+            "link": "/SAAS专项/订单管理/订单列表/订单详情"
+          },
+          {
+            "text": "标签列表",
+            "link": "/SAAS专项/订单管理/订单列表/标签列表"
+          }
+        ]
+      },
+      {
+        "text": "日志",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "日志查询",
+            "link": "/SAAS专项/订单管理/日志/日志查询"
+          }
+        ]
+      },
+      {
+        "text": "RMA",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "RMA-编辑",
+            "link": "/SAAS专项/订单管理/RMA/RMA-编辑"
+          },
+          {
+            "text": "RMA-查看",
+            "link": "/SAAS专项/订单管理/RMA/RMA-查看"
+          }
+        ]
+      },
+      {
+        "text": "商品",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "获取商品信息列表",
+            "link": "/SAAS专项/订单管理/商品/获取商品信息列表"
+          }
+        ]
+      },
+      {
+        "text": "标签",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "添加标签",
+            "link": "/SAAS专项/订单管理/标签/添加标签"
+          },
+          {
+            "text": "标签列表",
+            "link": "/SAAS专项/订单管理/标签/标签列表"
+          },
+          {
+            "text": "新增标签",
+            "link": "/SAAS专项/订单管理/标签/新增标签"
+          },
+          {
+            "text": "编辑标签",
+            "link": "/SAAS专项/订单管理/标签/编辑标签"
+          },
+          {
+            "text": "删除订单标签",
+            "link": "/SAAS专项/订单管理/标签/删除订单标签"
+          }
+        ]
+      },
+      {
+        "text": "审核",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "审核",
+            "link": "/SAAS专项/订单管理/审核/审核"
+          },
+          {
+            "text": "审核列表",
+            "link": "/SAAS专项/订单管理/审核/审核列表"
+          }
+        ]
+      },
+      {
+        "text": "枚举",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "订单状态",
+            "link": "/SAAS专项/订单管理/枚举/订单状态"
+          },
+          {
+            "text": "发货类型",
+            "link": "/SAAS专项/订单管理/枚举/发货类型"
+          },
+          {
+            "text": "平台code",
+            "link": "/SAAS专项/订单管理/枚举/平台code"
+          },
+          {
+            "text": "异常类型",
+            "link": "/SAAS专项/订单管理/枚举/异常类型"
+          },
+          {
+            "text": "撤单类型",
+            "link": "/SAAS专项/订单管理/枚举/撤单类型"
+          },
+          {
+            "text": "日志操作属性",
+            "link": "/SAAS专项/订单管理/枚举/日志操作属性"
+          },
+          {
+            "text": "原因类型",
+            "link": "/SAAS专项/订单管理/枚举/原因类型"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "公共项目",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "OSS",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "根据图片url获取图片",
+            "link": "/SAAS专项/公共项目/OSS/根据图片url获取图片"
+          },
+          {
+            "text": "上传图片",
+            "link": "/SAAS专项/公共项目/OSS/上传图片"
+          },
+          {
+            "text": "上传文件",
+            "link": "/SAAS专项/公共项目/OSS/上传文件"
+          },
+          {
+            "text": "上传文件(指定文件名)",
+            "link": "/SAAS专项/公共项目/OSS/上传文件(指定文件名)"
+          },
+          {
+            "text": "根据URL上传文件(指定文件名)",
+            "link": "/SAAS专项/公共项目/OSS/根据URL上传文件(指定文件名)"
+          }
+        ]
+      }
+    ]
+  }
+]

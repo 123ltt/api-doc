@@ -1,0 +1,382 @@
+[
+  {
+    "text": "成本系统",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "对外接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "tms",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "头程费用接口",
+                "link": "/财务组/成本系统/对外接口/tms/头程费用接口"
+              },
+              {
+                "text": "根据出库单号查询报关公司单位",
+                "link": "/财务组/成本系统/对外接口/tms/根据出库单号查询报关公司单位"
+              }
+            ]
+          },
+          {
+            "text": "ims",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "库存系统向成本系统提供出入库流水数据",
+                "link": "/财务组/成本系统/对外接口/ims/库存系统向成本系统提供出入库流水数据"
+              },
+              {
+                "text": "TMS推送出库单退件信息",
+                "link": "/财务组/成本系统/对外接口/ims/TMS推送出库单退件信息"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "对内接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "导入导出页面",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "主页查询",
+                "link": "/财务组/成本系统/对内接口/导入导出页面/主页查询"
+              },
+              {
+                "text": "下载搜索条件",
+                "link": "/财务组/成本系统/对内接口/导入导出页面/下载搜索条件"
+              },
+              {
+                "text": "下载负数数据",
+                "link": "/财务组/成本系统/对内接口/导入导出页面/下载负数数据"
+              }
+            ]
+          },
+          {
+            "text": "成本数据录入页面",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "主页分页",
+                "link": "/财务组/成本系统/对内接口/成本数据录入页面/主页分页"
+              },
+              {
+                "text": "删除",
+                "link": "/财务组/成本系统/对内接口/成本数据录入页面/删除"
+              },
+              {
+                "text": "下载模板",
+                "link": "/财务组/成本系统/对内接口/成本数据录入页面/下载模板"
+              },
+              {
+                "text": "导入",
+                "link": "/财务组/成本系统/对内接口/成本数据录入页面/导入"
+              },
+              {
+                "text": "恢复",
+                "link": "/财务组/成本系统/对内接口/成本数据录入页面/恢复"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "出口退税系统",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "对外接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "ips",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "给采购系统向退税系统提供采购信息接口",
+                "link": "/财务组/出口退税系统/对外接口/ips/给采购系统向退税系统提供采购信息接口"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "对内接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "主页",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "查询计划单",
+                "link": "/财务组/出口退税系统/对内接口/主页/查询计划单"
+              },
+              {
+                "text": "拆分计划",
+                "link": "/财务组/出口退税系统/对内接口/主页/拆分计划"
+              }
+            ]
+          },
+          {
+            "text": " 采购发票录入",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "主页查询",
+                "link": "/财务组/出口退税系统/对内接口/ 采购发票录入/主页查询"
+              },
+              {
+                "text": "详情接口",
+                "link": "/财务组/出口退税系统/对内接口/ 采购发票录入/详情接口"
+              },
+              {
+                "text": "导入",
+                "link": "/财务组/出口退税系统/对内接口/ 采购发票录入/导入"
+              },
+              {
+                "text": " 导出",
+                "link": "/财务组/出口退税系统/对内接口/ 采购发票录入/ 导出"
+              },
+              {
+                "text": "批量修改接口",
+                "link": "/财务组/出口退税系统/对内接口/ 采购发票录入/批量修改接口"
+              },
+              {
+                "text": "获取所有供应商",
+                "link": "/财务组/出口退税系统/对内接口/ 采购发票录入/获取所有供应商"
+              }
+            ]
+          },
+          {
+            "text": "基础配置",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "查询申报价配置",
+                "link": "/财务组/出口退税系统/对内接口/基础配置/查询申报价配置"
+              },
+              {
+                "text": "修改",
+                "link": "/财务组/出口退税系统/对内接口/基础配置/修改"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "汇率系统",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "全局错误码",
+        "link": "/财务组/汇率系统/全局错误码"
+      },
+      {
+        "text": "外部接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "README",
+            "link": "/财务组/汇率系统/外部接口/README"
+          },
+          {
+            "text": "授权参数获取",
+            "link": "/财务组/汇率系统/外部接口/授权参数获取"
+          },
+          {
+            "text": "币种接口",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "获取全部币种",
+                "link": "/财务组/汇率系统/外部接口/币种接口/获取全部币种"
+              },
+              {
+                "text": "根据币种代码获取币种数据",
+                "link": "/财务组/汇率系统/外部接口/币种接口/根据币种代码获取币种数据"
+              }
+            ]
+          },
+          {
+            "text": "浮动汇率和平台系数",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "(废弃)浮动汇率和平台配置数据接口",
+                "link": "/财务组/汇率系统/外部接口/浮动汇率和平台系数/(废弃)浮动汇率和平台配置数据接口"
+              },
+              {
+                "text": "获取平台的浮动汇率（数据已计算）",
+                "link": "/财务组/汇率系统/外部接口/浮动汇率和平台系数/获取平台的浮动汇率（数据已计算）"
+              },
+              {
+                "text": "（新）浮动汇率和平台配置数据接口",
+                "link": "/财务组/汇率系统/外部接口/浮动汇率和平台系数/（新）浮动汇率和平台配置数据接口"
+              }
+            ]
+          },
+          {
+            "text": "加权平均汇率",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "加权平均汇率",
+                "link": "/财务组/汇率系统/外部接口/加权平均汇率/加权平均汇率"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "平台应收",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "对外接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "插件推送资金明细接口",
+            "link": "/财务组/平台应收/对外接口/插件推送资金明细接口"
+          }
+        ]
+      },
+      {
+        "text": "对内接口",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "支付宝国际资金接口",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "资金列表接口",
+                "link": "/财务组/平台应收/对内接口/支付宝国际资金接口/资金列表接口"
+              },
+              {
+                "text": "资金详情",
+                "link": "/财务组/平台应收/对内接口/支付宝国际资金接口/资金详情"
+              }
+            ]
+          },
+          {
+            "text": "shopee账单接口",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "shopee拨款调整汇总",
+                "link": "/财务组/平台应收/对内接口/shopee账单接口/shopee拨款调整汇总"
+              }
+            ]
+          },
+          {
+            "text": "店铺放款金额截图",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "text": "分页",
+                "link": "/财务组/平台应收/对内接口/店铺放款金额截图/分页"
+              },
+              {
+                "text": "新增和修改",
+                "link": "/财务组/平台应收/对内接口/店铺放款金额截图/新增和修改"
+              },
+              {
+                "text": "删除",
+                "link": "/财务组/平台应收/对内接口/店铺放款金额截图/删除"
+              },
+              {
+                "text": "详情",
+                "link": "/财务组/平台应收/对内接口/店铺放款金额截图/详情"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "采购应付",
+    "collapsible": true,
+    "collapsed": false,
+    "items": [
+      {
+        "text": "未核销列表统计",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "未核销列表统计",
+            "link": "/财务组/采购应付/未核销列表统计/未核销列表统计"
+          },
+          {
+            "text": "新增采购人",
+            "link": "/财务组/采购应付/未核销列表统计/新增采购人"
+          },
+          {
+            "text": "未核销列表明细",
+            "link": "/财务组/采购应付/未核销列表统计/未核销列表明细"
+          },
+          {
+            "text": "刷新",
+            "link": "/财务组/采购应付/未核销列表统计/刷新"
+          },
+          {
+            "text": "导出",
+            "link": "/财务组/采购应付/未核销列表统计/导出"
+          }
+        ]
+      },
+      {
+        "text": "第三方交易流水明细",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "text": "第三方交易流水-修改",
+            "link": "/财务组/采购应付/第三方交易流水明细/第三方交易流水-修改"
+          }
+        ]
+      }
+    ]
+  }
+]
